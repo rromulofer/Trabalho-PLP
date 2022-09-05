@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7) (preloaded format=pdflatex 2022.9.2)  5 SEP 2022 02:34
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7) (preloaded format=pdflatex 2022.9.2)  5 SEP 2022 02:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1328,7 +1328,7 @@ Package pdftex.def Info: Pictures//capitulo01.jpg  used on input line 9.
 <Pictures//afp.jpg, id=68, 518.6878pt x 368.87813pt>
 File: Pictures//afp.jpg Graphic file (type jpg)
 <use Pictures//afp.jpg>
-Package pdftex.def Info: Pictures//afp.jpg  used on input line 48.
+Package pdftex.def Info: Pictures//afp.jpg  used on input line 53.
 (pdftex.def)             Requested size: 284.52756pt x 202.36012pt.
 ) (Fulano-Python.bbl (Fulano-Python.brf)
 \tf@brf=\write6
@@ -1359,13 +1359,13 @@ Package rerunfilecheck Info: File `Fulano-Python.brf' has not changed.
 (rerunfilecheck)             Checksum: FDDABD88CF4D774546DD128E9A4FDD5C;227.
  ) 
 Here is how much of TeX's memory you used:
- 32550 strings out of 478338
- 639752 string characters out of 2837173
+ 32547 strings out of 478338
+ 639725 string characters out of 2837173
  1265105 words of memory out of 3000000
  50157 multiletter control sequences out of 15000+600000
- 551844 words of font info for 230 fonts, out of 8000000 for 9000
+ 551714 words of font info for 228 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 89i,12n,92p,1075b,1178s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 89i,12n,92p,1012b,1178s stack positions out of 10000i,1000n,20000p,200000b,80000s
 {C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/
 Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.
 pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/urw/avantgar/uagd8
@@ -1374,7 +1374,7 @@ k8a.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb
 8a.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8
 a.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8
 a.pfb>
-Output written on Fulano-Python.pdf (9 pages, 1725676 bytes).
+Output written on Fulano-Python.pdf (9 pages, 1725649 bytes).
 PDF statistics:
  159 PDF objects out of 1000 (max. 8388607)
  25 named destinations out of 1000 (max. 500000)
