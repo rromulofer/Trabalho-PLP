@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7) (preloaded format=pdflatex 2022.9.2)  5 SEP 2022 14:21
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7) (preloaded format=pdflatex 2022.9.2)  5 SEP 2022 14:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1347,7 +1347,7 @@ Package fancyhdr Warning: \headheight is too small (14.5pt):
 [7] [8
 
 ]
-<Pictures//Bibliografia.png, id=85, 578.16pt x 225.4824pt>
+<Pictures//Bibliografia.png, id=87, 578.16pt x 225.4824pt>
 File: Pictures//Bibliografia.png Graphic file (type png)
 <use Pictures//Bibliografia.png>
 Package pdftex.def Info: Pictures//Bibliografia.png  used on input line 1.
@@ -1365,13 +1365,13 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 20.
 ) [11] (Fulano-Python.aux)
 Package rerunfilecheck Info: File `Fulano-Python.brf' has not changed.
-(rerunfilecheck)             Checksum: FDDABD88CF4D774546DD128E9A4FDD5C;227.
+(rerunfilecheck)             Checksum: 3AE36FE36C94D933B0910BD13F03567C;271.
  ) 
 Here is how much of TeX's memory you used:
- 32567 strings out of 478338
- 639892 string characters out of 2837173
+ 32574 strings out of 478338
+ 639976 string characters out of 2837173
  1265106 words of memory out of 3000000
- 50157 multiletter control sequences out of 15000+600000
+ 50163 multiletter control sequences out of 15000+600000
  552494 words of font info for 240 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  89i,12n,92p,1012b,1178s stack positions out of 10000i,1000n,20000p,200000b,80000s
@@ -1383,9 +1383,9 @@ k8a.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb
 8a.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8
 a.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8
 a.pfb>
-Output written on Fulano-Python.pdf (11 pages, 1729665 bytes).
+Output written on Fulano-Python.pdf (11 pages, 1730445 bytes).
 PDF statistics:
- 167 PDF objects out of 1000 (max. 8388607)
- 27 named destinations out of 1000 (max. 500000)
+ 170 PDF objects out of 1000 (max. 8388607)
+ 28 named destinations out of 1000 (max. 500000)
  97390 words of extra memory for PDF output out of 106986 (max. 10000000)
 
