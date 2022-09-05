@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7) (preloaded format=pdflatex 2022.9.2)  5 SEP 2022 16:34
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7) (preloaded format=pdflatex 2022.9.2)  5 SEP 2022 16:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1368,11 +1368,11 @@ Package rerunfilecheck Info: File `Fulano-Python.brf' has not changed.
 (rerunfilecheck)             Checksum: 3AE36FE36C94D933B0910BD13F03567C;271.
  ) 
 Here is how much of TeX's memory you used:
- 32583 strings out of 478338
- 640051 string characters out of 2837173
+ 32586 strings out of 478338
+ 640075 string characters out of 2837173
  1265106 words of memory out of 3000000
  50163 multiletter control sequences out of 15000+600000
- 552884 words of font info for 246 fonts, out of 8000000 for 9000
+ 553014 words of font info for 248 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  89i,12n,92p,1012b,1178s stack positions out of 10000i,1000n,20000p,200000b,80000s
 {C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/
@@ -1383,7 +1383,7 @@ k8a.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb
 8a.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8
 a.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8
 a.pfb>
-Output written on Fulano-Python.pdf (11 pages, 1731204 bytes).
+Output written on Fulano-Python.pdf (11 pages, 1731506 bytes).
 PDF statistics:
  170 PDF objects out of 1000 (max. 8388607)
  28 named destinations out of 1000 (max. 500000)
