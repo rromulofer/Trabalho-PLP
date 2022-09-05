@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7) (preloaded format=pdflatex 2022.9.2)  5 SEP 2022 00:42
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7) (preloaded format=pdflatex 2022.9.2)  5 SEP 2022 02:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1325,49 +1325,25 @@ Package pdftex.def Info: Pictures//capitulo01.jpg  used on input line 9.
 [5
 
  <./Pictures//capitulo01.jpg>]
-<Pictures//Python01.png, id=70, 358.4592pt x 125.268pt>
-File: Pictures//Python01.png Graphic file (type png)
-<use Pictures//Python01.png>
-Package pdftex.def Info: Pictures//Python01.png  used on input line 38.
-(pdftex.def)             Requested size: 341.43306pt x 119.32312pt.
-
-
-LaTeX Warning: Citation `Sprankle2012' on page 6 undefined on input line 43.
-
-<Pictures//afp.jpg, id=72, 518.6878pt x 368.87813pt>
+<Pictures//afp.jpg, id=68, 518.6878pt x 368.87813pt>
 File: Pictures//afp.jpg Graphic file (type jpg)
 <use Pictures//afp.jpg>
-Package pdftex.def Info: Pictures//afp.jpg  used on input line 47.
+Package pdftex.def Info: Pictures//afp.jpg  used on input line 48.
 (pdftex.def)             Requested size: 284.52756pt x 202.36012pt.
-
-LaTeX Warning: Citation `Sprankle2012' on page 6 undefined on input line 48.
-
-
-Underfull \vbox (badness 4181) has occurred while \output is active []
-
- [6 <./Pictures//Python01.png> <./Pictures//afp.jpg>]) (Fulano-Python.bbl
-(Fulano-Python.brf)
+) (Fulano-Python.bbl (Fulano-Python.brf)
 \tf@brf=\write6
 \openout6 = `Fulano-Python.brf'.
 
 
-
-Package fancyhdr Warning: \headheight is too small (14.5pt): 
-(fancyhdr)                Make it at least 14.57007pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.57007pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-0.07007pt}.
-
-[7] [8
-
-]
-<Pictures//Bibliografia.png, id=90, 578.16pt x 225.4824pt>
+[6 <./Pictures//afp.jpg>]
+<Pictures//Bibliografia.png, id=76, 578.16pt x 225.4824pt>
 File: Pictures//Bibliografia.png Graphic file (type png)
 <use Pictures//Bibliografia.png>
 Package pdftex.def Info: Pictures//Bibliografia.png  used on input line 1.
 (pdftex.def)             Requested size: 597.50787pt x 233.04079pt.
-) [9 <./Pictures//Bibliografia.png>] [10
+) [7
+
+ <./Pictures//Bibliografia.png>] [8
 
 ]
 No file Fulano-Python.ind.
@@ -1378,19 +1354,16 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 20.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 20.
-) [11] (Fulano-Python.aux)
-
-LaTeX Warning: There were undefined references.
-
+) [9] (Fulano-Python.aux)
 Package rerunfilecheck Info: File `Fulano-Python.brf' has not changed.
-(rerunfilecheck)             Checksum: 224FB99FFDE9363F0E5BA3D715C0C730;274.
+(rerunfilecheck)             Checksum: FDDABD88CF4D774546DD128E9A4FDD5C;227.
  ) 
 Here is how much of TeX's memory you used:
- 32591 strings out of 478338
- 640269 string characters out of 2837173
- 1265104 words of memory out of 3000000
- 50174 multiletter control sequences out of 15000+600000
- 555421 words of font info for 244 fonts, out of 8000000 for 9000
+ 32550 strings out of 478338
+ 639752 string characters out of 2837173
+ 1265105 words of memory out of 3000000
+ 50157 multiletter control sequences out of 15000+600000
+ 551844 words of font info for 230 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  89i,12n,92p,1075b,1178s stack positions out of 10000i,1000n,20000p,200000b,80000s
 {C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/
@@ -1401,9 +1374,9 @@ k8a.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb
 8a.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8
 a.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8
 a.pfb>
-Output written on Fulano-Python.pdf (11 pages, 1799181 bytes).
+Output written on Fulano-Python.pdf (9 pages, 1725676 bytes).
 PDF statistics:
- 170 PDF objects out of 1000 (max. 8388607)
- 27 named destinations out of 1000 (max. 500000)
- 101491 words of extra memory for PDF output out of 106986 (max. 10000000)
+ 159 PDF objects out of 1000 (max. 8388607)
+ 25 named destinations out of 1000 (max. 500000)
+ 97390 words of extra memory for PDF output out of 106986 (max. 10000000)
 
