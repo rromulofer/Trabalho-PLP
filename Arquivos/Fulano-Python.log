@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7) (preloaded format=pdflatex 2022.9.2)  5 SEP 2022 16:50
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7) (preloaded format=pdflatex 2022.9.2)  5 SEP 2022 22:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1324,14 +1324,7 @@ Package pdftex.def Info: Pictures//capitulo01.jpg  used on input line 9.
 (pdftex.def)             Requested size: 597.50787pt x 233.03477pt.
 [5
 
- <./Pictures//capitulo01.jpg>]
-<Pictures//afp.jpg, id=68, 518.6878pt x 368.87813pt>
-File: Pictures//afp.jpg Graphic file (type jpg)
-<use Pictures//afp.jpg>
-Package pdftex.def Info: Pictures//afp.jpg  used on input line 53.
-(pdftex.def)             Requested size: 284.52756pt x 202.36012pt.
- [6 <./Pictures//afp.jpg>]) (Fulano-Python.bbl
-(Fulano-Python.brf)
+ <./Pictures//capitulo01.jpg>] [6]) (Fulano-Python.bbl (Fulano-Python.brf)
 \tf@brf=\write6
 \openout6 = `Fulano-Python.brf'.
 
@@ -1347,7 +1340,7 @@ Package fancyhdr Warning: \headheight is too small (14.5pt):
 [7] [8
 
 ]
-<Pictures//Bibliografia.png, id=87, 578.16pt x 225.4824pt>
+<Pictures//Bibliografia.png, id=83, 578.16pt x 225.4824pt>
 File: Pictures//Bibliografia.png Graphic file (type png)
 <use Pictures//Bibliografia.png>
 Package pdftex.def Info: Pictures//Bibliografia.png  used on input line 1.
@@ -1364,15 +1357,20 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 20.
 ) [11] (Fulano-Python.aux)
-Package rerunfilecheck Info: File `Fulano-Python.brf' has not changed.
-(rerunfilecheck)             Checksum: 3AE36FE36C94D933B0910BD13F03567C;271.
+
+Package rerunfilecheck Warning: File `Fulano-Python.brf' has changed.
+(rerunfilecheck)                Rerun to get bibliographical references right.
+
+Package rerunfilecheck Info: Checksums for `Fulano-Python.brf':
+(rerunfilecheck)             Before: 3AE36FE36C94D933B0910BD13F03567C;271
+(rerunfilecheck)             After:  6388ABAB5EF5B215634AE5FD3A256356;224.
  ) 
 Here is how much of TeX's memory you used:
- 32586 strings out of 478338
- 640075 string characters out of 2837173
+ 32556 strings out of 478338
+ 639683 string characters out of 2837173
  1265106 words of memory out of 3000000
- 50163 multiletter control sequences out of 15000+600000
- 553014 words of font info for 248 fonts, out of 8000000 for 9000
+ 50148 multiletter control sequences out of 15000+600000
+ 547576 words of font info for 239 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  89i,12n,92p,1012b,1178s stack positions out of 10000i,1000n,20000p,200000b,80000s
 {C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/
@@ -1383,9 +1381,9 @@ k8a.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb
 8a.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8
 a.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8
 a.pfb>
-Output written on Fulano-Python.pdf (11 pages, 1731506 bytes).
+Output written on Fulano-Python.pdf (11 pages, 1639232 bytes).
 PDF statistics:
- 170 PDF objects out of 1000 (max. 8388607)
- 28 named destinations out of 1000 (max. 500000)
- 97390 words of extra memory for PDF output out of 106986 (max. 10000000)
+ 167 PDF objects out of 1000 (max. 8388607)
+ 27 named destinations out of 1000 (max. 500000)
+ 91241 words of extra memory for PDF output out of 106986 (max. 10000000)
 
