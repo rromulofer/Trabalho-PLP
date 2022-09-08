@@ -5,46 +5,49 @@ Reallocating 'name_of_file' (item size: 1) to 6 items.
 The style file: alpha.bst
 Reallocating 'name_of_file' (item size: 1) to 10 items.
 Database file #1: PythonBib.bib
+Warning--can't use both author and editor fields in McKinney2019
+Warning--can't use both author and editor fields in Moreno2018
 Warning--empty publisher in Perkovic2016
-You've used 4 entries,
+Warning--can't use both author and editor fields in Seitz2015
+You've used 6 entries,
             2543 wiz_defined-function locations,
-            585 strings with 4882 characters,
-and the built_in function-call counts, 1115 in all, are:
-= -- 94
-> -- 32
-< -- 4
-+ -- 8
-- -- 8
-* -- 61
-:= -- 196
-add.period$ -- 12
-call.type$ -- 4
-change.case$ -- 16
-chr.to.int$ -- 4
-cite$ -- 5
-duplicate$ -- 64
-empty$ -- 101
-format.name$ -- 16
-if$ -- 224
+            599 strings with 5081 characters,
+and the built_in function-call counts, 1682 in all, are:
+= -- 143
+> -- 48
+< -- 6
++ -- 12
+- -- 12
+* -- 99
+:= -- 293
+add.period$ -- 18
+call.type$ -- 6
+change.case$ -- 24
+chr.to.int$ -- 6
+cite$ -- 10
+duplicate$ -- 96
+empty$ -- 151
+format.name$ -- 24
+if$ -- 337
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 8
-newline$ -- 23
-num.names$ -- 12
-pop$ -- 34
+missing$ -- 12
+newline$ -- 33
+num.names$ -- 18
+pop$ -- 46
 preamble$ -- 1
-purify$ -- 24
+purify$ -- 36
 quote$ -- 0
-skip$ -- 40
+skip$ -- 58
 stack$ -- 0
-substring$ -- 28
-swap$ -- 4
-text.length$ -- 4
-text.prefix$ -- 4
+substring$ -- 42
+swap$ -- 9
+text.length$ -- 6
+text.prefix$ -- 6
 top$ -- 0
-type$ -- 16
-warning$ -- 1
-while$ -- 8
-width$ -- 6
-write$ -- 52
-(There was 1 warning)
+type$ -- 24
+warning$ -- 4
+while$ -- 12
+width$ -- 10
+write$ -- 79
+(There were 4 warnings)

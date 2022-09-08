@@ -13,12 +13,23 @@ M.~Lutz.
 \bibitem[McK19]{McKinney2019}
 Wes McKinney.
 \newblock {\em Python para analise de dados}.
-\newblock Novatec Editora, May 2019.
+\newblock Novatec Editora, Sao Paulo, SP, May 2019.
+
+\bibitem[Mor18]{Moreno2018}
+Daniel Moreno.
+\newblock {\em Python para pentest}.
+\newblock Novatec Editora, Sao Paulo, SP, 2018.
 
 \bibitem[Per16]{Perkovic2016}
 Ljubomir Perkovic.
 \newblock {\em Introducao a computacao usando Python: um foco no
   desenvolvimento de aplicacoes}.
 \newblock Rio de Janeiro, RJ, 2016.
+
+\bibitem[Sei15]{Seitz2015}
+Justin Seitz.
+\newblock {\em Black Hat Python: Python Programming for Hackers and
+  Pentesters}.
+\newblock No Starch Press, Sao Paulo, SP, 2015.
 
 \end{thebibliography}

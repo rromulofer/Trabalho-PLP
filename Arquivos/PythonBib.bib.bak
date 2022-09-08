@@ -8,7 +8,7 @@
 }
 
 @Book{Borges2014,
-  address   = {São Paulo, SP, Brasil},
+  address   = {Sao Paulo, SP, Brasil},
   author    = {Borges, Luiz Eduardo},
   publisher = {Novatec Editora},
   title     = {Python para desenvolvedores: aborda Python 3.3},
@@ -25,13 +25,6 @@
   isbn      = {9788577800131},
   owner     = {Rômulo Souza Fernandes},
   pages     = {566},
-}
-
-@Article{FOUNDATION,
-  author = {PYTHON SOFTWARE FOUNDATION},
-  title  = {Python Language},
-  owner  = {Rômulo Souza Fernandes},
-  url    = {https://www.python.org/doc/},
 }
 
 @Book{VanRossum2009,
@@ -54,7 +47,9 @@
 }
 
 @Book{McKinney2019,
+  address   = {Sao Paulo, SP},
   author    = {McKinney, Wes},
+  editor    = {Rubens Prates},
   publisher = {Novatec Editora},
   title     = {Python para analise de dados},
   year      = {2019},
@@ -62,6 +57,28 @@
   ean       = {9788575227510},
   owner     = {Rômulo Souza Fernandes},
   pagetotal = {616},
+}
+
+@Book{Moreno2018,
+  address   = {Sao Paulo, SP},
+  author    = {Moreno, Daniel},
+  editor    = {Rubens Prates},
+  publisher = {Novatec Editora},
+  title     = {Python para pentest},
+  year      = {2018},
+  owner     = {Rômulo Souza Fernandes},
+}
+
+@Book{Seitz2015,
+  address   = {Sao Paulo, SP},
+  author    = {Seitz, Justin},
+  editor    = {Rubens Prates},
+  publisher = {No Starch Press},
+  title     = {Black Hat Python: Python Programming for Hackers and Pentesters},
+  year      = {2015},
+  isbn      = {9781593275907},
+  owner     = {Rômulo Souza Fernandes},
+  pages     = {192},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}
