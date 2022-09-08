@@ -8,43 +8,43 @@ Database file #1: PythonBib.bib
 Warning--empty publisher in Perkovic2016
 You've used 4 entries,
             2543 wiz_defined-function locations,
-            587 strings with 4972 characters,
-and the built_in function-call counts, 1183 in all, are:
-= -- 102
-> -- 43
-< -- 3
-+ -- 12
-- -- 12
-* -- 67
-:= -- 213
+            585 strings with 4882 characters,
+and the built_in function-call counts, 1115 in all, are:
+= -- 94
+> -- 32
+< -- 4
++ -- 8
+- -- 8
+* -- 61
+:= -- 196
 add.period$ -- 12
 call.type$ -- 4
-change.case$ -- 18
+change.case$ -- 16
 chr.to.int$ -- 4
 cite$ -- 5
-duplicate$ -- 63
+duplicate$ -- 64
 empty$ -- 101
-format.name$ -- 19
-if$ -- 237
+format.name$ -- 16
+if$ -- 224
 int.to.chr$ -- 1
 int.to.str$ -- 0
 missing$ -- 8
 newline$ -- 23
 num.names$ -- 12
-pop$ -- 33
+pop$ -- 34
 preamble$ -- 1
-purify$ -- 25
+purify$ -- 24
 quote$ -- 0
 skip$ -- 40
 stack$ -- 0
 substring$ -- 28
 swap$ -- 4
-text.length$ -- 3
-text.prefix$ -- 3
+text.length$ -- 4
+text.prefix$ -- 4
 top$ -- 0
 type$ -- 16
 warning$ -- 1
-while$ -- 9
-width$ -- 8
-write$ -- 53
+while$ -- 8
+width$ -- 6
+write$ -- 52
 (There was 1 warning)
