@@ -1,2 +1,2 @@
-Trabalho sobre Python da disciplina de Paradgimas de Programação
+# Trabalho sobre Python da disciplina de Paradgimas de Programação
  
