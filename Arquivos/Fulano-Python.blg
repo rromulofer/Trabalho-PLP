@@ -5,13 +5,18 @@ Reallocating 'name_of_file' (item size: 1) to 6 items.
 The style file: alpha.bst
 Reallocating 'name_of_file' (item size: 1) to 10 items.
 Database file #1: PythonBib.bib
+Warning--I didn't find a database entry for "Summerfield2013"
+Warning--I didn't find a database entry for "Guttag2015"
+Warning--I didn't find a database entry for "seb11"
+Warning--I didn't find a database entry for "roy04"
+Warning--I didn't find a database entry for "wat90"
 Warning--can't use both author and editor fields in McKinney2019
 Warning--can't use both author and editor fields in Moreno2018
 Warning--empty publisher in Perkovic2016
 Warning--can't use both author and editor fields in Seitz2015
 You've used 6 entries,
             2543 wiz_defined-function locations,
-            598 strings with 5060 characters,
+            605 strings with 5125 characters,
 and the built_in function-call counts, 1682 in all, are:
 = -- 143
 > -- 48
@@ -50,4 +55,4 @@ warning$ -- 4
 while$ -- 12
 width$ -- 10
 write$ -- 79
-(There were 4 warnings)
+(There were 9 warnings)
