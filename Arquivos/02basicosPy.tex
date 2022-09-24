@@ -19,10 +19,69 @@ De acordo com \cite{seb11} e \cite{roy04}, a linguagem Python . . .
 
 Considerando que a linguagem Python (\cite{seb11}, \cite{wat90}) \'{e} considerada como ....
 
-    %%%%%%%%=================================
-    \section{Vari\'{a}veis e constantes}
-    %%%%%%%%=================================
+NESTE CAPÍTULO, apresentamos um subconjunto muito pequeno do Python. Embora pequeno, ele
+é amplo o suficiente para começar a realizar coisas interessantes imediatamente. Nos próximos
+capítulos, vamos preencher os detalhes. Começaremos usando o Python como uma calculadora
+que avalia expressões algébricas. Depois, introduzimos as variáveis como um meio de “lembrar” dos
+resultados dessas avaliações. Por fim, mostramos como o Python trabalha com valores que não são
+apenas números: valores para representar os estados lógicos verdadeiro e falso, valores de texto e
+listas de valores.
+Depois que tivermos visto os tipos básicos de dados aceitos pelo Python, recuamos um passo e
+definimos exatamente o conceito de um tipo de dado e o de um objeto que armazena um valor de
+determinado tipo. Com os dados armazenados em objetos, podemos ignorar o modo como os dados
+são representados e armazenados no computador, para trabalhar somente com as propriedades
+abstratas, porém familiares, que se tornam explícitas pelo tipo do objeto. Essa ideia de abstrair
+propriedades importantes é fundamental na ciência da computação, e voltaremos a ela várias vezes.
+Além dos tipos de dados básicos, embutidos, Python vem com uma grande biblioteca de tipos
+adicionais, organizados em forma de módulos. No estudo de caso deste capítulo, usamos o módulo
+turtle graphics para ilustrar visualmente os conceitos introduzidos neste capítulo: objetos, tipos e
+nomes; abstração e classes de dados; e ocultação de informações.
 
+    %%%%%%%%=================================
+    \section{Variáveis, constantes e atribuições}
+    %%%%%%%%=================================
+Como já sabemos pela álgebra, é
+útil atribuir nomes a valores, e chamamos esses nomes de variáveis. Por exemplo, o valor 3 pode
+ser atribuído à variável x em um problema da álgebra da seguinte forma: x = 3. A variável x pode
+ser imaginada como um nome que nos permite apanhar o valor 3 mais adiante. Para recuperá-lo,
+só precisamos avaliar x em uma expressão.
+O mesmo pode ser feito em Python. Um valor pode ser atribuído a uma variável:
+>>> x = 4
+A instrução x = 4 é denominada instrução de atribuição. O formato geral de uma instrução de
+atribuição é:
+<variável> = <expressão>
+Uma expressão que nos referimos como <expressão> se encontra no lado direito do
+operador =; ela pode ser algébrica, Booleana ou outro tipo de expressão. No lado esquerdo está
+uma variável denominada <variável>. A instrução de atribuição atribui a <variável> o
+valor avaliado pela <expressão>. No último exemplo, x recebe o valor 4.
+Quando um valor tiver sido atribuído a uma variável, a variável pode ser usada em uma
+expressão Python:
+>>> x
+4
+Quando o Python avalia uma exemplo contendo uma variável, ele avalia a variável para seu valor
+atribuído e depois realiza as operações na expressão:
+>>> 4 * x
+16
+Uma expressão envolvendo variáveis pode aparecer no lado direito de uma instrução de
+atribuição:
+>>> contador = 4 * x
+Na instrução contador = 4 * x, x é primeiro avaliada como 4, e depois a expressão 4 * 4 é
+avaliada como 16, e depois 16 é atribuído à variável contador:
+>>> contador
+16
+Até aqui, definimos dois nomes de variável: x com o valor 4 e contador com o valor 16.
+E o que podemos dizer, por exemplo, do valor da variável z, que não foi atribuída ainda?
+Vejamos:
+>>> z
+Traceback (most recent call last):
+%File "<pyshell#1>", line 1, in <module>
+z
+NameError: name 'z' is not defined
+Não temos certeza do que esperávamos... mas obtivemos aqui nossa primeira (e, infelizmente,
+não a última) mensagem de erro. Acontece que, se a variável — z, neste caso — não teve um
+valor atribuído, ela simplesmente não existe. Quando o Python tenta avaliar um nome não
+atribuído, ocorrerá um erro e uma mensagem (como name 'z' is not defined) é emitida.
+Aprenderemos mais sobre erros (também chamados de exceções) no Capítulo 4.
 
     %%%%%%%%=================================
     \section{Tipos de Dados B\'{a}sicos}
@@ -90,8 +149,204 @@ Considerando que a linguagem Python (\cite{seb11}, \cite{wat90}) \'{e} considera
 
     \end{itemize}
 
-
-
+			\subsection{Lista}
+			Em muitas situações, organizamos os dados em uma lista: uma lista de compras, uma lista de
+			cursos, uma lista de contatos no seu telefone celular, uma lista de canções no seu player de áudio
+			e assim por diante. Em Python, as listas normalmente são armazenadas em um tipo de objeto
+			denominado lista. Uma lista é uma sequência de objetos. Os objetos podem ser de qualquer tipo:
+			números, strings e até mesmo outras listas. Por exemplo, veja como atribuiríamos a
+			variável animais à lista de strings que representa diversos animais:
+			
+			\begin{lstlisting}
+	>>> animais = ['peixe ', 'gato', 'cao']
+			\end{lstlisting}
+		
+			A variável animais é avaliada como a lista:
+			
+			\begin{lstlisting}
+	>>> animais
+	['peixe', 'gato', 'cao']
+			\end{lstlisting}
+			
+			Em Python, uma lista é representada como uma sequência de objetos separados por vírgulas,
+			dentro de colchetes. Uma lista vazia é representada como []. As listas podem conter itens de
+			diferentes tipos. Por exemplo, a lista chamada coisas em
+			>>> coisas = ['um', 2, [3, 4]]
+			tem três itens: o primeiro é a string 'um', o segundo é o inteiro 2 e o terceiro item é a lista [3,
+			4].
+			Operadores de Lista
+			A maioria dos operadores de string que vimos na seção anterior pode ser usada em listas de formas
+			semelhantes. Por exemplo, os itens na lista podem ser acessados individualmente usando o
+			operador de indexação, assim como os caracteres individuais podem ser acessados em uma string:
+			>>> animais[0]
+			'peixe'
+			>>> animais[2]
+			'cão'
+			Figura 2.3 Uma lista de objetos de string. A lista animais é uma sequência de objetos. O
+			primeiro objeto, no índice 0, é a string 'peixe'. Índices positivos e negativos podem ser usados,
+			assim como para as strings.
+			A Figura 2.3 ilustra a lista animais junto com a indexação dos itens da lista. Índices negativos
+			também podem ser usados:
+			>>> animais[-1]
+			'cão'
+			O comprimento de uma lista (ou seja, o número de itens nela) é calculado usando a
+			função len():
+			>>> len(animais)
+			3
+			Assim como as strings, as listas podem ser “adicionadas”, significando que podem
+			ser concatenadas. Elas também podem ser “multiplicadas” por um inteiro k, que significa
+			que k cópias da lista são concatenadas:
+			>>> animais + animais
+			['peixe ', 'gato', 'cão', 'peixe ', 'gato', 'cão']
+			>>> animais * 2
+			['peixe ', 'gato', 'cão', 'peixe ', 'gato', 'cão']
+			Se você quiser verificar se a string 'coelho' está na lista, pode usar o operador in em uma
+			expressão Booleana que é avaliada como True se a string 'coelho' aparecer na
+			lista animais:
+			>>> 'coelho' in animais
+			False
+			>>> 'cão' in animais
+			True
+			Na Tabela 2.2, resumimos o uso de alguns dos operadores de string. Incluímos na tabela as
+			funções min(), max() e sum(), que podem apanhar uma lista como entrada e retornar,
+			respectivamente, o menor item, o maior item, a soma dos itens da lista:
+			>>> lst = [23.99, 19.99, 34.50, 120.99]
+			>>> min(lst)
+			19.99
+			>>> max(lst)
+			120.99
+			>>> sum(lst)
+			199.46999999999997
+			Tabela 2.2 Operadores de lista e funções. Somente alguns dos operadores de lista comumente
+			usados aparecem aqui. Para obter a lista completa no seu shell interativo, use a função de
+			documentação help(): >>>help(list)
+			Uso Explicação
+			x in lst Verdadeiro se o objeto x estiver na lista lst; caso contrário, falso
+			x not in lst Falso se o objeto x estiver na lista lst; caso contrário, verdadeiro
+			lstA + lstB Concatenação das listas lstA e lstB
+			lst * n,n * lst Concatenação de n cópias da lista lst
+			lst[i] Item no índice i da lista lst
+			len(lst) Comprimento da lista lst
+			min(lst) Menor item na lista lst
+			max(lst) Maior item na lista lst
+			sum(lst) Soma dos itens na lista lst
+			
+			\subsection{Classes e Objetos}
+			Até aqui, vimos como usar diversos tipos de valores que o Python
+			admite: int, float, bool, str e list. Nossa apresentação foi informal para enfatizar a
+			técnica normalmente intuitiva que o Python utiliza para manipular valores. Porém, a intuição nos
+			leva somente até aí. Nesse ponto, damos um passo atrás por um instante para entender mais
+			formalmente o que significa um tipo e os operadores e métodos admitidos pelo tipo.
+			Em Python, cada valor, seja um valor inteiro simples (como 3) ou um valor mais complexo
+			(como a string 'Hello, World!' ou a lista ['hello', 4, 5]) é armazenado na memória
+			como um objeto. É útil pensarmos em um objeto como um contêiner para o valor que fica dentro
+			da memória do seu computador.
+			A ideia de contêiner captura a motivação por trás dos objetos. A representação real e o
+			processamento de, digamos, valores inteiros em um sistema de computação é bastante complicada.
+			No entanto, a aritmética com valores inteiros é bem natural. Os objetos são contêineres para
+			valores, inteiros ou não, que ocultam a complexidade do armazenamento e processamento de
+			inteiros e oferece ao programador a única informação de que ele precisa: o valor do objeto e qual
+			tipo de operações que podem ser aplicadas a ele.
+			Tipo de Objeto
+			Cada objeto tem, associado a ele, um tipo e um valor. Isso pode ser visto na Figura 2.4, que ilustra
+			quatro objetos: um objeto inteiro com valor 3, um objeto de ponto flutuante com valor 3.0, um
+			objeto de string com valor 'Hello World' e um objeto de lista com valor [1, 1, 2, 3,
+			5, 8].
+			Figura 2.4 Quatro objetos. Ilustração de quatro objetos com tipos diferentes. Cada objeto tem,
+			associado a ele, um tipo e um valor.
+			O tipo de um objeto indica que tipo de valores o objeto pode manter e que tipo de operações
+			podem ser realizadas sobre esse objeto. Os tipos que vimos até aqui incluem o inteiro (int),
+			ponto flutuante (float), Booleano (bool), string (str) e lista (list). A função type() do
+			Python pode ser usada para determinar o tipo de um objeto:
+			>>> type(3)
+			<class 'int'>
+			>>> type(3.0)
+			<class 'float'>
+			>>> type('Hello World')
+			<class 'str'>
+			>>> type([1, 1, 2, 3, 5, 8])
+			<class 'list'>
+			Quando usada sobre uma variável, a função type() retornará o tipo do objeto ao qual a variável
+			se refere:
+			>>> a = 3
+			>>> type(a)
+			<class 'int'>
+			AVISO Variáveis Não Têm um Tipo
+			É importante observar que uma variável não tem um tipo. Uma variável é apenas
+			um nome. Somente o objeto ao qual ela se refere tem um tipo. Assim, quando
+			vemos
+			>>> type(a)
+			<class 'int'>
+			Na realidade, isso significa que o objeto ao qual a variável a atualmente se refere
+			é do tipo inteiro.
+			Enfatizamos atualmente porque o tipo de um objeto ao qual a se refere pode
+			mudar. Por exemplo, se atribuirmos 3.0 à variável a:
+			a = 3.0
+			então a se referirá a um valor do tipo float:
+			>>> type(a)
+			<class 'float'>
+			A linguagem de programação Python é considerada orientada a objeto porque os valores são
+			sempre armazenados em objetos. Em linguagens de programação diferentes de Python, os valores
+			de certos tipos não são armazenados em entidades abstratas, como objetos, mas explicitamente na
+			memória. O termo classe é usado para se referir aos tipos cujos valores são armazenados em
+			objetos. Como cada valor em Python é armazenado em um objeto, cada tipo Python é uma classe.
+			Neste livro, usaremos classe e tipo significando a mesma coisa.
+			Anteriormente neste capítulo, apresentamos diversos tipos numéricos do Python
+			informalmente. Para ilustrar o conceito do tipo do objeto, agora vamos discutir seus
+			comportamentos com mais detalhes.
+			
+			\subsection{Biblioteca Padrão Python}
+			A linguagem de programação básica do Python vem com funções como max() e sum() e
+			classes como int, str e list. Embora estas não sejam, de forma alguma, todas as funções e
+			classes embutidas da linguagem Python, o núcleo da linguagem Python é deliberadamente
+			pequeno, para fins de eficiência e facilidade de uso. Além das funções e classes básicas, Python
+			tem muitas outras funções e classes definidas na Biblioteca Padrão Python. A Biblioteca Padrão
+			Python (Python Standard Library) consiste em milhares de funções e classes organizadas em
+			componentes chamados módulos.
+			Cada módulo contém um conjunto de funções e/ou classes relacionadas a determinado
+			domínio de aplicação. Mais de 200 módulos embutidos formam juntos a Biblioteca Padrão Python.
+			Cada módulo na Biblioteca Padrão contém funções e classes para dar suporte à programação de
+			aplicações em um certo domínio. A Biblioteca Padrão inclui módulos para dar suporte, dentre
+			outros, a:
+			•Programação em rede
+			•Programação de aplicação Web
+			•Desenvolvimento de interface gráfica com o usuário (GUI)
+			•Programação de bancos de dados
+			•Funções matemáticas
+			•Geradores de números pseudoaleatórios
+			
+			\subsection{Objetos Turtle Graphics}
+			Em nosso primeiro estudo de caso, usaremos uma ferramenta gráfica para ilustrar (visualmente)
+			os conceitos abordados neste capítulo: objetos, classes e métodos de classe, programação
+			orientada a objeto e módulos. A ferramenta, Turtle graphics, permite que um usuário desenhe
+			linhas e formas de um modo semelhante ao uso de uma caneta sobre o papel.
+			DESVIO Turtle Graphics
+			Turtle graphics tem uma longa história, desde a época em que o ramo da
+			ciência da computação estava sendo desenvolvido. Ele fez parte da linguagem
+			de programação Logo, desenvolvida por Daniel Bobrow, Wally Feurzig e
+			Seymour Papert em 1966. A linguagem de programação Logo e seu recurso
+			mais popular, turtle graphics, foi desenvolvida para fins de ensino de
+			programação.
+			A tartaruga (turtle) era originalmente um robô, ou seja, um dispositivo
+			mecânico controlado por um operador de computador. Uma caneta era presa
+			ao robô e deixava um rastro na superfície enquanto o robô se movia de acordo
+			com as funções inseridas pelo operador.
+			Turtle graphics está disponível a desenvolvedores Python através do módulo turtle. No
+			módulo, estão definidas 7 classes e mais de 80 métodos de classe e funções. Não vamos examinar
+			todos os recursos do módulo turtle. Só apresentaremos um número suficiente para nos permitir
+			realizar gráficos interessantes enquanto cimentamos nosso aprendizado de objetos, classes,
+			métodos de classe, funções e módulos. Fique à vontade para explorar essa divertida ferramenta
+			por conta própria.
+			Vamos começar importando o módulo turtle e depois instanciando um objeto Screen.
+			>>> import turtle
+			>>> s = turtle.Screen()
+			Você notará que uma nova janela aparece com um fundo branco depois da execução do segundo
+			comando. O objeto Screen é a tela de desenho na qual iremos desenhar. A classe Screen é
+			definida no módulo turtle. Mais adiante, vamos apresentar alguns métodos de Screen que
+			mudam a cor do fundo ou fecham a janela. No momento, só queremos começar a desenhar.
+			Para iniciar nossa caneta ou, usando a terminologia turtle graphics, nossa tartaruga,
+			instanciamos um objeto Turtle que chamaremos de t:
+	
      %%%%%%%%=================================
     \section{Tipos de Dados de Cole\c{c}\~{a}o}
     %%%%%%%%=================================

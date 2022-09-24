@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7) (preloaded format=pdflatex 2022.9.2)  23 SEP 2022 22:31
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7) (preloaded format=pdflatex 2022.9.2)  24 SEP 2022 01:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1307,22 +1307,21 @@ LaTeX Font Info:    Font shape `T1/pag/b/n' in size <12> not available
 (Font)              Font shape `T1/pag/db/n' tried instead on input line 3.
 LaTeX Font Info:    Font shape `T1/pag/b/n' in size <10.95> not available
 (Font)              Font shape `T1/pag/db/n' tried instead on input line 3.
-)
+ [3
+
+ <./Pictures//sumario01.jpg>])
 \tf@toc=\write5
 \openout5 = `Fulano-Python.toc'.
 
- [3
-
- <./Pictures//sumario01.jpg>] [4
-
-] (01introducPy.tex
+ [4] (01introducPy.tex
 Cap\'{\i }tulo 1.
-<Pictures//capitulo01.jpg, id=102, 1204.5pt x 469.755pt>
+<Pictures//capitulo01.jpg, id=114, 1204.5pt x 469.755pt>
 File: Pictures//capitulo01.jpg Graphic file (type jpg)
 <use Pictures//capitulo01.jpg>
 Package pdftex.def Info: Pictures//capitulo01.jpg  used on input line 9.
 (pdftex.def)             Requested size: 597.50787pt x 233.03477pt.
 [5
+
 
  <./Pictures//capitulo01.jpg>] [6]
 
@@ -1335,7 +1334,7 @@ Package fancyhdr Warning: \headheight is too small (14.5pt):
 
 [7]) (02basicosPy.tex [8]
 Cap\'{\i }tulo 2.
-<Pictures//capitulo.jpg, id=136, 903.375pt x 352.31625pt>
+<Pictures//capitulo.jpg, id=148, 903.375pt x 352.31625pt>
 File: Pictures//capitulo.jpg Graphic file (type jpg)
 <use Pictures//capitulo.jpg>
 Package pdftex.def Info: Pictures//capitulo.jpg  used on input line 8.
@@ -1358,41 +1357,39 @@ LaTeX Warning: Citation `seb11' on page 9 undefined on input line 20.
 
 LaTeX Warning: Citation `wat90' on page 9 undefined on input line 20.
 
-LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 3
-5.
+[9
+
+ <./Pictures//capitulo.jpg>]
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 9
+4.
+
 (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/base\t1cmtt.fd
 File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <10.95> not available
-(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 35.
+(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 94.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `cmtt' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
- [9
 
- <./Pictures//capitulo.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 57--60
+Underfull \hbox (badness 10000) in paragraph at lines 116--119
 
  []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [10])
-(Fulano-Python.bbl (Fulano-Python.brf)
+[10] [11] [12] [13]) (Fulano-Python.bbl (Fulano-Python.brf)
 \tf@brf=\write6
 \openout6 = `Fulano-Python.brf'.
 
- [11] [12
-
-]
-<Pictures//Bibliografia.png, id=204, 578.16pt x 225.4824pt>
+ [14]
+<Pictures//Bibliografia.png, id=230, 578.16pt x 225.4824pt>
 File: Pictures//Bibliografia.png Graphic file (type png)
 <use Pictures//Bibliografia.png>
 Package pdftex.def Info: Pictures//Bibliografia.png  used on input line 1.
 (pdftex.def)             Requested size: 597.50787pt x 233.04079pt.
-) [13 <./Pictures//Bibliografia.png>] [14
+) [15
+
+ <./Pictures//Bibliografia.png>] [16
 
 ]
 No file Fulano-Python.ind.
@@ -1403,7 +1400,7 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 20.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 20.
-) [15] (Fulano-Python.aux)
+) [17] (Fulano-Python.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -1411,13 +1408,13 @@ Package rerunfilecheck Info: File `Fulano-Python.brf' has not changed.
 (rerunfilecheck)             Checksum: 85B37E62CB342A8E6A864AE718DA3AA8;741.
  ) 
 Here is how much of TeX's memory you used:
- 33142 strings out of 478338
- 645859 string characters out of 2837173
- 1273106 words of memory out of 3000000
- 50630 multiletter control sequences out of 15000+600000
- 549229 words of font info for 257 fonts, out of 8000000 for 9000
+ 33197 strings out of 478338
+ 646375 string characters out of 2837173
+ 1273105 words of memory out of 3000000
+ 50635 multiletter control sequences out of 15000+600000
+ 550847 words of font info for 283 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 89i,12n,92p,1012b,1969s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 89i,12n,92p,1012b,1228s stack positions out of 10000i,1000n,20000p,200000b,80000s
  <C:\Users\User\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1
 095.pk>{C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc
 }<C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cm
@@ -1427,9 +1424,9 @@ r/uagk8a.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times
 /utmb8a.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/
 utmr8a.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/u
 tmri8a.pfb>
-Output written on Fulano-Python.pdf (15 pages, 1755435 bytes).
+Output written on Fulano-Python.pdf (17 pages, 1774955 bytes).
 PDF statistics:
- 409 PDF objects out of 1000 (max. 8388607)
- 96 named destinations out of 1000 (max. 500000)
- 91878 words of extra memory for PDF output out of 106986 (max. 10000000)
+ 448 PDF objects out of 1000 (max. 8388607)
+ 107 named destinations out of 1000 (max. 500000)
+ 91910 words of extra memory for PDF output out of 106986 (max. 10000000)
 
