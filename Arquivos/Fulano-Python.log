@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7) (preloaded format=pdflatex 2022.9.2)  23 SEP 2022 19:18
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7) (preloaded format=pdflatex 2022.9.2)  23 SEP 2022 22:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1341,13 +1341,6 @@ File: Pictures//capitulo.jpg Graphic file (type jpg)
 Package pdftex.def Info: Pictures//capitulo.jpg  used on input line 8.
 (pdftex.def)             Requested size: 597.50787pt x 233.04015pt.
 
-LaTeX Warning: Citation `Summerfield2013' on page 9 undefined on input line 10.
-
-
-
-LaTeX Warning: Citation `Guttag2015' on page 9 undefined on input line 10.
-
-
 LaTeX Warning: Citation `seb11' on page 9 undefined on input line 14.
 
 
@@ -1383,14 +1376,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 57--60
 
  []
 
-[10]) (Fulano-Python.bbl (Fulano-Python.brf)
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [10])
+(Fulano-Python.bbl (Fulano-Python.brf)
 \tf@brf=\write6
 \openout6 = `Fulano-Python.brf'.
 
  [11] [12
 
 ]
-<Pictures//Bibliografia.png, id=203, 578.16pt x 225.4824pt>
+<Pictures//Bibliografia.png, id=204, 578.16pt x 225.4824pt>
 File: Pictures//Bibliografia.png Graphic file (type png)
 <use Pictures//Bibliografia.png>
 Package pdftex.def Info: Pictures//Bibliografia.png  used on input line 1.
@@ -1411,16 +1408,16 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `Fulano-Python.brf' has not changed.
-(rerunfilecheck)             Checksum: 5DF2AB4AA0A564A4F82003FFB8208965;790.
+(rerunfilecheck)             Checksum: 85B37E62CB342A8E6A864AE718DA3AA8;741.
  ) 
 Here is how much of TeX's memory you used:
- 33152 strings out of 478338
- 646026 string characters out of 2837173
- 1270106 words of memory out of 3000000
- 50640 multiletter control sequences out of 15000+600000
+ 33142 strings out of 478338
+ 645859 string characters out of 2837173
+ 1273106 words of memory out of 3000000
+ 50630 multiletter control sequences out of 15000+600000
  549229 words of font info for 257 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 89i,13n,92p,1012b,1969s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 89i,12n,92p,1012b,1969s stack positions out of 10000i,1000n,20000p,200000b,80000s
  <C:\Users\User\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1
 095.pk>{C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc
 }<C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cm
@@ -1430,9 +1427,9 @@ r/uagk8a.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times
 /utmb8a.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/
 utmr8a.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/u
 tmri8a.pfb>
-Output written on Fulano-Python.pdf (15 pages, 1754990 bytes).
+Output written on Fulano-Python.pdf (15 pages, 1755435 bytes).
 PDF statistics:
- 407 PDF objects out of 1000 (max. 8388607)
+ 409 PDF objects out of 1000 (max. 8388607)
  96 named destinations out of 1000 (max. 500000)
  91878 words of extra memory for PDF output out of 106986 (max. 10000000)
 
