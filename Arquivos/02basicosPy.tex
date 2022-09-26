@@ -35,7 +35,7 @@ Neste capítulo é apresentado alguns conceitos básicos da linguagem de program
      %%%........................
             \subsection{String}
      %%%........................
-            Resumidamente, uma string é uma sequência de caracteres, sendo classificado como um item de dado simples. Para o Python, uma string é um array de caracteres ou qualquer grupo de caracteres escritos entre doble aspas ou aspas simples, por exemplo:
+            Resumidamente, uma string é uma sequência de caracteres imutável, não permitindo alterar uma string que já existe. É classificado como um item de dado simples. Para o Python, uma string é um array de caracteres ou qualquer grupo de caracteres escritos entre doble aspas ou aspas simples, por exemplo:
     \begin{lstlisting}
     >>> #Aspas simples
     >>> menssagem1 = 'Hello, World'
@@ -102,15 +102,11 @@ Neste capítulo é apresentado alguns conceitos básicos da linguagem de program
     \end{itemize}
 
 			\subsection{Lista}
-			Em muitas situações, organizamos os dados em uma lista: uma lista de compras, uma lista de
-			cursos, uma lista de contatos no seu telefone celular, uma lista de canções no seu player de áudio
-			e assim por diante. Em Python, as listas normalmente são armazenadas em um tipo de objeto
-			denominado lista. Uma lista é uma sequência de objetos. Os objetos podem ser de qualquer tipo:
-			números, strings e até mesmo outras listas. Por exemplo, veja como atribuiríamos a
-			variável animais à lista de strings que representa diversos animais:
+			Lista é uma sequência de objetos, diferente de uma string onde os valores são caracteres, na lista esses valores podem ser de qualquer tipo, até mesmo outras listas. Outra característica da lista que difere de uma string é que as listas são mutáveis, assim permitindo que o seu conteúdo seja modificado em qualquer momento, esse conteúdo das listas é chamado de elementos ou itens. Para criar uma lista é necessário colocar seus elementos apenas entre colchetes ou entre aspas dentro dos colchetes caso os elementos sejam caracteres.
 			
 			\begin{lstlisting}
-	>>> animais = ['peixe ', 'gato', 'cao']
+	>>> ['verde ', 'amarelo', 'azul']
+	>>> [1,2, 3, 4, 5]
 			\end{lstlisting}
 		
 			A variável animais é avaliada como a lista:
@@ -120,68 +116,6 @@ Neste capítulo é apresentado alguns conceitos básicos da linguagem de program
 	['peixe', 'gato', 'cao']
 			\end{lstlisting}
 			
-			Em Python, uma lista é representada como uma sequência de objetos separados por vírgulas,
-			dentro de colchetes. Uma lista vazia é representada como []. As listas podem conter itens de
-			diferentes tipos. Por exemplo, a lista chamada coisas em
-			>>> coisas = ['um', 2, [3, 4]]
-			tem três itens: o primeiro é a string 'um', o segundo é o inteiro 2 e o terceiro item é a lista [3,
-			4].
-			Operadores de Lista
-			A maioria dos operadores de string que vimos na seção anterior pode ser usada em listas de formas
-			semelhantes. Por exemplo, os itens na lista podem ser acessados individualmente usando o
-			operador de indexação, assim como os caracteres individuais podem ser acessados em uma string:
-			>>> animais[0]
-			'peixe'
-			>>> animais[2]
-			'cão'
-			Figura 2.3 Uma lista de objetos de string. A lista animais é uma sequência de objetos. O
-			primeiro objeto, no índice 0, é a string 'peixe'. Índices positivos e negativos podem ser usados,
-			assim como para as strings.
-			A Figura 2.3 ilustra a lista animais junto com a indexação dos itens da lista. Índices negativos
-			também podem ser usados:
-			>>> animais[-1]
-			'cão'
-			O comprimento de uma lista (ou seja, o número de itens nela) é calculado usando a
-			função len():
-			>>> len(animais)
-			3
-			Assim como as strings, as listas podem ser “adicionadas”, significando que podem
-			ser concatenadas. Elas também podem ser “multiplicadas” por um inteiro k, que significa
-			que k cópias da lista são concatenadas:
-			>>> animais + animais
-			['peixe ', 'gato', 'cão', 'peixe ', 'gato', 'cão']
-			>>> animais * 2
-			['peixe ', 'gato', 'cão', 'peixe ', 'gato', 'cão']
-			Se você quiser verificar se a string 'coelho' está na lista, pode usar o operador in em uma
-			expressão Booleana que é avaliada como True se a string 'coelho' aparecer na
-			lista animais:
-			>>> 'coelho' in animais
-			False
-			>>> 'cão' in animais
-			True
-			Na Tabela 2.2, resumimos o uso de alguns dos operadores de string. Incluímos na tabela as
-			funções min(), max() e sum(), que podem apanhar uma lista como entrada e retornar,
-			respectivamente, o menor item, o maior item, a soma dos itens da lista:
-			>>> lst = [23.99, 19.99, 34.50, 120.99]
-			>>> min(lst)
-			19.99
-			>>> max(lst)
-			120.99
-			>>> sum(lst)
-			199.46999999999997
-			Tabela 2.2 Operadores de lista e funções. Somente alguns dos operadores de lista comumente
-			usados aparecem aqui. Para obter a lista completa no seu shell interativo, use a função de
-			documentação help(): >>>help(list)
-			Uso Explicação
-			x in lst Verdadeiro se o objeto x estiver na lista lst; caso contrário, falso
-			x not in lst Falso se o objeto x estiver na lista lst; caso contrário, verdadeiro
-			lstA + lstB Concatenação das listas lstA e lstB
-			lst * n,n * lst Concatenação de n cópias da lista lst
-			lst[i] Item no índice i da lista lst
-			len(lst) Comprimento da lista lst
-			min(lst) Menor item na lista lst
-			max(lst) Maior item na lista lst
-			sum(lst) Soma dos itens na lista lst
 			
 			\subsection{Inteiro}
 			
@@ -192,7 +126,7 @@ Neste capítulo é apresentado alguns conceitos básicos da linguagem de program
 			
 	
      %%%%%%%%=================================
-    \section{Tipos de Dados de Cole\c{c}\~{a}o}
+    \section{Tipos de Dados de Coleção}
     %%%%%%%%=================================
 
 
@@ -214,7 +148,7 @@ Neste capítulo é apresentado alguns conceitos básicos da linguagem de program
 
 
     %%%%%%%%=================================
-    \section{Estrutura de Controle e Fun\c{c}\~{o}es}
+    \section{Estrutura de Controle e Funções}
     %%%%%%%%=================================
 
      %%%........................
@@ -223,22 +157,22 @@ Neste capítulo é apresentado alguns conceitos básicos da linguagem de program
 
 
       %%%........................
-            \subsection{La\c{c}o FOR}
+            \subsection{Laço FOR}
      %%%........................
 
      %%%........................
-            \subsection{La\c{c}o WHILE}
+            \subsection{Laço WHILE}
      %%%........................
 
 
     %%%%%%%%======================
-    \section{M\'{o}dulos e pacotes}
+    \section{Módulos e pacotes}
     %%%%%%%%======================
 
 
 
        %%%........................
-            \subsection{M\'{o}dulos}
+            \subsection{Módulos}
      %%%........................
 
 
@@ -252,7 +186,7 @@ Neste capítulo é apresentado alguns conceitos básicos da linguagem de program
 
 
 
-    C\'{o}digo fonte para a linguagem Python:
+    Código fonte para a linguagem Python:
     \begin{lstlisting}
     number_1 = int(input('Ingresse o primeiro numero: '))
     number_2 = int(input('Ingresse o segundo numero: '))
