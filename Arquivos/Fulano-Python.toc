@@ -8,10 +8,10 @@
 \contentsline {subsection}{\numberline {1.2.3}Pentest}{7}{subsection.1.2.3}%
 \contentsline {chapter}{\numberline {2} Conceitos básicos da Linguagem Python}{9}{chapter.2}%
 \contentsline {section}{\numberline {2.1}Variáveis e constantes}{9}{section.2.1}%
-\contentsline {section}{\numberline {2.2}Tipos de Dados B\'{a}sicos}{9}{section.2.2}%
-\contentsline {subsection}{\numberline {2.2.1}String}{9}{subsection.2.2.1}%
+\contentsline {section}{\numberline {2.2}Tipos de Dados B\'{a}sicos}{10}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}String}{10}{subsection.2.2.1}%
 \contentsline {subsection}{\numberline {2.2.2}Lista}{11}{subsection.2.2.2}%
-\contentsline {subsection}{\numberline {2.2.3}Inteiro}{11}{subsection.2.2.3}%
+\contentsline {subsection}{\numberline {2.2.3}Inteiro}{12}{subsection.2.2.3}%
 \contentsline {subsection}{\numberline {2.2.4}Ponto Flutuante}{12}{subsection.2.2.4}%
 \contentsline {subsection}{\numberline {2.2.5}Booleano}{13}{subsection.2.2.5}%
 \contentsline {section}{\numberline {2.3}Tipos de Dados de Cole\c {c}\~{a}o}{13}{section.2.3}%
