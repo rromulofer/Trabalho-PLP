@@ -7,53 +7,19 @@
 
 \chapter{ Conceitos básicos da Linguagem Python}
 
-Neste capítulo é apresentado alguns conceitos básicos da linguagem de programação Python, como tipos de dados básicos aceitos pela linguagem, que são inteiro, ponto flutuante, booleano, string e lista. Alguns dos livros indicados para iniciar o estudo sobre a linguagem de programação Python são:  \cite{Lutz2007}, \cite{Perkovic2016}.
+Neste capítulo é apresentado alguns conceitos básicos da linguagem de programação Python, como Variáveis, constantes e tipos de dados básicos aceitos pela linguagem, que são inteiro, ponto flutuante, booleano, string e lista. Alguns dos livros indicados para iniciar o estudo sobre a linguagem de programação Python são:  \cite{Lutz2007}, \cite{Perkovic2016}, que foram os mesmos autores usamos como base para escrever grande parte desse e outros capítulos.
 
     %%%%%%%%=================================
-    \section{Variáveis, constantes e atribuições}
+    \section{Variáveis e constantes}
     %%%%%%%%=================================
-Como já sabemos pela álgebra, é
-útil atribuir nomes a valores, e chamamos esses nomes de variáveis. Por exemplo, o valor 3 pode
-ser atribuído à variável x em um problema da álgebra da seguinte forma: x = 3. A variável x pode
-ser imaginada como um nome que nos permite apanhar o valor 3 mais adiante. Para recuperá-lo,
-só precisamos avaliar x em uma expressão.
-O mesmo pode ser feito em Python. Um valor pode ser atribuído a uma variável:
->>> x = 4
-A instrução x = 4 é denominada instrução de atribuição. O formato geral de uma instrução de
-atribuição é:
-<variável> = <expressão>
-Uma expressão que nos referimos como <expressão> se encontra no lado direito do
-operador =; ela pode ser algébrica, Booleana ou outro tipo de expressão. No lado esquerdo está
-uma variável denominada <variável>. A instrução de atribuição atribui a <variável> o
-valor avaliado pela <expressão>. No último exemplo, x recebe o valor 4.
-Quando um valor tiver sido atribuído a uma variável, a variável pode ser usada em uma
-expressão Python:
->>> x
-4
-Quando o Python avalia uma exemplo contendo uma variável, ele avalia a variável para seu valor
-atribuído e depois realiza as operações na expressão:
->>> 4 * x
-16
-Uma expressão envolvendo variáveis pode aparecer no lado direito de uma instrução de
-atribuição:
->>> contador = 4 * x
-Na instrução contador = 4 * x, x é primeiro avaliada como 4, e depois a expressão 4 * 4 é
-avaliada como 16, e depois 16 é atribuído à variável contador:
->>> contador
-16
-Até aqui, definimos dois nomes de variável: x com o valor 4 e contador com o valor 16.
-E o que podemos dizer, por exemplo, do valor da variável z, que não foi atribuída ainda?
-Vejamos:
->>> z
-Traceback (most recent call last):
-%File "<pyshell#1>", line 1, in <module>
-z
-NameError: name 'z' is not defined
-Não temos certeza do que esperávamos... mas obtivemos aqui nossa primeira (e, infelizmente,
-não a última) mensagem de erro. Acontece que, se a variável — z, neste caso — não teve um
-valor atribuído, ela simplesmente não existe. Quando o Python tenta avaliar um nome não
-atribuído, ocorrerá um erro e uma mensagem (como name 'z' is not defined) é emitida.
-Aprenderemos mais sobre erros (também chamados de exceções) no Capítulo 4.
+	O Python possui um ótimo recurso que é a manipulação de variáveis, essas variáveis são nomes atribuídos a valores, que possuem como propósito armazenar valores de forma que mais tarde possam ser recuperados. 
+	Para criar variáveis é necessário fazer uma declaração por atribuição e atribuir valores a essas novas variáveis. 
+	\begin{lstlisting}
+	>>> messagem = 'Hello, wordld!'
+	>>> pi = 3,14159265
+	>>> numero = 1500
+	\end{lstlisting}
+	No exemplo acima podemos observar a declaração por atribuição de 3 variáveis diferentes.
 
     %%%%%%%%=================================
     \section{Tipos de Dados B\'{a}sicos}
@@ -203,7 +169,7 @@ Aprenderemos mais sobre erros (também chamados de exceções) no Capítulo 4.
 			max(lst) Maior item na lista lst
 			sum(lst) Soma dos itens na lista lst
 			
-			\subsection{Classes e Objetos}
+			\subsection{Inteiro}
 			Até aqui, vimos como usar diversos tipos de valores que o Python
 			admite: int, float, bool, str e list. Nossa apresentação foi informal para enfatizar a
 			técnica normalmente intuitiva que o Python utiliza para manipular valores. Porém, a intuição nos
@@ -267,7 +233,7 @@ Aprenderemos mais sobre erros (também chamados de exceções) no Capítulo 4.
 			informalmente. Para ilustrar o conceito do tipo do objeto, agora vamos discutir seus
 			comportamentos com mais detalhes.
 			
-			\subsection{Biblioteca Padrão Python}
+			\subsection{Ponto Flutuante}
 			A linguagem de programação básica do Python vem com funções como max() e sum() e
 			classes como int, str e list. Embora estas não sejam, de forma alguma, todas as funções e
 			classes embutidas da linguagem Python, o núcleo da linguagem Python é deliberadamente
@@ -287,7 +253,7 @@ Aprenderemos mais sobre erros (também chamados de exceções) no Capítulo 4.
 			•Funções matemáticas
 			•Geradores de números pseudoaleatórios
 			
-			\subsection{Objetos Turtle Graphics}
+			\subsection{Booleano}
 			Em nosso primeiro estudo de caso, usaremos uma ferramenta gráfica para ilustrar (visualmente)
 			os conceitos abordados neste capítulo: objetos, classes e métodos de classe, programação
 			orientada a objeto e módulos. A ferramenta, Turtle graphics, permite que um usuário desenhe
