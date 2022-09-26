@@ -15,7 +15,7 @@ Neste capítulo é apresentado alguns conceitos básicos da linguagem de program
 	De acordo com \cite{Severance2016} o Python possui um ótimo recurso que é a manipulação de variáveis, essas variáveis são nomes atribuídos a valores, que possuem como propósito armazenar valores de forma que mais tarde possam ser recuperados. 
 	Para criar variáveis é necessário fazer uma declaração por atribuição e atribuir valores a essas novas variáveis. 
 	\begin{lstlisting}
-	>>> texto = 'Hello, wordld!'
+	>>> texto = 'Hello, world!'
 	>>> pi = 3,14159265
 	>>> numero = 1500
 	\end{lstlisting}
@@ -31,41 +31,51 @@ Neste capítulo é apresentado alguns conceitos básicos da linguagem de program
     %%%%%%%%=================================
     \section{Tipos de Dados B\'{a}sicos}
     %%%%%%%%=================================
-
+	A linguagem de programação Python é de tipagem dinâmica, com isso não é preciso declarar o tipo de variável, o tipo será definido através do valor que a variável receber, isso possibilita que o tipo mude no decorrer da execução do programa. Vamos falar sobre esses tipos de dados a seguir, com base no autor \cite{Severance2016}.
      %%%........................
             \subsection{String}
      %%%........................
-            Um string \'{e} uma sequ\^{e}ncia de caracteres considerado como um item de dado simples. Para Python, um string \'{e} um array de caracteres ou qualquer grupo de caracteres escritos entre doble aspas ou aspas simples. Por exemplo,
+            Resumidamente, uma string é uma sequência de caracteres, sendo classificado como um item de dado simples. Para o Python, uma string é um array de caracteres ou qualquer grupo de caracteres escritos entre doble aspas ou aspas simples, por exemplo:
     \begin{lstlisting}
-    >>> #usando aspas simples
-    >>> pyStr1 = 'Brasil'
-    >>> print (pyStr1)  Brasil
-    >>> #usando aspas duplas
-    >>> pyStr2 = "Oi, tudo bem?"
-    >>> print (pyStr2)
-    Oi, tudo bem?
+    >>> #Aspas simples
+    >>> menssagem1 = 'Hello, World'
+    >>> print (menssagem1)  
+    Hello, World
+    
+    >>> #Aspas duplas
+    >>> mensagem2 = "O dia esta chuvoso"
+    >>> print (menssagem2)
+    O dia esta chuvoso
     \end{lstlisting}
-
+			
     \begin{itemize}
-      \item \textit{Concatena\c{c}\~{a}o de strings}\\
-            Strings podem ser concatenadas utilizando o operador +, e o seu comprimento pode ser calculado utilizado o operador \texttt{len(string)}
+      \item \textit{Concatenação de strings}\\
+            A união de strings é chamado de concatenação, isso pode ser feito utilizando o operador +, que possui essa função de concatenar quando usado com operandos do tipo string. O comprimento de uma string pode ser calculado utilizado o operador \texttt{len(string)}.
      \begin{lstlisting}
     >>> # concatenando 2 strings
-    >>> pyStr = "Brasil" + " verde amarelo"
-    >>> print (pyStr)
-    Brasil verde amarelo
-    >>> print (len(pyStr))
-    20
+    >>> moto = "Titan " + "150 ESD"
+    >>> print (moto)
+    Titan 150 ESD
+    
+    >>> print (len(moto))
+    13
     \end{lstlisting}
 
-      \item \textit{Operador de indexa\c{c}\~{a}o}\\
-      Qualquer caracter de um string o sequ\^{e}ncia de caracteres pode ser obtido utilizando o operador de indexa\c{c}\~{a}o []. Existem duas formas de indexar em Python, os caracteres de um string:\\
+      \item \textit{Operador de indexação}\\
+      Utilizando o operador de indexação é possível acessar os caracteres um por um, utilizando o operador colchetes, o número dentro do colchetes é denominado index, usado para indicar a posição do caractere da variável e atribuir esse caractere à uma variável.
+      Existem duas formas de indexar os caracteres de um string em Python:\\
       \begin{description}
-        \item[Index com inteiros positivos] indexando a partir da esquerda come\c{c}ando com 0 e  onde 0 \'{e} o index do primeiro caracter da sequ\^{e}ncia
-        \item[Index com inteiros negativos] indexando a partir da direita come\c{c}ando com -1, e onde -1 \'{e} o \'{u}ltimo elemento da sequ\^{e}ncia, -2 \'{e} o pen\'{u}ltimo elemento da sequ\^{e}ncia, e assim sucessivamente.
+        \item[Index com inteiros positivos] indexando a partir da esquerda, começando com 0, sendo o 0 o index do primeiro caractere da sequência.
+        \item[Index com inteiros negativos] indexando a partir da direita, começando com -1, sendo -1 o último elemento da sequência, -2 sendo o penúltimo elemento da sequência, e assim sucessivamente.
       \end{description}
 
      \begin{lstlisting}
+     >>> #Acessar caracteres
+     >>> moto = 'titan'
+     >>> letra = moto[0]
+     >>> print(letra)
+     t
+     
     >>> # Indexando strings
     >>> pyStr = "Programando"
     >>> print (len(pyStr))
@@ -177,120 +187,12 @@ Neste capítulo é apresentado alguns conceitos básicos da linguagem de program
 			sum(lst) Soma dos itens na lista lst
 			
 			\subsection{Inteiro}
-			Até aqui, vimos como usar diversos tipos de valores que o Python
-			admite: int, float, bool, str e list. Nossa apresentação foi informal para enfatizar a
-			técnica normalmente intuitiva que o Python utiliza para manipular valores. Porém, a intuição nos
-			leva somente até aí. Nesse ponto, damos um passo atrás por um instante para entender mais
-			formalmente o que significa um tipo e os operadores e métodos admitidos pelo tipo.
-			Em Python, cada valor, seja um valor inteiro simples (como 3) ou um valor mais complexo
-			(como a string 'Hello, World!' ou a lista ['hello', 4, 5]) é armazenado na memória
-			como um objeto. É útil pensarmos em um objeto como um contêiner para o valor que fica dentro
-			da memória do seu computador.
-			A ideia de contêiner captura a motivação por trás dos objetos. A representação real e o
-			processamento de, digamos, valores inteiros em um sistema de computação é bastante complicada.
-			No entanto, a aritmética com valores inteiros é bem natural. Os objetos são contêineres para
-			valores, inteiros ou não, que ocultam a complexidade do armazenamento e processamento de
-			inteiros e oferece ao programador a única informação de que ele precisa: o valor do objeto e qual
-			tipo de operações que podem ser aplicadas a ele.
-			Tipo de Objeto
-			Cada objeto tem, associado a ele, um tipo e um valor. Isso pode ser visto na Figura 2.4, que ilustra
-			quatro objetos: um objeto inteiro com valor 3, um objeto de ponto flutuante com valor 3.0, um
-			objeto de string com valor 'Hello World' e um objeto de lista com valor [1, 1, 2, 3,
-			5, 8].
-			Figura 2.4 Quatro objetos. Ilustração de quatro objetos com tipos diferentes. Cada objeto tem,
-			associado a ele, um tipo e um valor.
-			O tipo de um objeto indica que tipo de valores o objeto pode manter e que tipo de operações
-			podem ser realizadas sobre esse objeto. Os tipos que vimos até aqui incluem o inteiro (int),
-			ponto flutuante (float), Booleano (bool), string (str) e lista (list). A função type() do
-			Python pode ser usada para determinar o tipo de um objeto:
-			>>> type(3)
-			<class 'int'>
-			>>> type(3.0)
-			<class 'float'>
-			>>> type('Hello World')
-			<class 'str'>
-			>>> type([1, 1, 2, 3, 5, 8])
-			<class 'list'>
-			Quando usada sobre uma variável, a função type() retornará o tipo do objeto ao qual a variável
-			se refere:
-			>>> a = 3
-			>>> type(a)
-			<class 'int'>
-			AVISO Variáveis Não Têm um Tipo
-			É importante observar que uma variável não tem um tipo. Uma variável é apenas
-			um nome. Somente o objeto ao qual ela se refere tem um tipo. Assim, quando
-			vemos
-			>>> type(a)
-			<class 'int'>
-			Na realidade, isso significa que o objeto ao qual a variável a atualmente se refere
-			é do tipo inteiro.
-			Enfatizamos atualmente porque o tipo de um objeto ao qual a se refere pode
-			mudar. Por exemplo, se atribuirmos 3.0 à variável a:
-			a = 3.0
-			então a se referirá a um valor do tipo float:
-			>>> type(a)
-			<class 'float'>
-			A linguagem de programação Python é considerada orientada a objeto porque os valores são
-			sempre armazenados em objetos. Em linguagens de programação diferentes de Python, os valores
-			de certos tipos não são armazenados em entidades abstratas, como objetos, mas explicitamente na
-			memória. O termo classe é usado para se referir aos tipos cujos valores são armazenados em
-			objetos. Como cada valor em Python é armazenado em um objeto, cada tipo Python é uma classe.
-			Neste livro, usaremos classe e tipo significando a mesma coisa.
-			Anteriormente neste capítulo, apresentamos diversos tipos numéricos do Python
-			informalmente. Para ilustrar o conceito do tipo do objeto, agora vamos discutir seus
-			comportamentos com mais detalhes.
 			
 			\subsection{Ponto Flutuante}
-			A linguagem de programação básica do Python vem com funções como max() e sum() e
-			classes como int, str e list. Embora estas não sejam, de forma alguma, todas as funções e
-			classes embutidas da linguagem Python, o núcleo da linguagem Python é deliberadamente
-			pequeno, para fins de eficiência e facilidade de uso. Além das funções e classes básicas, Python
-			tem muitas outras funções e classes definidas na Biblioteca Padrão Python. A Biblioteca Padrão
-			Python (Python Standard Library) consiste em milhares de funções e classes organizadas em
-			componentes chamados módulos.
-			Cada módulo contém um conjunto de funções e/ou classes relacionadas a determinado
-			domínio de aplicação. Mais de 200 módulos embutidos formam juntos a Biblioteca Padrão Python.
-			Cada módulo na Biblioteca Padrão contém funções e classes para dar suporte à programação de
-			aplicações em um certo domínio. A Biblioteca Padrão inclui módulos para dar suporte, dentre
-			outros, a:
-			•Programação em rede
-			•Programação de aplicação Web
-			•Desenvolvimento de interface gráfica com o usuário (GUI)
-			•Programação de bancos de dados
-			•Funções matemáticas
-			•Geradores de números pseudoaleatórios
+			
 			
 			\subsection{Booleano}
-			Em nosso primeiro estudo de caso, usaremos uma ferramenta gráfica para ilustrar (visualmente)
-			os conceitos abordados neste capítulo: objetos, classes e métodos de classe, programação
-			orientada a objeto e módulos. A ferramenta, Turtle graphics, permite que um usuário desenhe
-			linhas e formas de um modo semelhante ao uso de uma caneta sobre o papel.
-			DESVIO Turtle Graphics
-			Turtle graphics tem uma longa história, desde a época em que o ramo da
-			ciência da computação estava sendo desenvolvido. Ele fez parte da linguagem
-			de programação Logo, desenvolvida por Daniel Bobrow, Wally Feurzig e
-			Seymour Papert em 1966. A linguagem de programação Logo e seu recurso
-			mais popular, turtle graphics, foi desenvolvida para fins de ensino de
-			programação.
-			A tartaruga (turtle) era originalmente um robô, ou seja, um dispositivo
-			mecânico controlado por um operador de computador. Uma caneta era presa
-			ao robô e deixava um rastro na superfície enquanto o robô se movia de acordo
-			com as funções inseridas pelo operador.
-			Turtle graphics está disponível a desenvolvedores Python através do módulo turtle. No
-			módulo, estão definidas 7 classes e mais de 80 métodos de classe e funções. Não vamos examinar
-			todos os recursos do módulo turtle. Só apresentaremos um número suficiente para nos permitir
-			realizar gráficos interessantes enquanto cimentamos nosso aprendizado de objetos, classes,
-			métodos de classe, funções e módulos. Fique à vontade para explorar essa divertida ferramenta
-			por conta própria.
-			Vamos começar importando o módulo turtle e depois instanciando um objeto Screen.
-			>>> import turtle
-			>>> s = turtle.Screen()
-			Você notará que uma nova janela aparece com um fundo branco depois da execução do segundo
-			comando. O objeto Screen é a tela de desenho na qual iremos desenhar. A classe Screen é
-			definida no módulo turtle. Mais adiante, vamos apresentar alguns métodos de Screen que
-			mudam a cor do fundo ou fecham a janela. No momento, só queremos começar a desenhar.
-			Para iniciar nossa caneta ou, usando a terminologia turtle graphics, nossa tartaruga,
-			instanciamos um objeto Turtle que chamaremos de t:
+			
 	
      %%%%%%%%=================================
     \section{Tipos de Dados de Cole\c{c}\~{a}o}
