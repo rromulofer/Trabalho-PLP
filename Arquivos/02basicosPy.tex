@@ -70,36 +70,33 @@ Neste capítulo é apresentado alguns conceitos básicos da linguagem de program
       \end{description}
 
      \begin{lstlisting}
-     >>> #Acessar caracteres
+     >>> #Inteiro positivo
      >>> moto = 'titan'
      >>> letra = moto[0]
      >>> print(letra)
      t
      
-    >>> # Indexando strings
-    >>> pyStr = "Programando"
-    >>> print (len(pyStr))
-    11
-    >>> print (pyStr)
-    Brasil verde amarelo
+     >>>#inteiro negativo
+     >>>moto = 'titan'
+     >>>letra = moto[-1]
+     >>>print(letra)
+     n
         \end{lstlisting}
 
 
-
-
       \item \textit{Operador de Fatias}\\
-      O operador de acesso a itens (caracteres individuais) tamb\'{e}m pode ser utilizado como operador de fatias, para extrair uma fatia inteira (subsequ\^{e}ncia) de caracteres de um string. O operador de Fatias possui tr\^{e}s sintaxes:\\
-      \texttt{seq[ inicio ]}\\
-      \texttt{seq[ inicio : fim ]} \\
-      \texttt{seq[ in\'{\i}cio : fim : step ]}\\
-      onde \texttt{in\'{\i}cio, fim} e \texttt{step} s\~{a}o n\'{u}meros inteiros.
+      O operador de acesso a itens de forma individual, também pode ser usado como operador de fatias, podendo assim extrair uma fatia inteira (subsequência) de caracteres de uma string. O operador de Fatias dispõe de três sintaxes:\\
+      \texttt{sequencia[ inicio ]}\\
+      \texttt{sequencia[ inicio : fim ]} \\
+      \texttt{sequencia[ inicio : fim : step ]}\\
+      onde \texttt{início, fim} e \texttt{step} são números inteiros.
      \begin{lstlisting}
-    >>> # Indexando strings
-    >>> pyStr = "Programando Python"
-    >>> print (len(pyStr))
-    11
-    >>> print (pyStr)
-    Brasil verde amarelo
+    >>> sequencia = 'Linguagem Python'
+    >>> print(sequencia[0:9])
+    Linguagem
+    
+    >>> print(sequencia[0:9:8])
+    Lm
         \end{lstlisting}
 
     \end{itemize}
