@@ -32,4 +32,10 @@ Justin Seitz.
   Pentesters}.
 \newblock No Starch Press, Sao Paulo, SP, 2015.
 
+\bibitem[Sev16]{Severance2016}
+Dr. Charles~Russell Severance.
+\newblock {\em Python for Everybody: Exploring Data in Python 3}.
+\newblock CreateSpace Independent Publishing Platform, Ann Arbor, MI, 1
+  edition, 2016.
+
 \end{thebibliography}
