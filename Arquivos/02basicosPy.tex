@@ -113,15 +113,36 @@ Neste capítulo é apresentado alguns conceitos básicos da linguagem de program
 			
 			\begin{lstlisting}
 	['verde ', 'amarelo', 'azul']
-	[1,2, 3, 4, 5]
+	[1, 2, 3, 4, 5]
 			\end{lstlisting}
-		A primeira lista do exemplo é formada por três strings, enquanto a segunda é formada por cinco números inteiros. Como já citado, é possível criar uma lista com elementos de tipos diferentes, como no exemplo a seguir.
+		A primeira lista do exemplo é formada por três strings, enquanto a segunda é formada por cinco números inteiros. Como já citado, é possível criar uma lista com elementos de tipos diferentes, como no exemplo a seguir, onde a lista contém uma lista, uma string, um float e um inteiro..
 			
 			\begin{lstlisting}
 	[[1, 2], 'amarelo', 3.14, 100]
 			\end{lstlisting}
-		A lista acima contém uma lista, uma string, um float e um inteiro.
 		
+		Também é possível atribuir valores de uma lista a variáveis.
+		\begin{lstlisting}
+	>>> numeros = [1, 2, 3, 4, 5]
+	>>> cores = ['verde ', 'amarelo', 'azul']
+	>>> lista_vazia = []
+	
+	>>> print(numeros, cores, lista_vazia)
+	[1, 2, 3, 4, 5] ['verde ', 'amarelo', 'azul'] []
+		\end{lstlisting}
+	
+	O acesso de elementos de uma lista é da mesma forma que o acesso de caracteres de uma string, o exemplo a seguir demonstra o funcionamento, o valor dentro dos [] é o índice.
+	\begin{lstlisting}
+		>>> print(cores[1])
+		amarelo
+	\end{lstlisting}
+	Como as listas são mutáveis, é possível alterar seu conteúdo, atribuindo novos valores a itens ou mudando a ordem desses itens. A seguir temos um exemplo se como realizar essa alteração, observe que os [] a esquerda na atribuição significa o elemento que será alterado.
+	\begin{lstlisting}
+	>>> numeros = [1, 2, 3, 4, 5] 
+	>>> numeros[0] = 6
+	>>> print(numeros)
+	[6, 2, 3, 4, 5]
+	\end{lstlisting}
      %%%%%%%%=================================
     \section{Tipos de Dados de Coleção}
     %%%%%%%%=================================
