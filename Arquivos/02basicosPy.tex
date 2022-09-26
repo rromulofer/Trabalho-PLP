@@ -150,11 +150,19 @@ Neste capítulo é apresentado alguns conceitos básicos da linguagem de program
 	Novamente como nas strings, o + é o operador utilizado para concatenar listas e o * repete a lista determinada a quantidade de vezes desejada.
 	
 	\begin{lstlisting}
+	>>> #concatenacao
 	>>> numeros = [1, 2, 3]
 	>>> cores = ['verde ', 'amarelo', 'azul']
 	>>> concatena = numeros + cores
 	>>> print(concatena)
 	[1, 2, 3, 'verde ', 'amarelo', 'azul']
+	
+	>>> #repeticao de lista
+	>>> print([1,2,3] * 3)
+	[1, 2, 3, 1, 2, 3, 1, 2, 3]
+	
+	>>> print(['vermelho'] * 3)
+	['vermelho', 'vermelho', 'vermelho']
 	\end{lstlisting}
 
 	\end{itemize}
