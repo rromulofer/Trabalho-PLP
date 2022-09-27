@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7) (preloaded format=pdflatex 2022.9.2)  26 SEP 2022 22:11
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7) (preloaded format=pdflatex 2022.9.2)  26 SEP 2022 22:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1353,7 +1353,7 @@ Package microtype Info: Loading generic protrusion settings for font family
  [9
 
  <./Pictures//capitulo.jpg>] [10]
-Underfull \hbox (badness 10000) in paragraph at lines 101--105
+Underfull \hbox (badness 10000) in paragraph at lines 115--119
 
  []
 
@@ -1362,7 +1362,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 101--105
 \openout6 = `Fulano-Python.brf'.
 
  [14]
-<Pictures//Bibliografia.png, id=302, 578.16pt x 225.4824pt>
+<Pictures//Bibliografia.png, id=315, 578.16pt x 225.4824pt>
 File: Pictures//Bibliografia.png Graphic file (type png)
 <use Pictures//Bibliografia.png>
 Package pdftex.def Info: Pictures//Bibliografia.png  used on input line 1.
@@ -1385,13 +1385,13 @@ Package rerunfilecheck Info: File `Fulano-Python.brf' has not changed.
 (rerunfilecheck)             Checksum: BA828F9A19456265B86D9A71D67EB390;618.
  ) 
 Here is how much of TeX's memory you used:
- 33263 strings out of 478338
- 647490 string characters out of 2837173
- 1290106 words of memory out of 3000000
- 50652 multiletter control sequences out of 15000+600000
+ 33281 strings out of 478338
+ 647720 string characters out of 2837173
+ 1283106 words of memory out of 3000000
+ 50657 multiletter control sequences out of 15000+600000
  550009 words of font info for 269 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 89i,13n,92p,1012b,1993s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 89i,13n,92p,1012b,1896s stack positions out of 10000i,1000n,20000p,200000b,80000s
  <C:\Users\User\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1
 095.pk>{C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc
 }<C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cm
@@ -1401,9 +1401,9 @@ r/uagk8a.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times
 /utmb8a.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/
 utmr8a.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/u
 tmri8a.pfb>
-Output written on Fulano-Python.pdf (17 pages, 1782638 bytes).
+Output written on Fulano-Python.pdf (17 pages, 1785416 bytes).
 PDF statistics:
- 554 PDF objects out of 1000 (max. 8388607)
- 177 named destinations out of 1000 (max. 500000)
+ 571 PDF objects out of 1000 (max. 8388607)
+ 190 named destinations out of 1000 (max. 500000)
  91910 words of extra memory for PDF output out of 106986 (max. 10000000)
 

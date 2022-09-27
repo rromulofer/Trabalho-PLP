@@ -46,7 +46,7 @@ Neste capítulo é apresentado alguns conceitos básicos da linguagem de program
 			\end{lstlisting}
 		
 			\subsection{Ponto Flutuante}
-			Float ou flutuante é um tipo usado para os números reais, pois eles possuem casas decimais, explicando melhor, são números com vírgula, como por exemplo peso ou altura. Em uma expressão numérica, se um dos valores for um float, o resultado da expressão será um float, o exemplo abaixo irá demonstrar.
+			O float ou ponto flutuante é um tipo de dado usado para os números reais, pois eles possuem casas decimais, explicando melhor, são números com vírgula, como por exemplo peso ou altura. Em uma expressão numérica, se um dos valores for um float, o resultado da expressão será um float, o exemplo abaixo irá demonstrar.
 			\begin{lstlisting}
    >>> #exemplo utilizando ponto flutuante
    >>> peso = 1.77
@@ -64,11 +64,25 @@ Neste capítulo é apresentado alguns conceitos básicos da linguagem de program
    >>> print(type(resultado))
    7.5
    <class 'float'>
-   
 			\end{lstlisting}
 		
 			\subsection{Booleano}
-			
+			O booleano é um tipo de dado lógico, utilizado parar armazenar valores lógicos, que no Python pode ser representado pelo valor True ou False. O True significando que o valor é verdadeiro e False significa que seu valor é falso. Seguimos com alguns exemplos do tipo de dado lógico booleano.
+			\begin{lstlisting}
+   >>> x = false
+   >>> print(type(x))
+   <class 'bool'>
+   
+   >>> #operacoes logicas
+   >>> a = 10 < 5
+   >>> print(a)
+   False
+   
+   >>> b = c = 5
+   >>> print(b <= c and c <= b)
+   True
+   
+			\end{lstlisting}
      %%%........................
             \subsection{String}
      %%%........................
