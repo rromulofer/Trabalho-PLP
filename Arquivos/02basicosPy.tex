@@ -29,12 +29,12 @@ Neste capítulo é apresentado alguns conceitos básicos da linguagem de program
 	O exemplo acima é o padrão recomendado pela documentação do Python.
 
     %%%%%%%%=================================
-    \section{Tipos de Dados B\'{a}sicos}
+    \section{Tipos de Dados Básicos}
     %%%%%%%%=================================
 	A linguagem de programação Python é de tipagem dinâmica, com isso não é preciso declarar o tipo de variável, o tipo será definido através do valor que a variável receber, isso possibilita que o tipo mude no decorrer da execução do programa. Vamos falar sobre esses tipos de dados a seguir, com base no autor \cite{Severance2016}.
 	
 			\subsection{Inteiro}
-			O tipo inteiro ou int representa caracteres numéricos inteiros positivos e negativos. Como já informado no texto anteriormente, na linguagem Python não é necessário informar o tipo da variável na sua declaração, o exemplo abaixo deixará isso mais claro.
+			O tipo inteiro ou \textit{int} representa caracteres numéricos inteiros positivos e negativos. Como já informado no texto anteriormente, na linguagem Python não é necessário informar o tipo da variável na sua declaração, o exemplo abaixo deixará isso mais claro.
 			\begin{lstlisting}
    >>> n1 = 5
    >>> n2 = 10
@@ -46,7 +46,7 @@ Neste capítulo é apresentado alguns conceitos básicos da linguagem de program
 			\end{lstlisting}
 		
 			\subsection{Ponto Flutuante}
-			O float ou ponto flutuante é um tipo de dado usado para os números reais, pois eles possuem casas decimais, explicando melhor, são números com vírgula, como por exemplo peso ou altura. Em uma expressão numérica, se um dos valores for um float, o resultado da expressão será um float, o exemplo abaixo irá demonstrar.
+			O \textit{float} ou ponto flutuante é um tipo de dado usado para os números reais, pois eles possuem casas decimais, explicando melhor, são números com vírgula, como por exemplo peso ou altura. Em uma expressão numérica, se um dos valores for um \textit{float}, o resultado da expressão será um \textit{float}, o exemplo abaixo irá demonstrar.
 			\begin{lstlisting}
    >>> #exemplo utilizando ponto flutuante
    >>> peso = 1.77
@@ -228,8 +228,19 @@ Neste capítulo é apresentado alguns conceitos básicos da linguagem de program
      %%%........................
             \subsection{Tipos Mapeamento}
      %%%........................
-
-
+	Na linguagem Python o dicionário é o único tipo de mapeamento nativo, seu funcionamento é como de uma lista, porém é mais geral. Explicando melhor, nas listas o índice necessariamente é um inteiro, já no dicionário o índice pode ser quase todos os tipos de dados. O dicionário é um mapeamento entre um conjunto de valores e índices, assim a chave que é o índice, é usado para localizar um valor. O dicionário é indicado por \textit{dict}.
+		\begin{lstlisting}
+  >>> #criando e printando um dicionario
+  >>> dic = {'gasolina': 5.30, 'alcool': 4.30, 'GNV': 4.50}
+  >>> print(dic)
+  {'gasolina': 5.3, 'alcool': 4.3, 'GNV': 4.5}
+  
+  >>> #criando um item que localiza pela chave 1
+  >>> dic_chave = dict()
+  >>> dic_chave[5] = 'cinco'
+  >>> print(dic_chave[1])
+  cinco
+	\end{lstlisting}
 
 
     %%%%%%%%=================================
