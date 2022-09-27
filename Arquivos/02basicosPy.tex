@@ -322,11 +322,21 @@ Neste capítulo é apresentado alguns conceitos básicos da linguagem de program
       %%%........................
             \subsection{Laço FOR}
      %%%........................
-
+	Segundo \cite{Severance2016} podemos criar um laço definido utilizando uma declaração \textit{for}, quando temos um conjunto de itens para iterar. É chamado de laço definido pois irá iterar sobre uma lista de itens até que o número de iterações seja o mesmo de itens da lista. Abaixo temos um exemplo de declaração \textit{for}, onde o \textit{for} e \textit{in} são palavras-chave reservadas do Python, colegas e colega são variáveis, colega em específico é uma \textit{variável de iteração} do laço \textit{for}, que percorre o conteúdo da variável amigos, mudando a cada iteração, assim controla quando o laço deve finalizar.
+	\begin{lstlisting}
+	>>> colegas = ['Marta', 'Lucas', 'Diego']
+	>>> for colega in colegas:
+	>>>	print('Bom dia', colega)
+	Bom dia Marta
+	Bom dia Lucas
+	Bom dia Diego
+		
+	\end{lstlisting}
+	Para o Python, a variável colegas é considerada uma lista contendo 3 cadeias de caracteres e um laço \textit{for}, que percorrerá a lista e executará o corpo 1 vez para cada palavra da lista, por isso a saída mostra a mensagem para todo os colegas da lista.
      %%%........................
             \subsection{Laço WHILE}
      %%%........................
-	A linguagem Python oferece vários recursos para tornar a automatização de tarefas repetitivas mais fácil. No Python, o \textit{while} é uma forma de iteração. A seguir temos uma demonstração de uso do \textit{while} e também podemos perceber novamente a clareza da sintaxe do Python, a declaração pode ser lida como uma frase usual.
+	De acordo com \cite{Severance2016} a linguagem Python oferece vários recursos para tornar a automatização de tarefas repetitivas mais fácil. No Python, o \textit{while} é uma forma de iteração. A seguir temos uma demonstração de uso do \textit{while} e também podemos perceber novamente a clareza da sintaxe do Python, a declaração pode ser lida como uma frase usual.
 	\begin{lstlisting}
 	>>> x = 2
 	>>> while x > 0:
@@ -335,7 +345,7 @@ Neste capítulo é apresentado alguns conceitos básicos da linguagem de program
 	>>> print('Go!!!')
 		
 	\end{lstlisting}
-	O fluxo de execução é, analisar a condição, assim retornando o valor \textit{True} ou \textit{False}, caso a condição seja falsa, sai da declaração e segue para as próximas declarações, já caso seja verdadeira, executa o bloco \textit{while} e retorna para o primeiro passo, que é analisar a condição. O bloco de instruções também pode ser chamado de \textit{laço}, visto que o terceiro e último passo retorna para o primeiro. A cada vez que as instruções internas de um laço são executadas, chamamos de \textit{iteração}. A \textit{variável de iteração} é a variável que tem seu valor modificado a cada execução do laço, assim controlando quando o laço deve acabar.
+	O fluxo de execução é, analisar a condição, assim retornando o valor \textit{True} ou \textit{False}, caso a condição seja falsa, sai da declaração e segue para as próximas declarações, já caso seja verdadeira, executa o bloco \textit{while} e retorna para o primeiro passo, que é analisar a condição. O bloco de instruções também pode ser chamado de \textit{laço}, visto que o terceiro e último passo retorna para o primeiro. A cada vez que as instruções internas de um laço são executadas, chamamos de \textit{iteração}. A \textit{variável de iteração} é a variável que tem seu valor modificado a cada execução do laço, assim controlando quando o laço deve acabar. Podemos chamar uma declaração \textit{while} de laço indefinido, pois a declaração continua iterando até que uma das condições seja falsa.
 	
 	
     %%%%%%%%======================

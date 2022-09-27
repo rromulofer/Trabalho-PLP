@@ -21,7 +21,7 @@
 \contentsline {section}{\numberline {2.4}Estrutura de Controle e Funções}{14}{section.2.4}%
 \contentsline {subsection}{\numberline {2.4.1}O comando IF}{14}{subsection.2.4.1}%
 \contentsline {subsection}{\numberline {2.4.2}Laço FOR}{15}{subsection.2.4.2}%
-\contentsline {subsection}{\numberline {2.4.3}Laço WHILE}{15}{subsection.2.4.3}%
+\contentsline {subsection}{\numberline {2.4.3}Laço WHILE}{16}{subsection.2.4.3}%
 \contentsline {section}{\numberline {2.5}Módulos e pacotes}{16}{section.2.5}%
 \contentsline {subsection}{\numberline {2.5.1}Módulos}{16}{subsection.2.5.1}%
 \contentsline {subsection}{\numberline {2.5.2}Pacotes}{16}{subsection.2.5.2}%
