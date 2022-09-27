@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7) (preloaded format=pdflatex 2022.9.2)  26 SEP 2022 22:38
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7) (preloaded format=pdflatex 2022.9.2)  26 SEP 2022 22:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1362,7 +1362,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 115--119
 \openout6 = `Fulano-Python.brf'.
 
  [14]
-<Pictures//Bibliografia.png, id=315, 578.16pt x 225.4824pt>
+<Pictures//Bibliografia.png, id=316, 578.16pt x 225.4824pt>
 File: Pictures//Bibliografia.png Graphic file (type png)
 <use Pictures//Bibliografia.png>
 Package pdftex.def Info: Pictures//Bibliografia.png  used on input line 1.
@@ -1382,7 +1382,7 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 20.
 ) [17] (Fulano-Python.aux)
 Package rerunfilecheck Info: File `Fulano-Python.brf' has not changed.
-(rerunfilecheck)             Checksum: BA828F9A19456265B86D9A71D67EB390;618.
+(rerunfilecheck)             Checksum: 5B90CC35D2CD9F59DA97BE3D90837D15;663.
  ) 
 Here is how much of TeX's memory you used:
  33281 strings out of 478338
@@ -1401,9 +1401,9 @@ r/uagk8a.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times
 /utmb8a.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/
 utmr8a.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/u
 tmri8a.pfb>
-Output written on Fulano-Python.pdf (17 pages, 1785416 bytes).
+Output written on Fulano-Python.pdf (17 pages, 1785618 bytes).
 PDF statistics:
- 571 PDF objects out of 1000 (max. 8388607)
+ 572 PDF objects out of 1000 (max. 8388607)
  190 named destinations out of 1000 (max. 500000)
  91910 words of extra memory for PDF output out of 106986 (max. 10000000)
 
