@@ -274,12 +274,21 @@ Neste capítulo é apresentado alguns conceitos básicos da linguagem de program
 			\begin{lstlisting}
 	>>> if A > 0
 	>>> 	print('A e um numero positivo')
+	
 			\end{lstlisting}
 			 Depois da declaração textit{if} temos uma expressão booleana, essa expressão é a condição. Como vemos no exemplo acima, a declaração termina com o símbolo de dois pontos (:) e a linha após o textit{if} devem ser indentadas. A condição lógica sendo verdadeira, logo a declaração é executada, caso seja falsa, a condição é ignorada.
 			 
 			 As declarações que se alongam por mais de uma linha e consistem em uma linha de cabeçalho e um bloco indentado, são chamadas de extit{declarações compostas}. O número de declarações possíveis não tem um limite, porém é obrigatório que tenha no mínimo uma. 
 			 \begin{itemize}
-			 	\item \textit{Execução alternativa} 
+			 	\item \textit{Execução alternativa}
+			 	 A \textit{Execução alternativa} é a segunda forma de declarar um \textit{if}, nessa declaração existem duas possibilidades e a sua condição, que irá determinar qual delas será executada. Abaixo temos uma demonstração se o número é par ou ímpar.
+			 	 \begin{lstlisting}
+	>>> if A%2 == 0
+	>>> 	print('A e Par')
+	>>> else:
+	>>>		print('A e Impar')
+	
+			 	 \end{lstlisting}
 			 \end{itemize}
 			  
       %%%........................
