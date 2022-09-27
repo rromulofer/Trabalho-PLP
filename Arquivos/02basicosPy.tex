@@ -297,16 +297,26 @@ Neste capítulo é apresentado alguns conceitos básicos da linguagem de program
 				
 				\begin{lstlisting}
 	>>> if n1 < n2:
-	>>>		print('n1 e menor que n2')
+	>>>	print('n1 e menor que n2')
 	>>> elif n1 > n2:
-	>>>		print('n1 e maior que n2)
+	>>>	print('n1 e maior que n2)
 	>>> else:
-	>>>		print('n1 e n2 sao iguais')
+	>>>	print('n1 e n2 sao iguais')
 					
 				\end{lstlisting}
 			
 				\item \textit{Condição aninhadas}
-				
+				Também podemos escrever com 3 ramos, assim a condição passará a ser aninhada, vamos exemplificar na demostração abaixo.
+					\begin{lstlisting}
+	>>> if n1 == n2:
+	>>>	print('n1 e n2 sao iguais')
+	>>> else:
+	>>>	if p1 < p2:	
+	>>>	    print('n1 e menor que n2)
+	>>>	else:
+	>>>	    print('n1 e maior que n2')
+					
+				\end{lstlisting}
 			 \end{itemize}
 			  
       %%%........................
@@ -316,7 +326,7 @@ Neste capítulo é apresentado alguns conceitos básicos da linguagem de program
      %%%........................
             \subsection{Laço WHILE}
      %%%........................
-
+	A linguagem Python oferece vários recursos para tornar a automatização de tarefas repetitivas mais fácil. Uma iteração na linguagem é a declaração \textit{while}. A seguir temos uma demonstração de uso 
 
     %%%%%%%%======================
     \section{Módulos e pacotes}

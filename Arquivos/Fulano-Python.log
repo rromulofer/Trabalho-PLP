@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7) (preloaded format=pdflatex 2022.8.22)  27 SEP 2022 13:36
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7) (preloaded format=pdflatex 2022.8.22)  27 SEP 2022 14:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1365,7 +1365,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 115--119
 \openout6 = `Fulano-Python.brf'.
 
  [16]
-<Pictures//Bibliografia.png, id=375, 578.16pt x 225.4824pt>
+<Pictures//Bibliografia.png, id=383, 578.16pt x 225.4824pt>
 File: Pictures//Bibliografia.png Graphic file (type png)
 <use Pictures//Bibliografia.png>
 Package pdftex.def Info: Pictures//Bibliografia.png  used on input line 1.
@@ -1388,10 +1388,10 @@ Package rerunfilecheck Info: File `Fulano-Python.brf' has not changed.
 (rerunfilecheck)             Checksum: 1D3C5AF9B1E0E98025EF2DCE5D4B0D71;1209.
  ) 
 Here is how much of TeX's memory you used:
- 33361 strings out of 478338
- 649264 string characters out of 2836700
+ 33373 strings out of 478338
+ 649417 string characters out of 2836700
  1285106 words of memory out of 3000000
- 50664 multiletter control sequences out of 15000+600000
+ 50668 multiletter control sequences out of 15000+600000
  551879 words of font info for 289 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  89i,13n,92p,1012b,1896s stack positions out of 10000i,1000n,20000p,200000b,80000s
@@ -1404,9 +1404,9 @@ antgar/uagk8a.pfb><C:/Users/romul/AppData/Local/Programs/MiKTeX/fonts/type1/urw
 /times/utmb8a.pfb><C:/Users/romul/AppData/Local/Programs/MiKTeX/fonts/type1/urw
 /times/utmr8a.pfb><C:/Users/romul/AppData/Local/Programs/MiKTeX/fonts/type1/urw
 /times/utmri8a.pfb>
-Output written on Fulano-Python.pdf (19 pages, 1803918 bytes).
+Output written on Fulano-Python.pdf (19 pages, 1805234 bytes).
 PDF statistics:
- 655 PDF objects out of 1000 (max. 8388607)
- 233 named destinations out of 1000 (max. 500000)
+ 665 PDF objects out of 1000 (max. 8388607)
+ 241 named destinations out of 1000 (max. 500000)
  91910 words of extra memory for PDF output out of 106986 (max. 10000000)
 
