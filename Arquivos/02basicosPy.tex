@@ -31,10 +31,10 @@ Neste capítulo é apresentado alguns conceitos básicos da linguagem de program
     %%%%%%%%=================================
     \section{Tipos de Dados Básicos}
     %%%%%%%%=================================
-	A linguagem de programação Python é de tipagem dinâmica, com isso não é preciso declarar o tipo de variável, o tipo será definido através do valor que a variável receber, isso possibilita que o tipo mude no decorrer da execução do programa. Vamos falar sobre esses tipos de dados a seguir, com base no autor \cite{Severance2016}.
+	A linguagem de programação Python é de tipagem dinâmica, com isso não é preciso declarar o tipo de variável, o tipo será definido através do valor que a variável receber, isso possibilita que o tipo mude no decorrer da execução do programa. Vamos falar sobre esses tipos de dados a seguir, com base nos autores \cite{Lutz2007}, \cite{Perkovic2016}, \cite{Severance2016}.
 	
 			\subsection{Inteiro}
-			O tipo inteiro ou \textit{int} representa caracteres numéricos inteiros positivos e negativos. Como já informado no texto anteriormente, na linguagem Python não é necessário informar o tipo da variável na sua declaração, o exemplo abaixo deixará isso mais claro.
+			De acordo com o autor \cite{Perkovic2016}, o tipo inteiro ou \textit{int} representa caracteres numéricos inteiros positivos e negativos. Como já informado no texto anteriormente, na linguagem Python não é necessário informar o tipo da variável na sua declaração, o exemplo abaixo deixará isso mais claro.
 			\begin{lstlisting}
    >>> n1 = 5
    >>> n2 = 10
@@ -46,7 +46,7 @@ Neste capítulo é apresentado alguns conceitos básicos da linguagem de program
 			\end{lstlisting}
 		
 			\subsection{Ponto Flutuante}
-			O \textit{float} ou ponto flutuante é um tipo de dado usado para os números reais, pois eles possuem casas decimais, explicando melhor, são números com vírgula, como por exemplo peso ou altura. Em uma expressão numérica, se um dos valores for um \textit{float}, o resultado da expressão será um \textit{float}, o exemplo abaixo irá demonstrar.
+			Com base no autor \cite{Perkovic2016}, \textit{float} ou ponto flutuante é um tipo de dado usado para os números reais, pois eles possuem casas decimais, explicando melhor, são números com vírgula, como por exemplo peso ou altura. Em uma expressão numérica, se um dos valores for um \textit{float}, o resultado da expressão será um \textit{float}, o exemplo abaixo irá demonstrar.
 			\begin{lstlisting}
    >>> #exemplo utilizando ponto flutuante
    >>> peso = 1.77
@@ -67,7 +67,7 @@ Neste capítulo é apresentado alguns conceitos básicos da linguagem de program
 			\end{lstlisting}
 		
 			\subsection{Booleano}
-			O booleano é um tipo de dado lógico, utilizado parar armazenar valores lógicos, que no Python pode ser representado pelo valor True ou False. O True significando que o valor é verdadeiro e False significa que seu valor é falso. Seguimos com alguns exemplos do tipo de dado lógico booleano.
+			Segundo \cite{Perkovic2016}, o booleano é um tipo de dado lógico, utilizado parar armazenar valores lógicos, que no Python pode ser representado pelo valor True ou False. O True significando que o valor é verdadeiro e False significa que seu valor é falso. Seguimos com alguns exemplos do tipo de dado lógico booleano.
 			\begin{lstlisting}
    >>> x = false
    >>> print(type(x))
@@ -86,7 +86,7 @@ Neste capítulo é apresentado alguns conceitos básicos da linguagem de program
      %%%........................
             \subsection{String}
      %%%........................
-            Resumidamente, uma string é uma sequência de caracteres imutável, não permitindo alterar uma string que já existe. É classificado como um item de dado simples. Para o Python, uma string é um array de caracteres ou qualquer grupo de caracteres escritos entre doble aspas ou aspas simples, por exemplo:
+            Com base no autor \cite{Severance2016}, uma string é uma sequência de caracteres imutável, não permitindo alterar uma string que já existe. É classificado como um item de dado simples. Para o Python, uma string é um array de caracteres ou qualquer grupo de caracteres escritos entre doble aspas ou aspas simples, por exemplo:
     \begin{lstlisting}
     >>> #Aspas simples
     >>> menssagem1 = 'Hello, World'
@@ -153,7 +153,7 @@ Neste capítulo é apresentado alguns conceitos básicos da linguagem de program
     \end{itemize}
 
 			\subsection{Lista}
-			Lista é uma sequência de objetos, diferente de uma string onde os valores são caracteres, na lista esses valores podem ser de qualquer tipo, até mesmo outras listas. Outra característica da lista que difere de uma string é que as listas são mutáveis, assim permitindo que o seu conteúdo seja modificado em qualquer momento, esse conteúdo das listas é chamado de elementos ou itens. Para criar uma lista é necessário colocar seus elementos apenas entre colchetes ou entre aspas dentro dos colchetes caso os elementos sejam caracteres.
+			Segundo o autor \cite{Severance2016}, lista é uma sequência de objetos, diferente de uma string onde os valores são caracteres, na lista esses valores podem ser de qualquer tipo, até mesmo outras listas. Outra característica da lista que difere de uma string é que as listas são mutáveis, assim permitindo que o seu conteúdo seja modificado em qualquer momento, esse conteúdo das listas é chamado de elementos ou itens. Para criar uma lista é necessário colocar seus elementos apenas entre colchetes ou entre aspas dentro dos colchetes caso os elementos sejam caracteres.
 			
 			\begin{lstlisting}
 	['verde ', 'amarelo', 'azul']
@@ -218,12 +218,20 @@ Neste capítulo é apresentado alguns conceitos básicos da linguagem de program
      %%%........................
             \subsection{Tipos Sequenciais}
      %%%........................
-
+	As tuplas são sequências de valores parecidas com a lista, com a diferença que as tuplas são imutáveis. Os valores para se armazenar podem ser de todos os tipos, são indexados usando números inteiros. Concluindo, a tupla é uma sequência de valores separados por vírgulas.
+	\begin{lstlisting}
+	>>> A = 123, 456, 'ola mundo'
+	>>> A[1]
+	456
+	
+		
+	\end{lstlisting}
+	
 
      %%%........................
             \subsection{Tipos Conjunto}
      %%%........................
-	No Python um conjunto ou \textit{set} é uma coleção de itens fora de ordem, não podendo incluir itens duplicados e os itens também devem ser objetos imutáveis, a linguagem oferece diferentes formas eficazes para criação e manipulação desses \textit{sets}, assim admitindo operadores para interseção, união, inclusão em conjunto, diferença simétrica, entre outros operadores disponíveis. Os \textit{sets} são definidos utilizando a mesma sintaxe utilizada para os conjuntos matemáticos, sendo itens separados por virgula e em sequência, sendo delimitados por {}.
+	No Python um conjunto ou \textit{set} é uma coleção de itens fora de ordem, não podendo incluir itens duplicados. Desde que sejam imutáveis, as chaves podem ser de qualquer tipo. A linguagem oferece diferentes formas eficazes para criação e manipulação desses \textit{sets}, assim admitindo operadores para interseção, união, inclusão em conjunto, diferença simétrica, entre outros operadores disponíveis. Os \textit{sets} são definidos utilizando a mesma sintaxe utilizada para os conjuntos matemáticos, sendo itens separados por virgula e em sequência, sendo delimitados por {}.
 	\begin{lstlisting}
 	>>> #criando e printando um conjunto
 	>>> anotacao = {'123-456-789', '987-654-321',}
