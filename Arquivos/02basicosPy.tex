@@ -357,7 +357,7 @@ Neste capítulo é apresentado alguns conceitos básicos da linguagem de program
        %%%........................
             \subsection{Módulos}
      %%%........................
-	Os módulos são arquivos que contém definições e instruções, são utilizados em uma execução ou script interativa do interpretador. Essas definições podem ser importadas para o módulo principal ou outro módulo. O arquivo tem mesmo nome do módulo porém com o acréscimo do \textit{.py}. O próprio Python possui uma variedade de módulos na sua biblioteca padrão. Após a importação do módulo podemos usar as instruções e definições que estão contidas nele. Abaixo um exemplo prático.
+	Os módulos são arquivos que contém definições e instruções, são utilizados em uma execução ou script interativa do interpretador. Essas definições podem ser importadas para o módulo principal ou outro módulo. O arquivo tem mesmo nome do módulo porém com o acréscimo do \textit{.py}. O próprio Python possui uma variedade de módulos na sua biblioteca padrão. Após a importação do módulo podemos usar as instruções e definições que estão contidas nele. Abaixo um exemplo prático. \cite{Perkovic2016}
 	\begin{lstlisting}
 	>>> # Modulo de numeros Fibonacci 
 	>>> def fib(n):   
@@ -396,7 +396,13 @@ Neste capítulo é apresentado alguns conceitos básicos da linguagem de program
           %%%........................
             \subsection{Pacotes}
      %%%........................
-	Uma coleção de módulos é considerado um pacote, são utilizados quando os módulos tomam grandes proporções de tamanho, podendo assim dividir esses módulos em pacotes. Para evitar que, os autores de módulos se preocupem com colisão entre os nomes de variáveis globais dos seus módulos e de outros autores, é necessário usar os pacotes. Enquanto os módulos são estruturados em arquivos, os pacotes são estruturados em pastas.
+	Uma coleção de módulos é considerado um pacote, são utilizados quando os módulos tomam grandes proporções de tamanho, podendo assim dividir esses módulos em pacotes. Para evitar que, os autores de módulos se preocupem com colisão entre os nomes de variáveis globais dos seus módulos e de outros autores, é necessário usar os pacotes.
+	
+	Enquanto os módulos são estruturados em arquivos, os pacotes são estruturados em pastas. A ferramenta utilizada para gerenciar esses pacotes no Python é o PIP, que significa em português, Índice de Pacotes Python. O PIP permite que através dele pacotes sejam instalados, atualizados e removidos em projetos. Seu uso é simples, basta utilizar o comando \textit{pip install} e o nome do pacote desejado. Exemplo:
+	\begin{lstlisting}
+	>>> pip install NumPy
+	\end{lstlisting}
+	Em seguida o gerenciador fará o download e a instalação do pacote. Alguns dos pacotes mais utilizados no Python são: NumPy, Pillow, Matplotlib, OpenCV, Delorean, Scipy, Pandas, Requests, Fire, etc.
 
 
 
