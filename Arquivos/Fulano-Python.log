@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7) (preloaded format=pdflatex 2022.9.2)  27 SEP 2022 20:32
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7) (preloaded format=pdflatex 2022.9.2)  27 SEP 2022 23:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1357,19 +1357,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 115--119
 
  []
 
-[11] [12] [13] [14] [15]) (Fulano-Python.bbl (Fulano-Python.brf)
+[11] [12] [13] [14] [15] [16]) (Fulano-Python.bbl (Fulano-Python.brf)
 \tf@brf=\write6
 \openout6 = `Fulano-Python.brf'.
 
- [16]
-<Pictures//Bibliografia.png, id=398, 578.16pt x 225.4824pt>
+ [17]
+[18
+
+]
+<Pictures//Bibliografia.png, id=406, 578.16pt x 225.4824pt>
 File: Pictures//Bibliografia.png Graphic file (type png)
 <use Pictures//Bibliografia.png>
 Package pdftex.def Info: Pictures//Bibliografia.png  used on input line 1.
 (pdftex.def)             Requested size: 597.50787pt x 233.04079pt.
-) [17
-
- <./Pictures//Bibliografia.png>] [18
+) [19 <./Pictures//Bibliografia.png>] [20
 
 ]
 No file Fulano-Python.ind.
@@ -1380,13 +1381,13 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 20.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 20.
-) [19] (Fulano-Python.aux)
+) [21] (Fulano-Python.aux)
 Package rerunfilecheck Info: File `Fulano-Python.brf' has not changed.
 (rerunfilecheck)             Checksum: A9DD54034F77AFEDD1D9E7D0AEAF46FE;1323.
  ) 
 Here is how much of TeX's memory you used:
- 33405 strings out of 478338
- 649219 string characters out of 2837173
+ 33407 strings out of 478338
+ 649233 string characters out of 2837173
  1285106 words of memory out of 3000000
  50674 multiletter control sequences out of 15000+600000
  552895 words of font info for 298 fonts, out of 8000000 for 9000
@@ -1401,9 +1402,9 @@ r/uagk8a.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times
 /utmb8a.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/
 utmr8a.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/u
 tmri8a.pfb>
-Output written on Fulano-Python.pdf (19 pages, 1810732 bytes).
+Output written on Fulano-Python.pdf (21 pages, 1812131 bytes).
 PDF statistics:
- 685 PDF objects out of 1000 (max. 8388607)
- 254 named destinations out of 1000 (max. 500000)
+ 693 PDF objects out of 1000 (max. 8388607)
+ 256 named destinations out of 1000 (max. 500000)
  91910 words of extra memory for PDF output out of 106986 (max. 10000000)
 
