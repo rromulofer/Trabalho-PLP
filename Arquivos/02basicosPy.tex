@@ -357,57 +357,46 @@ Neste capítulo é apresentado alguns conceitos básicos da linguagem de program
        %%%........................
             \subsection{Módulos}
      %%%........................
-	Os módulos são arquivos que contém definições e instruções, são utilizados em uma execução ou script interativa do interpretador. Essas definições podem ser importadas para o módulo principal ou outro módulo. O arquivo tem mesmo nome do módulo porém com o acrescimo do \textit{.py}. O próprio Python possui uma variedade de módulos na sua biblioteca padrão. Após a importação do módulo podemos usar as instruções e definições que estão contidas nele. Abaixo um exemplo prático.
+	Os módulos são arquivos que contém definições e instruções, são utilizados em uma execução ou script interativa do interpretador. Essas definições podem ser importadas para o módulo principal ou outro módulo. O arquivo tem mesmo nome do módulo porém com o acréscimo do \textit{.py}. O próprio Python possui uma variedade de módulos na sua biblioteca padrão. Após a importação do módulo podemos usar as instruções e definições que estão contidas nele. Abaixo um exemplo prático.
 	\begin{lstlisting}
-		>>> # Fibonacci numbers module
-		>>> def fib(n):    # write Fibonacci series up to n
-		>>> a, b = 0, 1
-		>>> while a < n:
-		>>> print(a, end=' ')
-		>>> a, b = b, a+b
-		>>> print()
+	>>> # Modulo de numeros Fibonacci 
+	>>> def fib(n):   
+	>>>	x, y = 0, 1
+	>>>	while x < n:
+	>>>		print(x, end=' ')
+	>>>		x, y = y, x+y
+	>>>	print()
 		
-		>>> def fib2(n):   # return Fibonacci series up to n
-		result = []
-		>>> a, b = 0, 1
-		>>> while a < n:
-		>>> result.append(a)
-		>>> a, b = b, a+b
-		return result
-		
+	>>> def fib2(n):   
+	>>>	resultado = []
+	>>>	x, y = 0, 1
+	>>>	while x < n:
+	>>>		resultado.append(x)
+	>>>		x, y = y, x+y
+	>>>	return resultado
 	\end{lstlisting}
 
-
+	Esse deverá ser o conteúdo do arquivo \textit{fibo.py}, após é necessário importar esse módulo pelo interpretador, para isso basta inserir o comando:
+	
+	\begin{lstlisting}
+	>>> import fibo
+	\end{lstlisting}
+	Com isso os nomes das funções definidas não serão adicionados, apenas o nome do módulo é acrescentado. Utilizando o nome é possível acessar as funções.
+	\begin{lstlisting}
+	>>> fibo.fib(1000)
+	0 1 1 2 3 5 8 13 21 34 55 89 144 233 377 610 987
+	
+	>>> fibo.fib2(100)
+	[0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89]
+	
+	>>> fibo.__name__
+	'fibo'
+	\end{lstlisting}
+	Como dito, o Python oferece uma diversidade de módulos na biblioteca padrão. No próprio interpretador existem alguns desses módulos, permitindo o acesso a operações de fora do núcleo da linguagem. O \textit{winreg} e \textit{sys} são um exemplos de módulos padrão.
           %%%........................
             \subsection{Pacotes}
      %%%........................
-
-
-
-
-
-
-    Código fonte para a linguagem Python:
-    \begin{lstlisting}
-    number_1 = int(input('Ingresse o primeiro numero: '))
-    number_2 = int(input('Ingresse o segundo numero: '))
-
-    # Soma
-    print('{} + {} = '.format(number_1, number_2))
-    print(number_1 + number_2)
-
-    # Substra\c{c}\~{a}o
-    print('{} - {} = '.format(number_1, number_2))
-    print(number_1 - number_2)
-
-    # Multiplica\c{c}\~{a}o
-    print('{} * {} = '.format(number_1, number_2))
-    print(number_1 * number_2)
-
-    # Divis\~{a}o
-    print('{} / {} = '.format(number_1, number_2))
-    print(number_1 / number_2)
-    \end{lstlisting}
+	Uma coleção de módulos é considerado um pacote, são utilizados quando os módulos tomam grandes proporções de tamanho, podendo assim dividir esses módulos em pacotes. Para evitar que, os autores de módulos se preocupem com colisão entre os nomes de variáveis globais dos seus módulos e de outros autores, é necessário usar os pacotes. Os módulos são estruturados em pastas.
 
 
 
