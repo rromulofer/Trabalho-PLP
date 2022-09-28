@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7) (preloaded format=pdflatex 2022.9.2)  28 SEP 2022 00:44
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7) (preloaded format=pdflatex 2022.9.2)  28 SEP 2022 00:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1365,7 +1365,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 115--119
 [18
 
 ]
-<Pictures//Bibliografia.png, id=423, 578.16pt x 225.4824pt>
+<Pictures//Bibliografia.png, id=425, 578.16pt x 225.4824pt>
 File: Pictures//Bibliografia.png Graphic file (type png)
 <use Pictures//Bibliografia.png>
 Package pdftex.def Info: Pictures//Bibliografia.png  used on input line 1.
@@ -1387,13 +1387,13 @@ Package rerunfilecheck Warning: File `Fulano-Python.brf' has changed.
 (rerunfilecheck)                Rerun to get bibliographical references right.
 
 Package rerunfilecheck Info: Checksums for `Fulano-Python.brf':
-(rerunfilecheck)             Before: E45331DE10C0D07A7974EA16C2340D9B;1643
-(rerunfilecheck)             After:  915427233512B4816BC0C593DE0FFC13;1694.
+(rerunfilecheck)             Before: 569A39E2AFF2A4E7C0BED03B35B26541;1736
+(rerunfilecheck)             After:  3028251BF4A7E2FEE55172905C43B716;1792.
  ) 
 Here is how much of TeX's memory you used:
  33428 strings out of 478338
  649484 string characters out of 2837173
- 1286104 words of memory out of 3000000
+ 1286105 words of memory out of 3000000
  50682 multiletter control sequences out of 15000+600000
  553215 words of font info for 300 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1407,9 +1407,9 @@ r/uagk8a.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times
 /utmb8a.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/
 utmr8a.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/u
 tmri8a.pfb>
-Output written on Fulano-Python.pdf (21 pages, 1817278 bytes).
+Output written on Fulano-Python.pdf (21 pages, 1817852 bytes).
 PDF statistics:
- 712 PDF objects out of 1000 (max. 8388607)
+ 715 PDF objects out of 1000 (max. 8388607)
  266 named destinations out of 1000 (max. 500000)
  91910 words of extra memory for PDF output out of 106986 (max. 10000000)
 
