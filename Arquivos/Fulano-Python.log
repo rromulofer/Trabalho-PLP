@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7) (preloaded format=pdflatex 2022.9.2)  27 SEP 2022 23:02
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7) (preloaded format=pdflatex 2022.9.2)  27 SEP 2022 23:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1357,15 +1357,26 @@ Underfull \hbox (badness 10000) in paragraph at lines 115--119
 
  []
 
-[11] [12] [13] [14] [15] [16]) (Fulano-Python.bbl (Fulano-Python.brf)
+[11] [12] [13] [14] [15]
+Overfull \hbox (28.14536pt too wide) in paragraph at lines 363--364
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (34.93546pt too wide) in paragraph at lines 370--371
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][] 
+ []
+
+[16]) (Fulano-Python.bbl (Fulano-Python.brf)
 \tf@brf=\write6
 \openout6 = `Fulano-Python.brf'.
 
- [17]
-[18
+ [17] [18
 
 ]
-<Pictures//Bibliografia.png, id=406, 578.16pt x 225.4824pt>
+<Pictures//Bibliografia.png, id=422, 578.16pt x 225.4824pt>
 File: Pictures//Bibliografia.png Graphic file (type png)
 <use Pictures//Bibliografia.png>
 Package pdftex.def Info: Pictures//Bibliografia.png  used on input line 1.
@@ -1386,11 +1397,11 @@ Package rerunfilecheck Info: File `Fulano-Python.brf' has not changed.
 (rerunfilecheck)             Checksum: A9DD54034F77AFEDD1D9E7D0AEAF46FE;1323.
  ) 
 Here is how much of TeX's memory you used:
- 33407 strings out of 478338
- 649233 string characters out of 2837173
+ 33431 strings out of 478338
+ 649554 string characters out of 2837173
  1285106 words of memory out of 3000000
- 50674 multiletter control sequences out of 15000+600000
- 552895 words of font info for 298 fonts, out of 8000000 for 9000
+ 50679 multiletter control sequences out of 15000+600000
+ 553120 words of font info for 300 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  89i,13n,92p,1012b,1896s stack positions out of 10000i,1000n,20000p,200000b,80000s
  <C:\Users\User\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1
@@ -1402,9 +1413,9 @@ r/uagk8a.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times
 /utmb8a.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/
 utmr8a.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/u
 tmri8a.pfb>
-Output written on Fulano-Python.pdf (21 pages, 1812131 bytes).
+Output written on Fulano-Python.pdf (21 pages, 1815001 bytes).
 PDF statistics:
- 693 PDF objects out of 1000 (max. 8388607)
- 256 named destinations out of 1000 (max. 500000)
+ 712 PDF objects out of 1000 (max. 8388607)
+ 272 named destinations out of 1000 (max. 500000)
  91910 words of extra memory for PDF output out of 106986 (max. 10000000)
 

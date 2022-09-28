@@ -357,7 +357,25 @@ Neste capítulo é apresentado alguns conceitos básicos da linguagem de program
        %%%........................
             \subsection{Módulos}
      %%%........................
-	Os módulos são arquivos que contém definições e são utilizados em uma execução ou script interativa do interpretador. Essas definições podem ser importadas para o módulo principal ou outro módulo.
+	Os módulos são arquivos que contém definições e instruções, são utilizados em uma execução ou script interativa do interpretador. Essas definições podem ser importadas para o módulo principal ou outro módulo. O arquivo tem mesmo nome do módulo porém com o acrescimo do \textit{.py}. O próprio Python possui uma variedade de módulos na sua biblioteca padrão. Após a importação do módulo podemos usar as instruções e definições que estão contidas nele. Abaixo um exemplo prático.
+	\begin{lstlisting}
+		>>> # Fibonacci numbers module
+		>>> def fib(n):    # write Fibonacci series up to n
+		>>> a, b = 0, 1
+		>>> while a < n:
+		>>> print(a, end=' ')
+		>>> a, b = b, a+b
+		>>> print()
+		
+		>>> def fib2(n):   # return Fibonacci series up to n
+		result = []
+		>>> a, b = 0, 1
+		>>> while a < n:
+		>>> result.append(a)
+		>>> a, b = b, a+b
+		return result
+		
+	\end{lstlisting}
 
 
           %%%........................
