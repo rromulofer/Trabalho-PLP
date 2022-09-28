@@ -12,16 +12,16 @@ Neste capítulo é apresentado alguns conceitos básicos da linguagem de program
     %%%%%%%%=================================
     \section{Variáveis e constantes}
     %%%%%%%%=================================
-	De acordo com \cite{Severance2016} o Python possui um ótimo recurso que é a manipulação de variáveis, essas variáveis são nomes atribuídos a valores, que possuem como propósito armazenar valores de forma que mais tarde possam ser recuperados. 
-	Para criar variáveis é necessário fazer uma declaração por atribuição e atribuir valores a essas novas variáveis. 
+	De acordo com \cite{Severance2016} o Python possui um ótimo recurso, a manipulação de variáveis, essas variáveis são nomes atribuídos a valores, que possuem como propósito armazenar valores de forma que possam ser recuperados mais tarde. 
+	Para criar variáveis é necessário fazer uma declaração por atribuição e assim atribuir valores a essas novas variáveis. 
 	\begin{lstlisting}
 	>>> texto = 'Hello, world!'
 	>>> pi = 3,14159265
 	>>> numero = 1500
 	\end{lstlisting}
-	No exemplo acima podemos observar a declaração por atribuição de 3 variáveis diferentes. A primeira está atribui uma string para uma variável chamada texto, a segunda variável atribui o valor 3,14 que é conhecido como Pi e a variável possui o nome pi. Já a terceira variável numero está recebendo o valor 1500, também por atribuição. Os usuários tem uma grande liberdade na hora de escolher os nomes das variáveis, apenas não sendo possível usar palavras reservadas da linguagem como nome de uma variável.
+	No exemplo acima podemos observar a declaração por atribuição de 3 variáveis diferentes. A primeira está atribuindo uma string para uma variável, chamada texto, a segunda variável atribui o valor 3,14 e a variável possui o nome pi. Já a terceira variável, chamada numero está recebendo o valor 1500, também por atribuição. Os usuários tem uma grande liberdade na hora de escolher os nomes das variáveis, apenas não sendo possível usar palavras reservadas da linguagem como nome de uma variável.
 	
-	As constantes na linguagem Python, diferente de outras linguagens de programação, não podem ser criadas de forma que seu valor não seja alterado. Na documentação existem algumas orientações caso o usuário queira criar uma constante com sintaxe de variável, uma delas é que todas as letras da variável que será utilizada como constante, deveram ser maiúsculas, em casos do nome desejado possuir espaço, deverá ser utilizado underline.
+	As constantes na linguagem Python, diferente de outras linguagens de programação, não podem ser criadas de forma que seu valor não seja alterado. Na documentação existem algumas orientações caso o usuário queira criar uma constante com sintaxe de variável, uma delas é que todas as letras da variável que será utilizada como constante, deverão ser maiúsculas, em casos do nome desejado possuir espaço, deverá ser utilizado underline.
 	\begin{lstlisting}
 	>>> PRECO = 5
 	>>> PRECO_PRODUTO = 2
@@ -46,7 +46,7 @@ Neste capítulo é apresentado alguns conceitos básicos da linguagem de program
 			\end{lstlisting}
 		
 			\subsection{Ponto Flutuante}
-			Com base no \cite{Perkovic2016}, \textit{float} ou ponto flutuante é um tipo de dado usado para os números reais, pois eles possuem casas decimais, explicando melhor, são números com vírgula, como por exemplo peso ou altura. Em uma expressão numérica, se um dos valores for um \textit{float}, o resultado da expressão será um \textit{float}, o exemplo abaixo irá demonstrar.
+			Com base no \cite{Perkovic2016}, o \textit{float} ou ponto flutuante é um tipo de dado usado para os números reais, pois eles possuem casas decimais, explicando melhor, são números com vírgula, como por exemplo um peso ou altura. Em uma expressão numérica, se um dos valores for um \textit{float}, o resultado da expressão será um \textit{float}, o exemplo abaixo irá demonstrar.
 			\begin{lstlisting}
    >>> #exemplo utilizando ponto flutuante
    >>> peso = 1.77
@@ -86,7 +86,7 @@ Neste capítulo é apresentado alguns conceitos básicos da linguagem de program
      %%%........................
             \subsection{String}
      %%%........................
-            Com base no autor \cite{Severance2016}, uma string é uma sequência de caracteres imutável, não permitindo alterar uma string que já existe. É classificado como um item de dado simples. Para o Python, uma string é um array de caracteres ou qualquer grupo de caracteres escritos entre doble aspas ou aspas simples, por exemplo:
+            Com base no autor \cite{Severance2016}, uma string é uma sequência de caracteres imutável, não permitindo alterar uma string que já existe. É classificado como um item de dado simples. Para o Python, uma string é um array de caracteres ou qualquer grupo de caracteres escritos entre aspas duplas ou aspas simples, por exemplo:
     \begin{lstlisting}
     >>> #Aspas simples
     >>> menssagem1 = 'Hello, World'
@@ -113,7 +113,7 @@ Neste capítulo é apresentado alguns conceitos básicos da linguagem de program
     \end{lstlisting}
 
       \item \textit{Operador de indexação}\\
-      Utilizando o operador de indexação é possível acessar os caracteres um por um, utilizando o operador colchetes, o número dentro do colchetes é denominado index, usado para indicar a posição do caractere da variável e atribuir esse caractere à uma variável.
+      Utilizando o operador de indexação, é possível acessar os caracteres um por um, utilizando o operador colchetes, o número dentro do colchetes é denominado index, usado para indicar a posição do caractere da variável e atribuir esse caractere à uma variável.
       Existem duas formas de indexar os caracteres de um string em Python:\\
       \begin{description}
         \item[Index com inteiros positivos] indexando a partir da esquerda, começando com 0, sendo o 0 o index do primeiro caractere da sequência.
