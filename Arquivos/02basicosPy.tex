@@ -153,7 +153,7 @@ Neste capítulo é apresentado alguns conceitos básicos da linguagem de program
     \end{itemize}
 
 			\subsection{Lista}
-			Segundo o autor \cite{Severance2016}, lista é uma sequência de objetos, diferente de uma string onde os valores são caracteres, na lista esses valores podem ser de qualquer tipo, até mesmo outras listas. Outra característica da lista que difere de uma string é que as listas são mutáveis, assim permitindo que o seu conteúdo seja modificado em qualquer momento, esse conteúdo das listas é chamado de elementos ou itens. Para criar uma lista é necessário colocar seus elementos apenas entre colchetes ou entre aspas dentro dos colchetes caso os elementos sejam caracteres.
+			Segundo o autor \cite{Severance2016}, lista é uma sequência de objetos, diferente de uma string onde os valores são caracteres, na lista esses valores podem ser de qualquer tipo, até mesmo outras listas. Outra característica da lista que difere de uma string, as listas são mutáveis, assim permitindo que o seu conteúdo seja modificado em qualquer momento, esse conteúdo das listas é chamado de elementos ou itens. Para criar uma lista é necessário colocar seus elementos apenas entre colchetes ou entre aspas dentro dos colchetes caso os elementos sejam caracteres.
 			
 			\begin{lstlisting}
 	['verde ', 'amarelo', 'azul']
@@ -218,7 +218,7 @@ Neste capítulo é apresentado alguns conceitos básicos da linguagem de program
      %%%........................
             \subsection{Tipos Sequenciais}
      %%%........................
-	 Com base em \cite{Severance2016}, as tuplas são sequências de valores parecidas com a lista, com a diferença que as tuplas são imutáveis, porém é possível cria uma tupla que contenha objetos mutáveis, um exemplo seria uma lista. Os valores para se armazenar podem ser de todos os tipos, são indexados usando números inteiros. A tupla é uma sequência de valores separados por vírgulas.
+	 Com base em \cite{Severance2016}, as tuplas são sequências de valores parecidas com a lista, com a diferença que as tuplas são imutáveis, porém é possível criar uma tupla que contenha objetos mutáveis, um exemplo seria uma lista. Os valores para se armazenar podem ser de todos os tipos, são indexados usando números inteiros. A tupla é uma sequência de valores separados por vírgulas.
 	\begin{lstlisting}
 	>>> A = 123, 456, 'ola mundo'
 	>>> A[1]
@@ -278,7 +278,7 @@ Neste capítulo é apresentado alguns conceitos básicos da linguagem de program
 			\end{lstlisting}
 			 Depois da declaração textit{if} temos uma expressão booleana, essa expressão é a condição. Como vemos no exemplo acima, a declaração termina com o símbolo de dois pontos (:) e a linha após o textit{if} devem ser indentadas. A condição lógica sendo verdadeira, logo a declaração é executada, caso seja falsa, a condição é ignorada.
 			 
-			 As declarações que se alongam por mais de uma linha e consistem em uma linha de cabeçalho e um bloco indentado, são chamadas de extit{declarações compostas}. O número de declarações possíveis não tem um limite, porém é obrigatório que tenha no mínimo uma. 
+			 As declarações que se alongam por mais de uma linha e consistem em uma linha de cabeçalho e um bloco indentado, são chamadas de textit{declarações compostas}. O número de declarações possíveis não tem um limite, porém é obrigatório que tenha no mínimo uma. 
 			 
 			 \begin{itemize}
 			 	\item \textit{Execução alternativa}
@@ -322,7 +322,7 @@ Neste capítulo é apresentado alguns conceitos básicos da linguagem de program
       %%%........................
             \subsection{Laço FOR}
      %%%........................
-	Segundo \cite{Severance2016}, podemos criar um laço definido utilizando uma declaração \textit{for}, quando temos um conjunto de itens para iterar. É chamado de laço definido pois irá iterar sobre uma lista de itens até que o número de iterações seja o mesmo de itens da lista. Abaixo temos um exemplo de declaração \textit{for}, onde o \textit{for} e \textit{in} são palavras-chave reservadas do Python, colegas e colega são variáveis, colega em específico é uma \textit{variável de iteração} do laço \textit{for}, que percorre o conteúdo da variável amigos, mudando a cada iteração, assim controla quando o laço deve finalizar.
+	Segundo \cite{Severance2016}, podemos criar um laço definido utilizando uma declaração \textit{for}, quando temos um conjunto de itens para iterar. É chamado de laço definido, pois irá iterar sobre uma lista de itens até que o número de iterações seja o mesmo de itens da lista. Abaixo temos um exemplo de declaração \textit{for}, onde o \textit{for} e \textit{in} são palavras-chave reservadas do Python, colegas e colega são variáveis, colega em específico é uma \textit{variável de iteração} do laço \textit{for}, que percorre o conteúdo da variável amigos, mudando a cada iteração, assim controla quando o laço deve finalizar.
 	\begin{lstlisting}
 	>>> colegas = ['Marta', 'Lucas', 'Diego']
 	>>> for colega in colegas:
@@ -357,7 +357,7 @@ Neste capítulo é apresentado alguns conceitos básicos da linguagem de program
        %%%........................
             \subsection{Módulos}
      %%%........................
-	Baseado em \cite{Perkovic2016}, os módulos são arquivos que contém definições e instruções, são utilizados em uma execução ou script interativa do interpretador. Essas definições podem ser importadas para o módulo principal ou outro módulo. O arquivo tem mesmo nome do módulo porém com o acréscimo do \textit{.py}. O próprio Python possui uma variedade de módulos na sua biblioteca padrão. Após a importação do módulo podemos usar as instruções e definições que estão contidas nele. Abaixo um exemplo prático. 
+	Baseado em \cite{Perkovic2016}, os módulos são arquivos que contém definições e instruções, são utilizados em uma execução ou script interativa do interpretador. Essas definições podem ser importadas para o módulo principal ou outro módulo. O arquivo tem o mesmo nome do módulo, porém com o acréscimo do \textit{.py}. O próprio Python possui uma variedade de módulos na sua biblioteca padrão. Após a importação do módulo podemos usar as instruções e definições que estão contidas nele. Abaixo um exemplo prático. 
 	\begin{lstlisting}
 	>>> # Modulo de numeros Fibonacci 
 	>>> def fib(n):   
@@ -376,7 +376,7 @@ Neste capítulo é apresentado alguns conceitos básicos da linguagem de program
 	>>>	return resultado
 	\end{lstlisting}
 
-	Esse deverá ser o conteúdo do arquivo \textit{fibo.py}, após é necessário importar esse módulo pelo interpretador, para isso basta inserir o comando:
+	Esse deverá ser o conteúdo do arquivo \textit{fibo.py}, após, é necessário importar esse módulo pelo interpretador, para isso basta inserir o comando:
 	
 	\begin{lstlisting}
 	>>> import fibo
@@ -398,7 +398,7 @@ Neste capítulo é apresentado alguns conceitos básicos da linguagem de program
      %%%........................
 	Segundo \cite{Borges2014}, uma coleção de módulos é considerado um pacote, são utilizados quando os módulos tomam grandes proporções de tamanho, podendo assim dividir esses módulos em pacotes. Para evitar que, os autores de módulos se preocupem com colisão entre os nomes de variáveis globais dos seus módulos e de outros autores, é necessário usar os pacotes.
 	
-	Enquanto os módulos são estruturados em arquivos, os pacotes são estruturados em pastas. A ferramenta utilizada para gerenciar esses pacotes no Python é o PIP, que significa em português, Índice de Pacotes Python. O PIP permite que através dele pacotes sejam instalados, atualizados e removidos em projetos. Seu uso é simples, basta utilizar o comando \textit{pip install} e o nome do pacote desejado. Exemplo:
+	Enquanto os módulos são estruturados em arquivos, os pacotes são estruturados em pastas. A ferramenta utilizada para gerenciar esses pacotes no Python é o PIP, que significa em português, Índice de Pacotes Python. O PIP permite que através dele, os pacotes sejam instalados, atualizados e removidos em projetos. Seu uso é simples, basta utilizar o comando \textit{pip install} e o nome do pacote desejado. Exemplo:
 	\begin{lstlisting}
 	>>> pip install NumPy
 	\end{lstlisting}
