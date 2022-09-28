@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7) (preloaded format=pdflatex 2022.9.2)  28 SEP 2022 00:53
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7) (preloaded format=pdflatex 2022.9.2)  28 SEP 2022 00:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1365,7 +1365,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 115--119
 [18
 
 ]
-<Pictures//Bibliografia.png, id=425, 578.16pt x 225.4824pt>
+<Pictures//Bibliografia.png, id=426, 578.16pt x 225.4824pt>
 File: Pictures//Bibliografia.png Graphic file (type png)
 <use Pictures//Bibliografia.png>
 Package pdftex.def Info: Pictures//Bibliografia.png  used on input line 1.
@@ -1382,20 +1382,15 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 20.
 ) [21] (Fulano-Python.aux)
-
-Package rerunfilecheck Warning: File `Fulano-Python.brf' has changed.
-(rerunfilecheck)                Rerun to get bibliographical references right.
-
-Package rerunfilecheck Info: Checksums for `Fulano-Python.brf':
-(rerunfilecheck)             Before: 569A39E2AFF2A4E7C0BED03B35B26541;1736
-(rerunfilecheck)             After:  3028251BF4A7E2FEE55172905C43B716;1792.
+Package rerunfilecheck Info: File `Fulano-Python.brf' has not changed.
+(rerunfilecheck)             Checksum: B5CF933B4C73C780DC40030F0D8E9BE8;1847.
  ) 
 Here is how much of TeX's memory you used:
- 33428 strings out of 478338
- 649484 string characters out of 2837173
+ 33425 strings out of 478338
+ 649457 string characters out of 2837173
  1286105 words of memory out of 3000000
  50682 multiletter control sequences out of 15000+600000
- 553215 words of font info for 300 fonts, out of 8000000 for 9000
+ 552990 words of font info for 298 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  89i,13n,92p,1012b,1896s stack positions out of 10000i,1000n,20000p,200000b,80000s
  <C:\Users\User\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1
@@ -1407,9 +1402,9 @@ r/uagk8a.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times
 /utmb8a.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/
 utmr8a.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/u
 tmri8a.pfb>
-Output written on Fulano-Python.pdf (21 pages, 1817852 bytes).
+Output written on Fulano-Python.pdf (21 pages, 1817767 bytes).
 PDF statistics:
- 715 PDF objects out of 1000 (max. 8388607)
+ 717 PDF objects out of 1000 (max. 8388607)
  266 named destinations out of 1000 (max. 500000)
  91910 words of extra memory for PDF output out of 106986 (max. 10000000)
 
