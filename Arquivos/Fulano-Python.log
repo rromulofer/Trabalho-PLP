@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7) (preloaded format=pdflatex 2022.9.2)  11 OCT 2022 02:11
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7) (preloaded format=pdflatex 2022.9.2)  11 OCT 2022 02:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1365,11 +1365,11 @@ File: Pictures//capitulo.jpg Graphic file (type jpg)
 <use Pictures//capitulo.jpg>
 Package pdftex.def Info: Pictures//capitulo.jpg  used on input line 8.
 (pdftex.def)             Requested size: 597.50787pt x 233.04015pt.
-) (Fulano-Python.bbl (Fulano-Python.brf)
+[19]) (Fulano-Python.bbl (Fulano-Python.brf)
 \tf@brf=\write6
 \openout6 = `Fulano-Python.brf'.
 
- [19] [20]
+ [20]
 <Pictures//Bibliografia.png, id=457, 578.16pt x 225.4824pt>
 File: Pictures//Bibliografia.png Graphic file (type png)
 <use Pictures//Bibliografia.png>
@@ -1409,7 +1409,7 @@ r/uagk8a.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times
 /utmb8a.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/
 utmr8a.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/u
 tmri8a.pfb>
-Output written on Fulano-Python.pdf (23 pages, 1825966 bytes).
+Output written on Fulano-Python.pdf (23 pages, 1826281 bytes).
 PDF statistics:
  765 PDF objects out of 1000 (max. 8388607)
  279 named destinations out of 1000 (max. 500000)
