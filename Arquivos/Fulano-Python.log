@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7) (preloaded format=pdflatex 2022.9.2)  10 OCT 2022 22:34
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7) (preloaded format=pdflatex 2022.9.2)  10 OCT 2022 22:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1372,7 +1372,7 @@ Package pdftex.def Info: Pictures//capitulo.jpg  used on input line 8.
  [19] [20
 
 ]
-<Pictures//Bibliografia.png, id=456, 578.16pt x 225.4824pt>
+<Pictures//Bibliografia.png, id=457, 578.16pt x 225.4824pt>
 File: Pictures//Bibliografia.png Graphic file (type png)
 <use Pictures//Bibliografia.png>
 Package pdftex.def Info: Pictures//Bibliografia.png  used on input line 1.
@@ -1390,14 +1390,14 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 20.
 ) [23] (Fulano-Python.aux)
 Package rerunfilecheck Info: File `Fulano-Python.brf' has not changed.
-(rerunfilecheck)             Checksum: B5CF933B4C73C780DC40030F0D8E9BE8;1847.
+(rerunfilecheck)             Checksum: 1A1C000C5AFCCA2EE4F57D4D12268FAE;1894.
  ) 
 Here is how much of TeX's memory you used:
- 33461 strings out of 478338
- 649961 string characters out of 2837173
+ 33458 strings out of 478338
+ 649937 string characters out of 2837173
  1285106 words of memory out of 3000000
  50696 multiletter control sequences out of 15000+600000
- 553155 words of font info for 302 fonts, out of 8000000 for 9000
+ 553025 words of font info for 300 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  89i,13n,92p,1012b,1896s stack positions out of 10000i,1000n,20000p,200000b,80000s
  <C:\Users\User\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1
@@ -1409,9 +1409,9 @@ r/uagk8a.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times
 /utmb8a.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/
 utmr8a.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/u
 tmri8a.pfb>
-Output written on Fulano-Python.pdf (23 pages, 1823533 bytes).
+Output written on Fulano-Python.pdf (23 pages, 1824077 bytes).
 PDF statistics:
- 763 PDF objects out of 1000 (max. 8388607)
+ 765 PDF objects out of 1000 (max. 8388607)
  279 named destinations out of 1000 (max. 500000)
  91950 words of extra memory for PDF output out of 106986 (max. 10000000)
 
