@@ -12,18 +12,13 @@
    %%%%%%%%======================
     \section{Classes e Objetos}
     %%%%%%%%======================
+    
 	 No Python uma entidade é representada por uma abstração computacional, chamada objeto, que possui os atributos que são as qualidades e os métodos que são as ações que a entidade pode fazer. Como sabemos a programação orientada a objetos é um dos paradigmas da linguagem Python. Na orientação a objetos, classe é a estrutura básica, simbolizando o tipo de um objeto, assim definindo o que o objeto pode realizar e suas características.
 	 
 	 Na linguagem de programação Python um objeto é criado com base na classe e usando a atribuição. O construtor dessas classes que é um método especial, entra em execução quando novos objetos são criados. Esse construtor é chamado \textunderscore \textit{new}\textunderscore(), depois de chamar o construtor, para inicializar uma nova instância é chamado o método \textunderscore \textit{init}\textunderscore(). Para que o objeto permaneça na memória é preciso de no mínimo uma referência, pois o interpretador da linguagem Python tem uma ferramenta de limpeza que exclui todos os objetos que não possuem referência, essa ferramenta é chamada de coletor de lixo ou \textit{Garbage Collector}, assim que os objetos sem referência são excluídos o \textunderscore \textit{done}\textunderscore(), outro método especial, é executado.
 	 
-	Há diversos motivos para o Python aceitar que classes novas sejam definidas por desenvolvedores, um dos motivos é que o programa de aplicação será mais simples de desenvolver, ler, depurar e intuitivo, através das classes projetadas unicamente para essa aplicação. Junto com a possibilidade de criar classes novas é permitido um novo jeito de estruturar um programa de aplicação. O comportamento de uma função é exposto ao usuário, mas sua implementação é encapsulada(ocultada). Semelhantemente os métodos que conseguem se aplicar aos objetos da classe são expostos ao usuário, mas o modo como essas informações inclusas nos objetos são salvas é encapsulado, além de encapsular o modo como os métodos das classes estão sendo implementados \cite{Borges2014}.
+	Há diversos motivos para o Python aceitar que classes novas sejam definidas por desenvolvedores, um dos motivos é que o programa de aplicação será mais simples de desenvolver, ler, depurar e intuitivo, através das classes projetadas unicamente para essa aplicação. Junto com a possibilidade de criar classes novas é permitido um novo jeito de estruturar um programa de aplicação. O comportamento de uma função é exposto ao usuário, mas sua implementação é encapsulada(ocultada) \cite{Borges2014}.
 	
-	Usar como base para finalizar: 
-	Essa propriedade das classes é alcançada graças a namespaces detalhados,
-	personalizados, que são associados a cada classe e objeto. A POO é um paradigma de
-	desenvolvimento de software que alcança modularidade e portabilidade de código, organizando
-	programas de aplicação em torno de componentes que são classes e objetos.
-	 
    \begin{lstlisting}
     class NomeClasse:
 
@@ -36,8 +31,11 @@
    %%%%%%%%======================
     \section{Operadores ou Métodos}
     %%%%%%%%======================
-
-
+	Semelhantemente os métodos que conseguem se aplicar aos objetos da classe são expostos ao usuário, mas o modo como essas informações inclusas nos objetos são salvas é encapsulado, além de encapsular o modo como os métodos das classes estão sendo implementados
+	
+	Usar como base:
+	
+	Essa propriedade das classes é alcançada graças a namespaces detalhados, personalizados, que são associados a cada classe e objeto. A POO é um paradigma de desenvolvimento de software que alcança modularidade e portabilidade de código, organizando programas de aplicação em torno de componentes que são classes e objetos.
    %%%%%%%%======================
     \section{Herança}
     %%%%%%%%======================
