@@ -15,7 +15,7 @@
     
 	 No Python uma entidade é representada por uma abstração computacional, chamada objeto, que possui os atributos que são as qualidades e os métodos que são as ações que a entidade pode fazer. Como sabemos a programação orientada a objetos é um dos paradigmas da linguagem Python. Na orientação a objetos, classe é a estrutura básica, simbolizando o tipo de um objeto, assim definindo o que o objeto pode realizar e suas características.
 	 
-	 Na linguagem de programação Python um objeto é criado com base na classe e usando a atribuição. O construtor dessas classes que é um método especial, entra em execução quando novos objetos são criados. Esse construtor é chamado \textunderscore \textit{new}\textunderscore(), depois de chamar o construtor, para inicializar uma nova instância é chamado o método \textunderscore \textit{init}\textunderscore(). Para que o objeto permaneça na memória é preciso de no mínimo uma referência, pois o interpretador da linguagem Python tem uma ferramenta de limpeza que exclui todos os objetos que não possuem referência, essa ferramenta é chamada de coletor de lixo ou \textit{Garbage Collector}, assim que os objetos sem referência são excluídos o \textunderscore \textit{done}\textunderscore(), outro método especial, é executado.
+	 Na linguagem de programação Python um objeto é criado com base na classe e usando a atribuição. O construtor dessas classes que é um método especial, entra em execução quando novos objetos são criados. Esse construtor é chamado \textunderscore\textunderscore \textit{new}\textunderscore\textunderscore(), depois de chamar o construtor, para inicializar uma nova instância é chamado o método \textunderscore\textunderscore \textit{init}\textunderscore\textunderscore(). Para que o objeto permaneça na memória é preciso de no mínimo uma referência, pois o interpretador da linguagem Python tem uma ferramenta de limpeza que exclui todos os objetos que não possuem referência, essa ferramenta é chamada de coletor de lixo ou \textit{Garbage Collector}, assim que os objetos sem referência são excluídos o \textunderscore\textunderscore \textit{done}\textunderscore\textunderscore(), outro método especial, é executado.
 	 
 	Há diversos motivos para o Python aceitar que classes novas sejam definidas por desenvolvedores, um dos motivos é que o programa de aplicação será mais simples de desenvolver, ler, depurar e intuitivo, através das classes projetadas unicamente para essa aplicação. Junto com a possibilidade de criar classes novas é permitido um novo jeito de estruturar um programa de aplicação. O comportamento de uma função é exposto ao usuário, mas sua implementação é encapsulada(ocultada) \cite{Borges2014}.
 	
@@ -29,27 +29,27 @@
     print (list.__getitem__(stuff,0))
     \end{lstlisting}
 	
-	Usar como base:
+	Na primeira linha um objeto do tipo \textit{list} é construído, na segunda e terceira linhas do código o método \textit{append()} é chamado, na quarta linha o método \textit{sort()} é chamado, na quinta linha o item da posição 0 é recuperado. 
 	
-	A primeira linha constrói um objeto do tipo list, a segunda e terceira linhas chamam o método append(). A quarta linha chama o método sort(), e a quinta linha recupera o item na posição 0.
-	A sexta linha chama o método __getitem()__ na lista stuff com um parâmetro de zero. 
+	Na sexta linha o método \textunderscore\textunderscore \textit{getitem()}\textunderscore\textunderscore  com 0 como parâmetro, é chamado na lista \textit{stuff}.
+	\begin{lstlisting}
+    print (stuff.__getitem__(0))
+	\end{lstlisting}
+
+	Na sétima linha mostra como recuperar o primeiro item da lista de uma forma mais detalhada.
+	\begin{lstlisting}
+    print (list.__getitem__(stuff,0))
+	\end{lstlisting}
 	
-	print (stuff.__getitem__(0))
-	
-	A sétima linha é uma maneira bem mais detalhada de recuperar o primeiro item da lista. 
-	
-	print (list.__getitem__(stuff,0))
-	
-	Nesse código, chamamos o método __getitem()__ na classe list e passamos a lista e o item que queremos recuperar como parâmetros. As últimas três linhas do programa são equivalentes, mas é mais conveniente simplesmente utilizar a sintaxe dos colchetes para ver um item de uma posição em particular da lista.
+	Neste código o método \textunderscore\textunderscore \textit{getitem}\textunderscore\textunderscore () é chamado na classe \textit{list} e também é passado o item que deve ser recuperado e a lista como parâmetro. As 3 últimas linhas do código percebemos que são semelhantes, porém fazer uso da sintaxe com os colchetes ([ ]) é mais adequado para visualizar um item em uma posição específica da lista \cite{Severance2016}.
 	
    %%%%%%%%======================
     \section{Operadores ou Métodos}
     %%%%%%%%======================
-	Semelhantemente os métodos que conseguem se aplicar aos objetos da classe são expostos ao usuário, mas o modo como essas informações inclusas nos objetos são salvas é encapsulado, além de encapsular o modo como os métodos das classes estão sendo implementados
+	Como já vimos, um uma função utilizada para detalhar o comportamento do objeto. Os métodos que conseguem se aplicar aos objetos da classe são expostos ao usuário, mas o modo como essas informações inclusas nos objetos são salvas é encapsulado, além de encapsular o modo como os métodos das classes estão sendo implementados.
+	 
+	Um operador é uma chamada para os métodos especiais e também já vimos anteriormente mas sem explicar detalhadamente. Os métodos especiais são caracterizados pelos nomes que possuem um padrão, utilizando 2 sublinhados no 
 	
-	Usar como base:
-	
-	Essa propriedade das classes é alcançada graças a namespaces detalhados, personalizados, que são associados a cada classe e objeto. A POO é um paradigma de desenvolvimento de software que alcança modularidade e portabilidade de código, organizando programas de aplicação em torno de componentes que são classes e objetos.
    %%%%%%%%======================
     \section{Herança}
     %%%%%%%%======================
