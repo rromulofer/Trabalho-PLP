@@ -31,8 +31,17 @@
 	
 	Usar como base:
 	
-	A primeira linha constrói um objeto do tipo list, a segunda e terceira linhas chamam o método append(). A quarta linha chama o método sort(), e a quinta linha recupera o item na posição 0. A sexta linha chama o método __getitem()__ na lista stuff com um parâmetro de zero. print (stuff.__getitem__(0))
-	A sétima linha é uma maneira bem mais detalhada de recuperar o primeiro item da lista. print (list.__getitem__(stuff,0))
+	A primeira linha constrói um objeto do tipo list, a segunda e terceira linhas chamam o método append(). A quarta linha chama o método sort(), e a quinta linha recupera o item na posição 0.
+	A sexta linha chama o método __getitem()__ na lista stuff com um parâmetro de zero. 
+	
+	print (stuff.__getitem__(0))
+	
+	A sétima linha é uma maneira bem mais detalhada de recuperar o primeiro item da lista. 
+	
+	print (list.__getitem__(stuff,0))
+	
+	Nesse código, chamamos o método __getitem()__ na classe list e passamos a lista e o item que queremos recuperar como parâmetros. As últimas três linhas do programa são equivalentes, mas é mais conveniente simplesmente utilizar a sintaxe dos colchetes para ver um item de uma posição em particular da lista.
+	
    %%%%%%%%======================
     \section{Operadores ou Métodos}
     %%%%%%%%======================
