@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7) (preloaded format=pdflatex 2022.9.2)  12 OCT 2022 03:35
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7) (preloaded format=pdflatex 2022.9.2)  12 OCT 2022 12:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1395,7 +1395,7 @@ Package rerunfilecheck Info: File `Fulano-Python.brf' has not changed.
 Here is how much of TeX's memory you used:
  33510 strings out of 478338
  650633 string characters out of 2837173
- 1285105 words of memory out of 3000000
+ 1285106 words of memory out of 3000000
  50706 multiletter control sequences out of 15000+600000
  553510 words of font info for 306 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1409,7 +1409,7 @@ r/uagk8a.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times
 /utmb8a.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/
 utmr8a.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/u
 tmri8a.pfb>
-Output written on Fulano-Python.pdf (25 pages, 1836147 bytes).
+Output written on Fulano-Python.pdf (25 pages, 1836132 bytes).
 PDF statistics:
  812 PDF objects out of 1000 (max. 8388607)
  312 named destinations out of 1000 (max. 500000)
