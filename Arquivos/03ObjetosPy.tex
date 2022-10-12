@@ -20,14 +20,19 @@
 	Há diversos motivos para o Python aceitar que classes novas sejam definidas por desenvolvedores, um dos motivos é que o programa de aplicação será mais simples de desenvolver, ler, depurar e intuitivo, através das classes projetadas unicamente para essa aplicação. Junto com a possibilidade de criar classes novas é permitido um novo jeito de estruturar um programa de aplicação. O comportamento de uma função é exposto ao usuário, mas sua implementação é encapsulada(ocultada) \cite{Borges2014}.
 	
    \begin{lstlisting}
-    class NomeClasse:
-
-    def metodo1:
-
-    def Metodo2:
-
+    stuff = list()
+    stuff.append('python')
+    stuff.append('chuck')
+    stuff.sort()
+    print (stuff[0])
+    print (stuff.__getitem__(0))
+    print (list.__getitem__(stuff,0))
     \end{lstlisting}
-
+	
+	Usar como base:
+	
+	A primeira linha constrói um objeto do tipo list, a segunda e terceira linhas chamam o método append(). A quarta linha chama o método sort(), e a quinta linha recupera o item na posição 0. A sexta linha chama o método __getitem()__ na lista stuff com um parâmetro de zero. print (stuff.__getitem__(0))
+	A sétima linha é uma maneira bem mais detalhada de recuperar o primeiro item da lista. print (list.__getitem__(stuff,0))
    %%%%%%%%======================
     \section{Operadores ou Métodos}
     %%%%%%%%======================
