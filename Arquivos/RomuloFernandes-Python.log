@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7) (preloaded format=pdflatex 2022.9.2)  31 OCT 2022 16:19
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7) (preloaded format=pdflatex 2022.9.2)  31 OCT 2022 16:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1316,7 +1316,7 @@ LaTeX Font Info:    Font shape `T1/pag/b/n' in size <10.95> not available
  [4]
 (01introducPy.tex
 Cap\'{\i }tulo 1.
-<Pictures//capitulo01.jpg, id=126, 1204.5pt x 469.755pt>
+<Pictures//capitulo01.jpg, id=144, 1204.5pt x 469.755pt>
 File: Pictures//capitulo01.jpg Graphic file (type jpg)
 <use Pictures//capitulo01.jpg>
 Package pdftex.def Info: Pictures//capitulo01.jpg  used on input line 9.
@@ -1335,7 +1335,7 @@ Package fancyhdr Warning: \headheight is too small (14.5pt):
 
 [7]) (02basicosPy.tex [8]
 Cap\'{\i }tulo 2.
-<Pictures//capitulo.jpg, id=163, 903.375pt x 352.31625pt>
+<Pictures//capitulo.jpg, id=181, 903.375pt x 352.31625pt>
 File: Pictures//capitulo.jpg Graphic file (type jpg)
 <use Pictures//capitulo.jpg>
 Package pdftex.def Info: Pictures//capitulo.jpg  used on input line 8.
@@ -1366,20 +1366,27 @@ File: Pictures//capitulo.jpg Graphic file (type jpg)
 <use Pictures//capitulo.jpg>
 Package pdftex.def Info: Pictures//capitulo.jpg  used on input line 8.
 (pdftex.def)             Requested size: 597.50787pt x 233.04015pt.
-[19] [20]) (RomuloFernandes-Python.bbl (RomuloFernandes-Python.brf)
+[19] [20]) (04aplicPy.tex [21] [22
+
+]
+Cap\'{\i }tulo 4.
+File: Pictures//capitulo.jpg Graphic file (type jpg)
+<use Pictures//capitulo.jpg>
+Package pdftex.def Info: Pictures//capitulo.jpg  used on input line 9.
+(pdftex.def)             Requested size: 597.50787pt x 233.04015pt.
+) (RomuloFernandes-Python.bbl (RomuloFernandes-Python.brf)
 \tf@brf=\write6
 \openout6 = `RomuloFernandes-Python.brf'.
 
- [21]
-[22
+ [23] [24
 
 ]
-<Pictures//Bibliografia.png, id=497, 578.16pt x 225.4824pt>
+<Pictures//Bibliografia.png, id=523, 578.16pt x 225.4824pt>
 File: Pictures//Bibliografia.png Graphic file (type png)
 <use Pictures//Bibliografia.png>
 Package pdftex.def Info: Pictures//Bibliografia.png  used on input line 1.
 (pdftex.def)             Requested size: 597.50787pt x 233.04079pt.
-) [23 <./Pictures//Bibliografia.png>] [24
+) [25 <./Pictures//Bibliografia.png>] [26
 
 ]
 No file RomuloFernandes-Python.ind.
@@ -1390,20 +1397,16 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 20.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 20.
-) [25] (RomuloFernandes-Python.aux)
+) [27] (RomuloFernandes-Python.aux)
+Package rerunfilecheck Info: File `RomuloFernandes-Python.brf' has not changed.
 
-Package rerunfilecheck Warning: File `RomuloFernandes-Python.brf' has changed.
-(rerunfilecheck)                Rerun to get bibliographical references right.
-
-Package rerunfilecheck Info: Checksums for `RomuloFernandes-Python.brf':
-(rerunfilecheck)             Before: 64A91294133D85830819538C1667853C;2086
-(rerunfilecheck)             After:  D8B2D17DD78FE22ACB5AC217F5F1B60A;2046.
+(rerunfilecheck)             Checksum: D8B2D17DD78FE22ACB5AC217F5F1B60A;2046.
  ) 
 Here is how much of TeX's memory you used:
- 33510 strings out of 478338
- 650498 string characters out of 2837173
- 1286133 words of memory out of 3000000
- 50706 multiletter control sequences out of 15000+600000
+ 33533 strings out of 478338
+ 650800 string characters out of 2837173
+ 1285133 words of memory out of 3000000
+ 50718 multiletter control sequences out of 15000+600000
  553605 words of font info for 306 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  89i,13n,92p,1021b,1896s stack positions out of 10000i,1000n,20000p,200000b,80000s
@@ -1416,9 +1419,9 @@ r/uagk8a.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times
 /utmb8a.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/
 utmr8a.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/u
 tmri8a.pfb>
-Output written on RomuloFernandes-Python.pdf (25 pages, 1836049 bytes).
+Output written on RomuloFernandes-Python.pdf (27 pages, 1842303 bytes).
 PDF statistics:
- 812 PDF objects out of 1000 (max. 8388607)
- 312 named destinations out of 1000 (max. 500000)
- 91942 words of extra memory for PDF output out of 106986 (max. 10000000)
+ 858 PDF objects out of 1000 (max. 8388607)
+ 320 named destinations out of 1000 (max. 500000)
+ 91990 words of extra memory for PDF output out of 106986 (max. 10000000)
 
