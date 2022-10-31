@@ -1,0 +1,41 @@
+\begin{thebibliography}{McK19}
+
+\bibitem[Bor14]{Borges2014}
+Luiz~Eduardo Borges.
+\newblock {\em Python para desenvolvedores: aborda Python 3.3}.
+\newblock Novatec Editora, Sao Paulo, SP, 2014.
+
+\bibitem[Lut07]{Lutz2007}
+M.~Lutz.
+\newblock {\em Aprendendo Python}.
+\newblock Bookman, Porto Alegre, RS, 2007.
+
+\bibitem[McK19]{McKinney2019}
+Wes McKinney.
+\newblock {\em Python para analise de dados}.
+\newblock Novatec Editora, Sao Paulo, SP, May 2019.
+
+\bibitem[Mor18]{Moreno2018}
+Daniel Moreno.
+\newblock {\em Python para pentest}.
+\newblock Novatec Editora, Sao Paulo, SP, 2018.
+
+\bibitem[Per16]{Perkovic2016}
+Ljubomir Perkovic.
+\newblock {\em Introducao a computacao usando Python: um foco no
+  desenvolvimento de aplicacoes}.
+\newblock Rio de Janeiro, RJ, 2016.
+
+\bibitem[Sei15]{Seitz2015}
+Justin Seitz.
+\newblock {\em Black Hat Python: Python Programming for Hackers and
+  Pentesters}.
+\newblock No Starch Press, Sao Paulo, SP, 2015.
+
+\bibitem[Sev16]{Severance2016}
+Dr. Charles~Russell Severance.
+\newblock {\em Python for Everybody: Exploring Data in Python 3}.
+\newblock CreateSpace Independent Publishing Platform, Ann Arbor, MI, 1
+  edition, 2016.
+
+\end{thebibliography}
