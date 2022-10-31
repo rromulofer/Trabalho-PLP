@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7) (preloaded format=pdflatex 2022.9.2)  31 OCT 2022 15:59
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7) (preloaded format=pdflatex 2022.9.2)  31 OCT 2022 16:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1391,13 +1391,17 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 20.
 ) [25] (RomuloFernandes-Python.aux)
-Package rerunfilecheck Info: File `RomuloFernandes-Python.brf' has not changed.
 
-(rerunfilecheck)             Checksum: D8B2D17DD78FE22ACB5AC217F5F1B60A;2046.
+Package rerunfilecheck Warning: File `RomuloFernandes-Python.brf' has changed.
+(rerunfilecheck)                Rerun to get bibliographical references right.
+
+Package rerunfilecheck Info: Checksums for `RomuloFernandes-Python.brf':
+(rerunfilecheck)             Before: 64A91294133D85830819538C1667853C;2086
+(rerunfilecheck)             After:  D8B2D17DD78FE22ACB5AC217F5F1B60A;2046.
  ) 
 Here is how much of TeX's memory you used:
  33510 strings out of 478338
- 650870 string characters out of 2837173
+ 650498 string characters out of 2837173
  1286133 words of memory out of 3000000
  50706 multiletter control sequences out of 15000+600000
  553605 words of font info for 306 fonts, out of 8000000 for 9000
