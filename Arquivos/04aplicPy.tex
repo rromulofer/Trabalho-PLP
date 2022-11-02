@@ -242,7 +242,14 @@ pessoa.andar(1200)
     
     
     \section{O algoritmo Quicksort}
-    O código a seguir apresenta o algoritmo Quicksort no Python.
+    O código a seguir apresenta o algoritmo Quicksort no Python. O Quicksort funciona escolhendo um elemento como pivô e dividindo o array dado. Existem diversas versões de Quicksort que escolhem pivô de diferentes modos.
+    \begin{itemize}
+    	\item Sempre escolher o primeiro elemento do pivô.
+    	\item Sempre escolher o último elemento do pivô.
+    	\item Escolher um elemento aleatório.
+    	\item Escolher a mediana como pivô
+    \end{itemize}
+	Nesse algoritmo está sendo utilizado o último elemento como pivô. Funcionando da seguinte forma, dado um array e um elemento X do array como um pivô, colocando X na posição correta em um array ordenado e coloca os outros elementos menores que o X antes do mesmo e os elementos maiores depois do X, todo esse processo sendo realizado em tempo linear.
 \begin{lstlisting}
 # Autor: Romulo Souza Fernandes
 # E-mail: 00119110559@pq.uenf.br
@@ -250,25 +257,27 @@ pessoa.andar(1200)
 # Ciencia da Computacao - UENF
 # Disciplina: PLP
 
-# Python program for implementation of Quicksort Sort
+# Programa Python para implementacao do Quicksort Sort
 
-# This implementation utilizes pivot as the last element in the nums list
-# It has a pointer to keep track of the elements smaller than the pivot
-# At the very end of partition() function, the pointer is swapped with the pivot
-# to come up with a "sorted" nums relative to the pivot
+# Esta implementacao utiliza o pivo como o ultimo elemento na 
+# lista
+# Possui um ponteiro para acompanhar os elementos menores que o 
+# pivo
+# No final da funcao partition(), o ponteiro e trocado 
+# pelo pivo para chegar a um numero "ordenado" relativo ao pivo
 
 
-# Function to find the partition position
+# Funcao para encontrar a posicao da particao
 def partition(array, low, high):
 
-# choose the rightmost element as pivot
+# Escolhe o elemento mais a direita como pivo
 pivot = array[high]
 
-# pointer for greater element
+# Ponteiro para o elemento maior
 i = low - 1
 
-# traverse through all elements
-# compare each element with pivot
+# Percorre todos os elementos
+# Compara cada elemento com pivo
 for j in range(low, high):
 if array[j] <= pivot:
 
