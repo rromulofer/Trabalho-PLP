@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7) (preloaded format=pdflatex 2022.9.2)  2 NOV 2022 19:22
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7) (preloaded format=pdflatex 2022.9.2)  2 NOV 2022 19:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1448,58 +1448,46 @@ Package pdftex.def Info: grafico.PNG  used on input line 187.
 Underfull \vbox (badness 2547) has occurred while \output is active []
 
  [27 <./grafico.PNG>]
-Overfull \hbox (28.14536pt too wide) in paragraph at lines 221--224
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+Overfull \hbox (14.56516pt too wide) in paragraph at lines 205--206
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
 <objetos.png, id=671, 386.19281pt x 145.29282pt>
 File: objetos.png Graphic file (type png)
 <use objetos.png>
-Package pdftex.def Info: objetos.png  used on input line 238.
+Package pdftex.def Info: objetos.png  used on input line 240.
 (pdftex.def)             Requested size: 256.0748pt x 96.33916pt.
-
-Underfull \vbox (badness 1762) has occurred while \output is active []
-
- [28]
-Overfull \hbox (0.98495pt too wide) in paragraph at lines 264--265
+[28]
+Overfull \hbox (0.98495pt too wide) in paragraph at lines 266--267
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
 
-Overfull \hbox (0.98495pt too wide) in paragraph at lines 267--270
+Overfull \hbox (0.98495pt too wide) in paragraph at lines 269--272
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
-[29 <./objetos.png>]
-Overfull \hbox (7.77505pt too wide) in paragraph at lines 291--292
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [30]
-<mobile.PNG, id=794, 201.00093pt x 217.5628pt>
+[29 <./objetos.png>] [30]
+<mobile.PNG, id=796, 201.00093pt x 217.5628pt>
 File: mobile.PNG Graphic file (type png)
 <use mobile.PNG>
-Package pdftex.def Info: mobile.PNG  used on input line 375.
+Package pdftex.def Info: mobile.PNG  used on input line 377.
 (pdftex.def)             Requested size: 142.26378pt x 153.98598pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [31]
-<1mobile.JPG, id=840, 250.9375pt x 445.665pt>
+<1mobile.JPG, id=842, 250.9375pt x 445.665pt>
 File: 1mobile.JPG Graphic file (type jpg)
 <use 1mobile.JPG>
-Package pdftex.def Info: 1mobile.JPG  used on input line 383.
+Package pdftex.def Info: 1mobile.JPG  used on input line 385.
 (pdftex.def)             Requested size: 142.26378pt x 252.67163pt.
-<2mobile.JPG, id=841, 250.9375pt x 445.665pt>
+<2mobile.JPG, id=843, 250.9375pt x 445.665pt>
 File: 2mobile.JPG Graphic file (type jpg)
 <use 2mobile.JPG>
-Package pdftex.def Info: 2mobile.JPG  used on input line 391.
+Package pdftex.def Info: 2mobile.JPG  used on input line 393.
 (pdftex.def)             Requested size: 142.26378pt x 252.67163pt.
 )
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1512,7 +1500,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [33 <./2mobile.JPG>] [34
 
 ]
-<Pictures//Bibliografia.png, id=858, 578.16pt x 225.4824pt>
+<Pictures//Bibliografia.png, id=860, 578.16pt x 225.4824pt>
 File: Pictures//Bibliografia.png Graphic file (type png)
 <use Pictures//Bibliografia.png>
 Package pdftex.def Info: Pictures//Bibliografia.png  used on input line 1.
@@ -1537,10 +1525,10 @@ Package rerunfilecheck Info: File `RomuloFernandes-Python.brf' has not changed.
 (rerunfilecheck)             Checksum: BF5D5F55C73A437940297B53EAE1F873;2221.
  ) 
 Here is how much of TeX's memory you used:
- 33987 strings out of 478338
- 657261 string characters out of 2837173
+ 33991 strings out of 478338
+ 657313 string characters out of 2837173
  1318133 words of memory out of 3000000
- 50865 multiletter control sequences out of 15000+600000
+ 50867 multiletter control sequences out of 15000+600000
  559043 words of font info for 315 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  89i,13n,92p,1021b,1896s stack positions out of 10000i,1000n,20000p,200000b,80000s
@@ -1553,9 +1541,9 @@ r/uagk8a.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times
 /utmb8a.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/
 utmr8a.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/u
 tmri8a.pfb>
-Output written on RomuloFernandes-Python.pdf (37 pages, 1970016 bytes).
+Output written on RomuloFernandes-Python.pdf (37 pages, 1970240 bytes).
 PDF statistics:
- 1262 PDF objects out of 1440 (max. 8388607)
- 603 named destinations out of 1000 (max. 500000)
+ 1264 PDF objects out of 1440 (max. 8388607)
+ 605 named destinations out of 1000 (max. 500000)
  98179 words of extra memory for PDF output out of 106986 (max. 10000000)
 

@@ -201,24 +201,26 @@ root.mainloop()
 
 # Definindo a Classe pessoa
 class Pessoa:
-# Construtor
-def __init__(self, nome: str, idade: int, altura: float):
-self.nome = nome
-self.idade = idade
-self.altura = altura
+	# Construtor
+	def __init__(self, nome: str, idade: int, altura: float):
+		self.nome = nome
+		self.idade = idade
+		self.altura = altura
 
-# Definindo o metodo dizer_ola()
-def dizer_ola(self):
-print(f'Ola, meu nome e {self.nome}. Tenho {self.idade} '
-f'anos e minha altura e {self.altura}m.')
+	# Definindo o metodo dizer_ola()
+	def dizer_ola(self):
+		print(f'Ola, meu nome e {self.nome}. Tenho 
+		{self.idade} 'f'anos e minha altura e {self.
+		altura}m.')
 
-# Definindo o metodo cozinhar()
-def cozinhar(self, receita: str):
-print(f'Estou cozinhando um(a): {receita}')
+	# Definindo o metodo cozinhar()
+	def cozinhar(self, receita: str):
+	print(f'Estou cozinhando um(a): {receita}')
 
-# Definindo o metodo andar()
-def andar(self, distancia: float):
-print(f'Sai para andar. Volto quando completar {distancia} metros')
+	# Definindo o metodo andar()
+	def andar(self, distancia: float):
+	print(f'Sai para andar. Volto quando completar 
+	{distancia} metros')
 
 
 # Instancia um objeto da Classe "Pessoa"
@@ -281,46 +283,46 @@ i = low - 1
 for j in range(low, high):
 if array[j] <= pivot:
 
-# If element smaller than pivot is found
-# swap it with the greater element pointed by i
+# Se o elemento menor que o pivo for encontrado
+# troca com o elemento maior apontado por i
 i = i + 1
 
-# Swapping element at i with element at j
+# Trocando elemento em i com elemento em j
 (array[i], array[j]) = (array[j], array[i])
 
-# Swap the pivot element with the greater element specified by i
+# Troca o elemento pivo pelo elemento maior especificado por i
 (array[i + 1], array[high]) = (array[high], array[i + 1])
 
-# Return the position from where partition is done
-return i + 1
+# Retorna a posicao de onde a particao e feita
+retornar eu + 1
 
-# function to perform quicksort
+# Funcao para executar quicksort
 
 
 def quickSort(array, low, high):
 if low < high:
 
-# Find pivot element such that
-# element smaller than pivot are on the left
-# element greater than pivot are on the right
+# Encontra o elemento pivo tal que
+# elemento menor que pivo esta a esquerda
+# elemento maior que pivo esta a direita
 pi = partition(array, low, high)
 
-# Recursive call on the left of pivot
+# Chamada recursiva a esquerda do pivo
 quickSort(array, low, pi - 1)
 
-# Recursive call on the right of pivot
+# Chamada recursiva a direita do pivo
 quickSort(array, pi + 1, high)
 
 
 data = [1, 7, 4, 1, 10, 9, -2]
-print("Unsorted Array")
+print("Array nao ordenado")
 print(data)
 
 size = len(data)
 
 quickSort(data, 0, size - 1)
 
-print('Sorted Array in Ascending Order:')
+print('Array ordenado em ordem crescente:')
 print(data)
 \end{lstlisting}
 	A seguir temos algumas imagens demonstrando o código Quicksort rodando no Visual Studio Code.
