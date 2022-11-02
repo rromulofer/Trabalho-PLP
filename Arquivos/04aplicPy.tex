@@ -336,8 +336,14 @@ print(data)
 			{\tiny \sf Fonte:{ Autor}}
 		\end{center}
 	\end{figure}
+
+
     \section{Mobile}
-    O código a seguir apresenta
+    O código a seguir apresenta um programa com o objetivo de desenvolver um aplicativo para a plataforma mobile. Para isso foi utilizado a biblioteca Kivy, é bem completa para esse foco de desenvolvimento de aplicativos mobile e desktop em Python, tendo suporte para os seguintes sistemas operacionais: Android, IOS, Windows e OSX, com apenas 1 código. A biblioteca segue o padrão de UI chamado de NUI, que significa Natural User Interface, que é o padrão das aplicações que usamos rotineiramente em nossos celulares e PCs. Necessita apenas de uma simples instalação, usando o comando \textit{pip install kivy}.
+
+ 
+    
+    
     \begin{lstlisting}
 # Autor: Romulo Souza Fernandes
 # E-mail: 00119110559@pq.uenf.br
@@ -356,7 +362,6 @@ kivy.require('1.9.1')
 
 var = 0
 
-
 def soma_um(instance):
 global var
 var += 1
@@ -374,7 +379,6 @@ btn = Button(text='Pressione-me!', size=(100, 50))
 btn.bind(on_press=soma_um)
 layout.add_widget(btn)
 return layout
-
 
 if __name__ == '__main__':
 MeuApp().run()
