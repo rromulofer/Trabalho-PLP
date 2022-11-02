@@ -1,3 +1,9 @@
+# Autor: Rômulo Souza Fernandes
+# E-mail: 00119110559@pq.uenf.br
+# Data de criação: 28/10/22
+# Ciência da Computação - UENF
+# Disciplina: PLP
+
 # Python program for implementation of Quicksort Sort
 
 # This implementation utilizes pivot as the last element in the nums list
