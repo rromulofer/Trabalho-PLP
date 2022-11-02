@@ -18,7 +18,7 @@ class Application:
         # Informando o gerenciador de geometria pack
         self.widget1.pack()
         # Utilizando o widget label para imprimir na tela
-        self.msg = Label(self.widget1, text="Primeiro widget")
+        self.msg = Label(self.widget1, text="Rômulo Fernandes - UENF")
         self.msg["font"] = ("Verdana", "10", "italic", "bold")
         self.msg.pack()
         self.sair = Button(self.widget1)

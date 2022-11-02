@@ -96,9 +96,42 @@ while continuar_usando == "SIM":
    ").upper()
   print("*"*33, "\n")
 	\end{lstlisting}
-	
-	Como vemos no código, inicialmente uma variável chamada "continuar\textunderscore usando", é criada e definida como "SIM". Na estrutura de repetição While, enquanto a variável "continuar\textunderscore usando", for igual a "SIM", o laço continuará. Um menu de interação é criado dentro desse While, o menu oferece as seguintes opções de escolha, soma, subtração, multiplicação e divisão. A variável chamada "operação" tem a função de receber e guardar a opção desejada pelo usuário. Caso a opção escolhida seja "+", a operação de soma será realizada, apresentará o resultado e também irá perguntar se o usuário deseja continuar usando, caso a respostar não seja "SIM", o programa irá finalizar, funcionando da mesma forma para as outras operações, caso forem escolhidas.
 
+	Como vemos no código, inicialmente uma variável chamada "continuar\textunderscore usando", é criada e definida como "SIM". Na estrutura de repetição While, enquanto a variável "continuar\textunderscore usando", for igual a "SIM", o laço continuará. Um menu de interação é criado dentro desse While, o menu oferece as seguintes opções de escolha, soma, subtração, multiplicação e divisão. A variável chamada "operação" tem a função de receber e guardar a opção desejada pelo usuário. Caso a opção escolhida seja "+", a operação de soma será realizada, apresentará o resultado e também irá perguntar se o usuário deseja continuar usando, caso a respostar não seja "SIM", o programa irá finalizar, funcionando da mesma forma para as outras operações, caso forem escolhidas. A seguir temos algumas imagens demonstrando o código de operações básicas rodando no Visual Studio Code.
+
+	\begin{figure}[H]
+		\begin{center}
+			\caption{Opção adição} \label{ling1}
+			\includegraphics[width=5cm]{soma.PNG} \\
+			{\tiny \sf Fonte:{ Autor}}
+		\end{center}
+	\end{figure}
+
+	\begin{figure}[H]
+		\begin{center}
+			\caption{Opção subtração} \label{ling1}
+			\includegraphics[width=5cm]{subtracao.PNG} \\
+			{\tiny \sf Fonte:{ Autor}}
+		\end{center}
+	\end{figure}
+
+	\begin{figure}[H]
+		\begin{center}
+			\caption{Opção multiplicação} \label{ling1}
+			\includegraphics[width=5cm]{multi.PNG} \\
+			{\tiny \sf Fonte:{ Autor}}
+		\end{center}
+	\end{figure}
+	
+	\begin{figure}[H]
+		\begin{center}
+			\caption{Opção divisão} \label{ling1}
+			\includegraphics[width=5cm]{divisao.PNG} \\
+			{\tiny \sf Fonte:{ Autor}}
+		\end{center}
+	\end{figure}
+	
+	
     \section{Programas gr\'{a}ficos}
      O código a seguir apresenta
 	\begin{lstlisting}
@@ -146,14 +179,16 @@ Application(root)
 # Chamada do metodo para exibir na tela
 root.mainloop()
 	\end{lstlisting}
+	A seguir temos algumas imagens demonstrando o código do programa gráfico rodando no Visual Studio Code.
+
 
     \section{Programas com Objetos}
-    
+    O código a seguir apresenta
 \begin{lstlisting}
-# Autor: Rômulo Souza Fernandes
+# Autor: Romulo Souza Fernandes
 # E-mail: 00119110559@pq.uenf.br
-# Data de criação: 28/10/22
-# Ciência da Computação - UENF
+# Data de criacao: 28/10/22
+# Ciencia da Computacao - UENF
 # Disciplina: PLP
 
 class Pessoa:
@@ -163,28 +198,149 @@ self.idade = idade
 self.altura = altura
 
 def dizer_ola(self):
-print(f'Olá, meu nome é {self.nome}. Tenho {self.idade} '
-f'anos e minha altura é {self.altura}m.')
+print(f'Ola, meu nome e {self.nome}. Tenho {self.idade} '
+f'anos e minha altura e {self.altura}m.')
 
 def cozinhar(self, receita: str):
 print(f'Estou cozinhando um(a): {receita}')
 
 def andar(self, distancia: float):
-print(f'Saí para andar. Volto quando completar {distancia} metros')
+print(f'Sai para andar. Volto quando completar {distancia} metros')
 
 
 # Instancia um objeto da Classe "Pessoa"
-pessoa = Pessoa(nome='João', idade=25, altura=1.88)
+pessoa = Pessoa(nome='Joao', idade=25, altura=1.88)
 
-# Chama os métodos de "Pessoa"
+# Chama os metodos de "Pessoa"
 pessoa.dizer_ola()
 pessoa.cozinhar('Spaghetti')
 pessoa.andar(750.5)
 \end{lstlisting}
-		
+	A seguir, uma imagem demonstrando o código utilizando objetos no Python, rodando no Visual Studio Code.
+    \begin{figure}[H]
+    	\begin{center}
+    		\caption{Opção divisão} \label{ling1}
+    		\includegraphics[width=7cm]{grafico.PNG} \\
+    		{\tiny \sf Fonte:{ Autor}}
+    	\end{center}
+    \end{figure}
+    
     \section{O algoritmo Quicksort}
-	FEITO!
+    O código a seguir apresenta
+\begin{lstlisting}
+# Autor: Romulo Souza Fernandes
+# E-mail: 00119110559@pq.uenf.br
+# Data de criacao: 28/10/22
+# Ciencia da Computacao - UENF
+# Disciplina: PLP
+
+# Python program for implementation of Quicksort Sort
+
+# This implementation utilizes pivot as the last element in the nums list
+# It has a pointer to keep track of the elements smaller than the pivot
+# At the very end of partition() function, the pointer is swapped with the pivot
+# to come up with a "sorted" nums relative to the pivot
+
+
+# Function to find the partition position
+def partition(array, low, high):
+
+# choose the rightmost element as pivot
+pivot = array[high]
+
+# pointer for greater element
+i = low - 1
+
+# traverse through all elements
+# compare each element with pivot
+for j in range(low, high):
+if array[j] <= pivot:
+
+# If element smaller than pivot is found
+# swap it with the greater element pointed by i
+i = i + 1
+
+# Swapping element at i with element at j
+(array[i], array[j]) = (array[j], array[i])
+
+# Swap the pivot element with the greater element specified by i
+(array[i + 1], array[high]) = (array[high], array[i + 1])
+
+# Return the position from where partition is done
+return i + 1
+
+# function to perform quicksort
+
+
+def quickSort(array, low, high):
+if low < high:
+
+# Find pivot element such that
+# element smaller than pivot are on the left
+# element greater than pivot are on the right
+pi = partition(array, low, high)
+
+# Recursive call on the left of pivot
+quickSort(array, low, pi - 1)
+
+# Recursive call on the right of pivot
+quickSort(array, pi + 1, high)
+
+
+data = [1, 7, 4, 1, 10, 9, -2]
+print("Unsorted Array")
+print(data)
+
+size = len(data)
+
+quickSort(data, 0, size - 1)
+
+print('Sorted Array in Ascending Order:')
+print(data)
+\end{lstlisting}
+	A seguir temos algumas imagens demonstrando o código Quicksort rodando no Visual Studio Code.
 	
     \section{Mobile}
-    FEITO!
+    O código a seguir apresenta
+    \begin{lstlisting}
+# Autor: Romulo Souza Fernandes
+# E-mail: 00119110559@pq.uenf.br
+# Data de criacao: 28/10/22
+# Ciencia da Computacao - UENF
+# Disciplina: PLP
 
+import kivy
+from kivy.app import App
+from kivy.uix.label import Label
+from kivy.uix.boxlayout import BoxLayout
+
+from kivy.uix.button import Button
+
+kivy.require('1.9.1')
+
+var = 0
+
+
+def soma_um(instance):
+global var
+var += 1
+instance.text = str(var)
+
+
+class MeuApp(App):
+def build(self):
+layout = BoxLayout(orientation='vertical',
+padding=[40, 20, 40, 20])
+
+layout.add_widget(Label(text='Ola do Kivy!'))
+btn = Button(text='Pressione-me!', size=(100, 50))
+
+btn.bind(on_press=soma_um)
+layout.add_widget(btn)
+return layout
+
+
+if __name__ == '__main__':
+MeuApp().run()
+    \end{lstlisting}
+	A seguir temos algumas imagens demonstrando o código da aplicação mobile rodando no Visual Studio Code.

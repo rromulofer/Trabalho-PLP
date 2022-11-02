@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7) (preloaded format=pdflatex 2022.9.2)  2 NOV 2022 15:40
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7) (preloaded format=pdflatex 2022.9.2)  2 NOV 2022 16:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1101,7 +1101,20 @@ Package hyperref Info: Option `pdfmenubar' set `true' on input line 544.
 Package hyperref Info: Option `pdffitwindow' set `true' on input line 544.
 Package hyperref Info: Option `pdfnewwindow' set `true' on input line 544.
 Package hyperref Info: Option `colorlinks' set `true' on input line 544.
-) (RomuloFernandes-Python.aux)
+) (RomuloFernandes-Python.aux
+
+LaTeX Warning: Label `ling1' multiply defined.
+
+
+LaTeX Warning: Label `ling1' multiply defined.
+
+
+LaTeX Warning: Label `ling1' multiply defined.
+
+
+LaTeX Warning: Label `ling1' multiply defined.
+
+)
 \openout1 = `RomuloFernandes-Python.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 29.
@@ -1378,400 +1391,96 @@ Package pdftex.def Info: Pictures//capitulo.jpg  used on input line 9.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [24]
-Overfull \hbox (7.77505pt too wide) in paragraph at lines 120--121
+<soma.PNG, id=592, 207.02344pt x 216.05719pt>
+File: soma.PNG Graphic file (type png)
+<use soma.PNG>
+Package pdftex.def Info: soma.PNG  used on input line 105.
+(pdftex.def)             Requested size: 142.26378pt x 148.47629pt.
+<subtracao.PNG, id=593, 205.5178pt x 166.37157pt>
+File: subtracao.PNG Graphic file (type png)
+<use subtracao.PNG>
+Package pdftex.def Info: subtracao.PNG  used on input line 113.
+(pdftex.def)             Requested size: 142.26378pt x 115.16458pt.
+<multi.PNG, id=594, 229.60782pt x 255.20343pt>
+File: multi.PNG Graphic file (type png)
+<use multi.PNG>
+Package pdftex.def Info: multi.PNG  used on input line 121.
+(pdftex.def)             Requested size: 142.26378pt x 158.13103pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [25 <./soma.PNG> <./subtracao.PNG>]
+<divisao.PNG, id=611, 274.77657pt x 253.69781pt>
+File: divisao.PNG Graphic file (type png)
+<use divisao.PNG>
+Package pdftex.def Info: divisao.PNG  used on input line 129.
+(pdftex.def)             Requested size: 142.26378pt x 131.35457pt.
+
+Overfull \hbox (7.77505pt too wide) in paragraph at lines 153--154
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][] 
  []
 
-
-Overfull \hbox (14.56516pt too wide) in paragraph at lines 124--125
+[26 <./multi.PNG> <./divisao.PNG>]
+Overfull \hbox (14.56516pt too wide) in paragraph at lines 157--158
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][] 
  []
 
-[25]
-
-! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.153 # Autor: Rômulo 
-                       Souza Fernandes
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-! LaTeX Error: Invalid UTF-8 byte "B4.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.153 # Autor: Rômulo 
-                       Souza Fernandes
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.155 # Data de criação:
-                           28/10/22
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-! LaTeX Error: Invalid UTF-8 byte "A7.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.155 # Data de criação:
-                           28/10/22
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.155 # Data de criação:
-                           28/10/22
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-! LaTeX Error: Invalid UTF-8 byte "A3.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.155 # Data de criação:
-                           28/10/22
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.156 # Ciência 
-                 da Computação - UENF
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-! LaTeX Error: Invalid UTF-8 byte "AA.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.156 # Ciência 
-                 da Computação - UENF
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.156 # Ciência da Computação 
-                                 - UENF
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-! LaTeX Error: Invalid UTF-8 byte "A7.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.156 # Ciência da Computação 
-                                 - UENF
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.156 # Ciência da Computação 
-                                 - UENF
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-! LaTeX Error: Invalid UTF-8 byte "A3.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.156 # Ciência da Computação 
-                                 - UENF
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.166 print(f'Olá,
-                    meu nome é {self.nome}. Tenho {self.idade} '
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-! LaTeX Error: Invalid UTF-8 byte "A1.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.166 print(f'Olá,
-                    meu nome é {self.nome}. Tenho {self.idade} '
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-! LaTeX Error: Invalid UTF-8 byte sequence (�\lst@FillFixed@).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.166 print(f'Olá, meu nome é 
-                                {self.nome}. Tenho {self.idade} '
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-! LaTeX Error: Invalid UTF-8 byte "A9.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.166 print(f'Olá, meu nome é 
-                                {self.nome}. Tenho {self.idade} '
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-! LaTeX Error: Invalid UTF-8 byte sequence (�\lst@FillFixed@).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.167 f'anos e minha altura é 
-                               {self.altura}m.')
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-! LaTeX Error: Invalid UTF-8 byte "A9.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.167 f'anos e minha altura é 
-                               {self.altura}m.')
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.173 print(f'Saí 
-                   para andar. Volto quando completar {distancia} metros')
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-! LaTeX Error: Invalid UTF-8 byte "AD.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.173 print(f'Saí 
-                   para andar. Volto quando completar {distancia} metros')
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-Overfull \hbox (34.93546pt too wide) in paragraph at lines 173--176
+[27]
+Overfull \hbox (28.14536pt too wide) in paragraph at lines 208--211
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
+<grafico.PNG, id=684, 194.97844pt x 155.83218pt>
+File: grafico.PNG Graphic file (type png)
+<use grafico.PNG>
+Package pdftex.def Info: grafico.PNG  used on input line 223.
+(pdftex.def)             Requested size: 199.16928pt x 159.18687pt.
 
-! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.177 pessoa = Pessoa(nome='João',
-                                    idade=25, altura=1.88)
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
+Overfull \hbox (68.88596pt too wide) in paragraph at lines 239--240
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
 
 
-! LaTeX Error: Invalid UTF-8 byte "A3.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.177 pessoa = Pessoa(nome='João',
-                                    idade=25, altura=1.88)
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
+Overfull \hbox (55.30576pt too wide) in paragraph at lines 240--241
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][] 
+ []
 
 
-! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
+Overfull \hbox (116.41666pt too wide) in paragraph at lines 241--242
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][] 
+ []
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.179 # Chama os métodos 
-                          de "Pessoa"
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
+[28 <./grafico.PNG>]
+Overfull \hbox (7.77505pt too wide) in paragraph at lines 266--267
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
 
 
-! LaTeX Error: Invalid UTF-8 byte "A9.
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.179 # Chama os métodos 
-                          de "Pessoa"
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-Underfull \vbox (badness 1436) has occurred while \output is active []
-
- [26])
-(RomuloFernandes-Python.bbl (RomuloFernandes-Python.brf)
+ [29]
+[30]) (RomuloFernandes-Python.bbl (RomuloFernandes-Python.brf)
 \tf@brf=\write6
 \openout6 = `RomuloFernandes-Python.brf'.
 
- [27] [28
+ [31] [32
 
 ]
-<Pictures//Bibliografia.png, id=691, 578.16pt x 225.4824pt>
+<Pictures//Bibliografia.png, id=833, 578.16pt x 225.4824pt>
 File: Pictures//Bibliografia.png Graphic file (type png)
 <use Pictures//Bibliografia.png>
 Package pdftex.def Info: Pictures//Bibliografia.png  used on input line 1.
 (pdftex.def)             Requested size: 597.50787pt x 233.04079pt.
-) [29 <./Pictures//Bibliografia.png>] [30
+)
+[33 <./Pictures//Bibliografia.png>] [34
 
 ]
 No file RomuloFernandes-Python.ind.
@@ -1782,17 +1491,20 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 20.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 20.
-) [31] (RomuloFernandes-Python.aux)
+) [35] (RomuloFernandes-Python.aux)
+
+LaTeX Warning: There were multiply-defined labels.
+
 Package rerunfilecheck Info: File `RomuloFernandes-Python.brf' has not changed.
 
 (rerunfilecheck)             Checksum: BF5D5F55C73A437940297B53EAE1F873;2221.
  ) 
 Here is how much of TeX's memory you used:
- 33739 strings out of 478338
- 653793 string characters out of 2837173
+ 33947 strings out of 478338
+ 656674 string characters out of 2837173
  1318133 words of memory out of 3000000
- 50773 multiletter control sequences out of 15000+600000
- 553605 words of font info for 306 fonts, out of 8000000 for 9000
+ 50840 multiletter control sequences out of 15000+600000
+ 559173 words of font info for 317 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  89i,13n,92p,1021b,1896s stack positions out of 10000i,1000n,20000p,200000b,80000s
  <C:\Users\User\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1
@@ -1804,9 +1516,9 @@ r/uagk8a.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times
 /utmb8a.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/
 utmr8a.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/u
 tmri8a.pfb>
-Output written on RomuloFernandes-Python.pdf (31 pages, 1877842 bytes).
+Output written on RomuloFernandes-Python.pdf (35 pages, 1934486 bytes).
 PDF statistics:
- 1068 PDF objects out of 1200 (max. 8388607)
- 471 named destinations out of 1000 (max. 500000)
- 91990 words of extra memory for PDF output out of 106986 (max. 10000000)
+ 1232 PDF objects out of 1440 (max. 8388607)
+ 590 named destinations out of 1000 (max. 500000)
+ 98159 words of extra memory for PDF output out of 106986 (max. 10000000)
 
