@@ -8,10 +8,7 @@
 
 \chapter{ Aplica\c{c}\~{o}es da Linguagem Python}
 
-Neste capítulo será apresentada algumas aplicações na linguagem de programação Python, com base nos autores \cite{Perkovic2016}, 
-
-
-Devem ser mostradas pelo menos CINCO aplica\c{c}\~{o}es completas da linguagem, e em cada caso deve ser apresentado:
+Neste capítulo será apresentada 5 aplicações completas na linguagem de programação Python, com base nos autores \cite{Perkovic2016}, \cite{Borges2014}, \cite{Severance2016} e \cite{Lutz2007}. Cada caso contém:
 \begin{itemize}
   \item Uma breve descri\c{c}\~{a}o da aplica\c{c}\~{a}o
   \item O c\'{o}digo completo da aplica\c{c}\~{a}o,
@@ -25,7 +22,7 @@ Devem ser mostradas pelo menos CINCO aplica\c{c}\~{o}es completas da linguagem, 
 
     \section{Opera\c{c}\~{o}es b\'{a}sicas}
     
-    O código a seguir apresenta algumas operações básicas da matemática, como adição, subtração, multiplicação e divisão. Essas operações serão escolhidas em um menu de opções.
+    O código a seguir apresenta algumas operações básicas da matemática que podem ser feitas na linguagem Python, como adição, subtração, multiplicação e divisão. Essas operações serão escolhidas em um menu de opções. 
 	\begin{lstlisting}
 # Autor: Romulo Souza Fernandes
 # E-mail: 00119110559@pq.uenf.br
@@ -99,9 +96,56 @@ while continuar_usando == "SIM":
    ").upper()
   print("*"*33, "\n")
 	\end{lstlisting}
+	
+	Como vemos no código, inicialmente uma variável chamada "continuar\textunderscore usando", é criada e definida como "SIM". Na estrutura de repetição While, enquanto a variável "continuar\textunderscore usando", for igual a "SIM", o laço continuará. Um menu de interação é criado dentro desse While, o menu oferece as seguintes opções de escolha, soma, subtração, multiplicação e divisão. A variável chamada "operação" tem a função de receber e guardar a opção desejada pelo usuário. Caso a opção escolhida seja "+", a operação de soma será realizada, apresentará o resultado e também irá perguntar se o usuário deseja continuar usando, caso a respostar não seja "SIM", o programa irá finalizar, funcionando da mesma forma para as outras operações, caso forem escolhidas.
 
     \section{Programas gr\'{a}ficos}
-	FEITO!
+     O código a seguir apresenta
+	\begin{lstlisting}
+# Autor: Romulo Souza Fernandes
+# E-mail: 00119110559@pq.uenf.br
+# Data de criacao: 28/10/22
+# Ciencia da Computacao - UENF
+# Disciplina: PLP
+
+
+# Importando todo conteudo do Tkinter
+from tkinter import *
+
+# Classe que exibe os controles na tela
+
+
+class Application:
+	def __init__(self, master=None):
+		# Criacao do primeiro container, chamado widget1
+		self.widget1 = Frame(master)
+		# Informando o gerenciador de geometria pack
+		self.widget1.pack()
+		# Utilizando o widget label para imprimir na tela
+		self.msg = Label(self.widget1, text="Primeiro
+		 widget")
+		self.msg["font"] = ("Verdana", "10", "italic",
+		 "bold")
+		self.msg.pack()
+		self.sair = Button(self.widget1)
+		self.sair["text"] = "Sair"
+		self.sair["font"] = ("Calibri", "10")
+		self.sair["width"] = 5
+		self.sair["command"] = self.widget1.quit
+		self.sair.pack()
+
+
+# Instanciando a classe TK()
+# Ela permite que os widgets sejam utilizados na aplicacao
+root = Tk()
+
+# Passando a variavel root como parametro do metodo
+# construtor da classe Application
+Application(root)
+
+# Chamada do metodo para exibir na tela
+root.mainloop()
+	\end{lstlisting}
 
     \section{Programas com Objetos}
 	FEITO!
