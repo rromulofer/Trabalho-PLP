@@ -272,46 +272,49 @@ pessoa.andar(1200)
 # Funcao para encontrar a posicao da particao
 def partition(array, low, high):
 
-# Escolhe o elemento mais a direita como pivo
-pivot = array[high]
+	# Escolhe o elemento mais a direita como pivo
+	pivot = array[high]
 
-# Ponteiro para o elemento maior
-i = low - 1
+	# Ponteiro para o elemento maior
+	i = low - 1
 
-# Percorre todos os elementos
-# Compara cada elemento com pivo
-for j in range(low, high):
-if array[j] <= pivot:
+	# Percorre todos os elementos
+	# Compara cada elemento com pivo
+	for j in range(low, high):
+		if array[j] <= pivot:
 
-# Se o elemento menor que o pivo for encontrado
-# troca com o elemento maior apontado por i
-i = i + 1
+			# Se o elemento menor que o pivo for 
+			# encontrado troca com o elemento 
+			# maior apontado por i
+			i = i + 1
 
-# Trocando elemento em i com elemento em j
-(array[i], array[j]) = (array[j], array[i])
+			# Trocando elemento em i com elemento 
+			# em j
+			(array[i], array[j]) = (array[j], array
+			[i])
 
-# Troca o elemento pivo pelo elemento maior especificado por i
-(array[i + 1], array[high]) = (array[high], array[i + 1])
+	# Troca o elemento pivo pelo elemento maior especificado 
+	# por i
+	(array[i + 1], array[high]) = (array[high], array[i +
+	 1])
 
-# Retorna a posicao de onde a particao e feita
-retornar eu + 1
+	# Retorna a posicao de onde a particao e feita
+	return i + 1
 
 # Funcao para executar quicksort
-
-
 def quickSort(array, low, high):
-if low < high:
+	if low < high:
 
-# Encontra o elemento pivo tal que
-# elemento menor que pivo esta a esquerda
-# elemento maior que pivo esta a direita
-pi = partition(array, low, high)
+	# Encontra o elemento pivo tal que
+	# elemento menor que pivo esta a esquerda
+	# elemento maior que pivo esta a direita
+	pi = partition(array, low, high)
 
-# Chamada recursiva a esquerda do pivo
-quickSort(array, low, pi - 1)
+	# Chamada recursiva a esquerda do pivo
+	quickSort(array, low, pi - 1)
 
-# Chamada recursiva a direita do pivo
-quickSort(array, pi + 1, high)
+	# Chamada recursiva a direita do pivo
+	quickSort(array, pi + 1, high)
 
 
 data = [1, 7, 4, 1, 10, 9, -2]
@@ -325,8 +328,14 @@ quickSort(data, 0, size - 1)
 print('Array ordenado em ordem crescente:')
 print(data)
 \end{lstlisting}
-	A seguir temos algumas imagens demonstrando o código Quicksort rodando no Visual Studio Code.
-	
+	A seguir temos uma imagem demonstrando o código Quicksort rodando no Visual Studio Code.
+	\begin{figure}[H]
+		\begin{center}
+			\caption{Resultado da execução do código} \label{ling1}
+			\includegraphics[width=7cm]{quick.PNG} \\
+			{\tiny \sf Fonte:{ Autor}}
+		\end{center}
+	\end{figure}
     \section{Mobile}
     O código a seguir apresenta
     \begin{lstlisting}

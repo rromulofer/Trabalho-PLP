@@ -60,7 +60,7 @@ def quickSort(array, low, high):
 
 
 data = [1, 7, 4, 1, 10, 9, -2]
-print("Array nao ordenado")
+print("Array nao ordenado:")
 print(data)
 
 size = len(data)
