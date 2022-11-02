@@ -10,17 +10,15 @@
 
 Neste capítulo será apresentada 5 aplicações completas na linguagem de programação Python, com base nos autores \cite{Perkovic2016}, \cite{Borges2014}, \cite{Severance2016} e \cite{Lutz2007}. Cada caso contém:
 \begin{itemize}
-  \item Uma breve descri\c{c}\~{a}o da aplica\c{c}\~{a}o
-  \item O c\'{o}digo completo da aplica\c{c}\~{a}o,
-  \item Imagens do c\'{o}digo fonte no compilador-interpretador,
-  \item Imagens dos resultados ap\'{o}s a compila\c{c}\~{a}o-interpreta\c{c}\~{a}o do c\'{o}digo fonte
-  \item Links e referencias bibliogr\'{a}ficas de onde foi obtido a aplica\c{c}\~{a}o
+  \item Uma breve descrição da aplicação
+  \item O código completo da aplicação com comentários explicativos
+  \item Imagens dos resultados após a compilação-interpretação do código fonte
 \end{itemize}
 
 
 
 
-    \section{Opera\c{c}\~{o}es b\'{a}sicas}
+    \section{Operações básicas}
     
     O código a seguir apresenta algumas operações básicas da matemática que podem ser feitas na linguagem Python, como adição, subtração, multiplicação e divisão. Essas operações serão escolhidas em um menu de opções. 
 	\begin{lstlisting}
@@ -35,7 +33,7 @@ continuar_usando = "SIM"
 		
 while continuar_usando == "SIM":
  # Criando um menu de opcoes
- print("SELECIONE A OPERAcaO DESEJADA")
+ print("SELECIONE A OPERACAO DESEJADA")
  print("+ para Adicao")
  print("- para Subtracao")
  print("* para Multiplicacao")
@@ -97,7 +95,7 @@ while continuar_usando == "SIM":
   print("*"*33, "\n")
 	\end{lstlisting}
 
-	Como vemos no código, inicialmente uma variável chamada "continuar\textunderscore usando", é criada e definida como "SIM". Na estrutura de repetição While, enquanto a variável "continuar\textunderscore usando", for igual a "SIM", o laço continuará. Um menu de interação é criado dentro desse While, o menu oferece as seguintes opções de escolha, soma, subtração, multiplicação e divisão. A variável chamada "operação" tem a função de receber e guardar a opção desejada pelo usuário. Caso a opção escolhida seja "+", a operação de soma será realizada, apresentará o resultado e também irá perguntar se o usuário deseja continuar usando, caso a respostar não seja "SIM", o programa irá finalizar, funcionando da mesma forma para as outras operações, caso forem escolhidas. A seguir temos algumas imagens demonstrando o código de operações básicas rodando no Visual Studio Code.
+	Como vemos no código, inicialmente uma variável chamada "continuar\textunderscore usando", é criada e definida como "SIM". Na estrutura de repetição While, enquanto a variável "continuar\textunderscore usando", for igual a "SIM", o laço continuará. Um menu de interação é criado dentro desse While, o menu oferece as seguintes opções de escolha, adição, subtração, multiplicação e divisão. A variável chamada "operação" tem a função de receber e guardar a opção desejada pelo usuário. Caso a opção escolhida seja "+", a operação de soma será realizada, apresentará o resultado e também irá perguntar se o usuário deseja continuar usando, caso a respostar não seja "SIM", o programa irá finalizar, funcionando da mesma forma para as outras operações, caso forem escolhidas. A seguir temos algumas imagens demonstrando o código de operações básicas rodando no Visual Studio Code.
 
 	\begin{figure}[H]
 		\begin{center}
@@ -231,7 +229,7 @@ pessoa.dizer_ola()
 pessoa.cozinhar('Sopa')
 pessoa.andar(1200)
 \end{lstlisting}
-	Iniciamos definindo classe pessoa, informando ao Python que definições para a nova classe serão criadas. Logo temos o \textunderscore\textunderscore init \textunderscore\textunderscore, é um método construtor, sendo chamado ao instanciar objetos, é nesse método que os atributos do objeto são setados. Após vem a definição dos métodos dizer\textunderscore ola(), cozinhar e andar(). No método dizer\textunderscore ola() é referenciado os atributos do próprio objeto. O método construtor \textunderscore\textunderscore init \textunderscore\textunderscore, é chamado quando "pessoa = Pessoa()", passando nome, idade e altura como parâmetro.
+	Iniciamos definindo a classe pessoa, informando ao Python que as definições para a nova classe serão criadas. Logo temos o \textunderscore\textunderscore init \textunderscore\textunderscore, é um método construtor, sendo chamado ao instanciar objetos, é nesse método que os atributos do objeto são setados. Após, vem a definição dos métodos dizer\textunderscore ola(), cozinhar e andar(). No método dizer\textunderscore ola() é referenciado os atributos do próprio objeto. O método construtor \textunderscore\textunderscore init \textunderscore\textunderscore, é chamado quando "pessoa = Pessoa()", passando nome, idade e altura como parâmetro.
 	
 	A seguir temos uma imagem demonstrando o código utilizando objetos no Python, rodando no Visual Studio Code.
     \begin{figure}[H]

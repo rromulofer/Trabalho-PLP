@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7) (preloaded format=pdflatex 2022.9.2)  2 NOV 2022 20:38
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7) (preloaded format=pdflatex 2022.9.2)  2 NOV 2022 20:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1406,20 +1406,20 @@ Package pdftex.def Info: Pictures//capitulo.jpg  used on input line 9.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [24]
-<soma.PNG, id=592, 207.02344pt x 216.05719pt>
+<soma.PNG, id=594, 207.02344pt x 216.05719pt>
 File: soma.PNG Graphic file (type png)
 <use soma.PNG>
-Package pdftex.def Info: soma.PNG  used on input line 105.
+Package pdftex.def Info: soma.PNG  used on input line 103.
 (pdftex.def)             Requested size: 142.26378pt x 148.47629pt.
-<subtracao.PNG, id=593, 205.5178pt x 166.37157pt>
+<subtracao.PNG, id=595, 205.5178pt x 166.37157pt>
 File: subtracao.PNG Graphic file (type png)
 <use subtracao.PNG>
-Package pdftex.def Info: subtracao.PNG  used on input line 113.
+Package pdftex.def Info: subtracao.PNG  used on input line 111.
 (pdftex.def)             Requested size: 142.26378pt x 115.16458pt.
-<multi.PNG, id=594, 229.60782pt x 255.20343pt>
+<multi.PNG, id=596, 229.60782pt x 255.20343pt>
 File: multi.PNG Graphic file (type png)
 <use multi.PNG>
-Package pdftex.def Info: multi.PNG  used on input line 121.
+Package pdftex.def Info: multi.PNG  used on input line 119.
 (pdftex.def)             Requested size: 142.26378pt x 158.13103pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1428,16 +1428,16 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 <divisao.PNG, id=611, 274.77657pt x 253.69781pt>
 File: divisao.PNG Graphic file (type png)
 <use divisao.PNG>
-Package pdftex.def Info: divisao.PNG  used on input line 129.
+Package pdftex.def Info: divisao.PNG  used on input line 127.
 (pdftex.def)             Requested size: 142.26378pt x 131.35457pt.
  [26 <./multi.PNG> <./divisao.PNG>]
-Overfull \hbox (7.77505pt too wide) in paragraph at lines 153--154
+Overfull \hbox (7.77505pt too wide) in paragraph at lines 151--152
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][] 
  []
 
 
-Overfull \hbox (14.56516pt too wide) in paragraph at lines 157--158
+Overfull \hbox (14.56516pt too wide) in paragraph at lines 155--156
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][] 
  []
@@ -1445,40 +1445,40 @@ Overfull \hbox (14.56516pt too wide) in paragraph at lines 157--158
 <grafico.PNG, id=633, 194.97844pt x 155.83218pt>
 File: grafico.PNG Graphic file (type png)
 <use grafico.PNG>
-Package pdftex.def Info: grafico.PNG  used on input line 187.
+Package pdftex.def Info: grafico.PNG  used on input line 185.
 (pdftex.def)             Requested size: 199.16928pt x 159.18687pt.
 
 Underfull \vbox (badness 2547) has occurred while \output is active []
 
  [27 <./grafico.PNG>]
-Overfull \hbox (14.56516pt too wide) in paragraph at lines 205--206
+Overfull \hbox (14.56516pt too wide) in paragraph at lines 203--204
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
 <objetos.png, id=671, 386.19281pt x 145.29282pt>
 File: objetos.png Graphic file (type png)
 <use objetos.png>
-Package pdftex.def Info: objetos.png  used on input line 240.
+Package pdftex.def Info: objetos.png  used on input line 238.
 (pdftex.def)             Requested size: 256.0748pt x 96.33916pt.
 [28]
-Overfull \hbox (0.98495pt too wide) in paragraph at lines 266--267
+Overfull \hbox (0.98495pt too wide) in paragraph at lines 264--265
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
 
-Overfull \hbox (0.98495pt too wide) in paragraph at lines 269--272
+Overfull \hbox (0.98495pt too wide) in paragraph at lines 267--270
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
 [29 <./objetos.png>]
-Overfull \hbox (0.98495pt too wide) in paragraph at lines 293--294
+Overfull \hbox (0.98495pt too wide) in paragraph at lines 291--292
 [][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
 
-Overfull \hbox (7.77505pt too wide) in paragraph at lines 296--297
+Overfull \hbox (7.77505pt too wide) in paragraph at lines 294--295
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][] 
  []
@@ -1490,19 +1490,19 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 <quick.PNG, id=797, 273.27094pt x 274.77657pt>
 File: quick.PNG Graphic file (type png)
 <use quick.PNG>
-Package pdftex.def Info: quick.PNG  used on input line 335.
+Package pdftex.def Info: quick.PNG  used on input line 333.
 (pdftex.def)             Requested size: 199.16928pt x 200.26656pt.
 
 [31 <./quick.PNG>]
 <mobile.PNG, id=825, 193.47281pt x 214.55156pt>
 File: mobile.PNG Graphic file (type png)
 <use mobile.PNG>
-Package pdftex.def Info: mobile.PNG  used on input line 393.
+Package pdftex.def Info: mobile.PNG  used on input line 391.
 (pdftex.def)             Requested size: 256.0748pt x 283.97826pt.
 <1mobile.JPG, id=826, 250.9375pt x 445.665pt>
 File: 1mobile.JPG Graphic file (type jpg)
 <use 1mobile.JPG>
-Package pdftex.def Info: 1mobile.JPG  used on input line 401.
+Package pdftex.def Info: 1mobile.JPG  used on input line 399.
 (pdftex.def)             Requested size: 142.26378pt x 252.67163pt.
 
 Underfull \vbox (badness 2478) has occurred while \output is active []
@@ -1511,7 +1511,7 @@ Underfull \vbox (badness 2478) has occurred while \output is active []
 <2mobile.JPG, id=854, 244.66406pt x 449.42906pt>
 File: 2mobile.JPG Graphic file (type jpg)
 <use 2mobile.JPG>
-Package pdftex.def Info: 2mobile.JPG  used on input line 409.
+Package pdftex.def Info: 2mobile.JPG  used on input line 407.
 (pdftex.def)             Requested size: 142.26378pt x 261.33423pt.
 ) (RomuloFernandes-Python.bbl (RomuloFernandes-Python.brf)
 \tf@brf=\write6
@@ -1547,7 +1547,7 @@ Package rerunfilecheck Info: File `RomuloFernandes-Python.brf' has not changed.
 Here is how much of TeX's memory you used:
  33999 strings out of 478338
  657430 string characters out of 2837173
- 1318133 words of memory out of 3000000
+ 1319133 words of memory out of 3000000
  50871 multiletter control sequences out of 15000+600000
  559043 words of font info for 315 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1561,7 +1561,7 @@ r/uagk8a.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times
 /utmb8a.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/
 utmr8a.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/u
 tmri8a.pfb>
-Output written on RomuloFernandes-Python.pdf (37 pages, 1995058 bytes).
+Output written on RomuloFernandes-Python.pdf (37 pages, 1994981 bytes).
 PDF statistics:
  1270 PDF objects out of 1440 (max. 8388607)
  608 named destinations out of 1000 (max. 500000)

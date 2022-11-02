@@ -30,7 +30,7 @@
 \contentsline {section}{\numberline {3.2}Operadores ou Métodos}{20}{section.3.2}%
 \contentsline {section}{\numberline {3.3}Herança}{20}{section.3.3}%
 \contentsline {chapter}{\numberline {4} Aplica\c {c}\~{o}es da Linguagem Python}{23}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Opera\c {c}\~{o}es b\'{a}sicas}{23}{section.4.1}%
+\contentsline {section}{\numberline {4.1}Operações básicas}{23}{section.4.1}%
 \contentsline {section}{\numberline {4.2}Programas gráficos}{26}{section.4.2}%
 \contentsline {section}{\numberline {4.3}Programas com Objetos}{28}{section.4.3}%
 \contentsline {section}{\numberline {4.4}O algoritmo Quicksort}{29}{section.4.4}%
