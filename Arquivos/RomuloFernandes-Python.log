@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7) (preloaded format=pdflatex 2022.9.2)  2 NOV 2022 16:21
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7) (preloaded format=pdflatex 2022.9.2)  2 NOV 2022 16:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1427,38 +1427,38 @@ Overfull \hbox (14.56516pt too wide) in paragraph at lines 157--158
 ][][][][][][][][][][][][][][][] 
  []
 
-[27]
-Overfull \hbox (28.14536pt too wide) in paragraph at lines 208--211
+<grafico.PNG, id=636, 194.97844pt x 155.83218pt>
+File: grafico.PNG Graphic file (type png)
+<use grafico.PNG>
+Package pdftex.def Info: grafico.PNG  used on input line 187.
+(pdftex.def)             Requested size: 199.16928pt x 159.18687pt.
+[27 <./grafico.PNG>]
+Overfull \hbox (28.14536pt too wide) in paragraph at lines 215--218
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
-<grafico.PNG, id=684, 194.97844pt x 155.83218pt>
-File: grafico.PNG Graphic file (type png)
-<use grafico.PNG>
-Package pdftex.def Info: grafico.PNG  used on input line 223.
-(pdftex.def)             Requested size: 199.16928pt x 159.18687pt.
 
-Overfull \hbox (68.88596pt too wide) in paragraph at lines 239--240
+Overfull \hbox (68.88596pt too wide) in paragraph at lines 240--241
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
 
-Overfull \hbox (55.30576pt too wide) in paragraph at lines 240--241
+Overfull \hbox (55.30576pt too wide) in paragraph at lines 241--242
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
 [][][][][][][][][][][] 
  []
 
 
-Overfull \hbox (116.41666pt too wide) in paragraph at lines 241--242
+Overfull \hbox (116.41666pt too wide) in paragraph at lines 242--243
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
 [][][][][][][][][][][][][][][][][] 
  []
 
-[28 <./grafico.PNG>]
-Overfull \hbox (7.77505pt too wide) in paragraph at lines 266--267
+[28]
+Overfull \hbox (7.77505pt too wide) in paragraph at lines 267--268
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
@@ -1500,11 +1500,11 @@ Package rerunfilecheck Info: File `RomuloFernandes-Python.brf' has not changed.
 (rerunfilecheck)             Checksum: BF5D5F55C73A437940297B53EAE1F873;2221.
  ) 
 Here is how much of TeX's memory you used:
- 33947 strings out of 478338
- 656674 string characters out of 2837173
+ 33944 strings out of 478338
+ 656650 string characters out of 2837173
  1318133 words of memory out of 3000000
  50840 multiletter control sequences out of 15000+600000
- 559173 words of font info for 317 fonts, out of 8000000 for 9000
+ 559043 words of font info for 315 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  89i,13n,92p,1021b,1896s stack positions out of 10000i,1000n,20000p,200000b,80000s
  <C:\Users\User\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1
@@ -1516,7 +1516,7 @@ r/uagk8a.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times
 /utmb8a.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/
 utmr8a.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/u
 tmri8a.pfb>
-Output written on RomuloFernandes-Python.pdf (35 pages, 1934486 bytes).
+Output written on RomuloFernandes-Python.pdf (35 pages, 1934141 bytes).
 PDF statistics:
  1232 PDF objects out of 1440 (max. 8388607)
  590 named destinations out of 1000 (max. 500000)
