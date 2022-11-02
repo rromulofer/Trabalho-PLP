@@ -1,3 +1,9 @@
+# Autor: Rômulo Souza Fernandes
+# E-mail: 00119110559@pq.uenf.br
+# Data de criação: 28/10/22
+# Ciência da Computação - UENF
+# Disciplina: PLP
+
 class Pessoa:
     def __init__(self, nome: str, idade: int, altura: float):
         self.nome = nome
