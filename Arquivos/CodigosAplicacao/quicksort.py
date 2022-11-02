@@ -1,7 +1,7 @@
-# Autor: Rômulo Souza Fernandes
+# Autor: Romulo Souza Fernandes
 # E-mail: 00119110559@pq.uenf.br
-# Data de criação: 28/10/22
-# Ciência da Computação - UENF
+# Data de criacao: 28/10/22
+# Ciencia da Computacao - UENF
 # Disciplina: PLP
 
 def quickSort(alist):
