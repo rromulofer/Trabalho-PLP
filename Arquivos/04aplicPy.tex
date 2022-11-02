@@ -24,7 +24,81 @@ Devem ser mostradas pelo menos CINCO aplica\c{c}\~{o}es completas da linguagem, 
 
 
     \section{Opera\c{c}\~{o}es b\'{a}sicas}
-	FEITO!
+    
+    O código a seguir apresenta algumas operações básicas da matemática, como adição, subtração, multiplicação e divisão. Essas operações serão escolhidas em um menu de opções.
+	\begin{lstlisting}
+# Autor: Romulo Souza Fernandes
+# E-mail: 00119110559@pq.uenf.br
+# Data de criacao: 28/10/22
+# Ciencia da Computacao - UENF
+# Disciplina: PLP
+		
+		
+continuar_usando = "SIM"
+		
+while continuar_usando == "SIM":
+ # Criando um menu de opcoes
+ print("SELECIONE A OPERAcaO DESEJADA")
+ print("+ para Adicao")
+ print("- para Subtracao")
+ print("* para Multiplicacao")
+ print("/ para Divisao")
+		
+ # Interacao com o usuario
+ operacao = input("\nQual operacao voce deseja realizar? ")
+		
+ # Criando as operacoes e as apresentacoes de respostas
+		
+ # Adicao
+ if operacao == "+":
+  a1 = float(input("\nDigite o primeiro valor: "))
+  a2 = float(input("Digite o segundo valor: "))
+  adicao = a1 + a2
+  print("\nA soma entre", a1, "e", a2, "e:", adicao, "\n")
+  print("*"*33, "\n")
+  continuar_usando = input("Gostaria de fazer outra operacao? 
+  ").upper()
+  print("*"*33, "\n")
+		
+ # Subtracao
+ if operacao == "-":
+  b1 = float(input("\nDigite o primeiro valor: "))
+  b2 = float(input("Digite o segundo valor: "))
+  subtracao = b1 - b2
+  print("\nA subtracao entre", b1, "e", b2, "e:", subtracao,
+   "\n")
+  print("*"*33, "\n")
+  continuar_usando = input("Gostaria de fazer outra operacao?
+   ").upper()
+  print("*"*33, "\n")
+		
+ # Multiplicacao
+ if operacao == "*":
+  c1 = float(input("\nDigite o primeiro valor: "))
+  c2 = float(input("Digite o segundo valor: "))
+  multiplicacao = c1 * c2
+  print("\nA multiplicacao entre", c1,
+  "e", c2, "e:", multiplicacao, "\n")
+  print("*"*33, "\n")
+  continuar_usando = input("Gostaria de fazer outra operacao?
+   ").upper()
+  print("*"*33, "\n")
+		
+ # Divisao
+ if operacao == "/":
+  d1 = float(input("\nDigite o primeiro valor: "))
+  d2 = float(input("Digite o segundo valor: "))
+  while d2 == 0:  # Garantindo que d2 nao seja zero!!
+  print("O segundo valor nao pode ser zero!")
+  d2 = float(input("\nDigite o segundo valor (diferente 
+  de zero): "))
+  divisao = d1 / d2
+  print("\nA divisao entre", d1, "e", d2, "e:", divisao, "\n")
+  print("*"*33, "\n")
+  continuar_usando = input("Gostaria de fazer outra operacao?
+   ").upper()
+  print("*"*33, "\n")
+	\end{lstlisting}
 
     \section{Programas gr\'{a}ficos}
 	FEITO!
@@ -32,8 +106,9 @@ Devem ser mostradas pelo menos CINCO aplica\c{c}\~{o}es completas da linguagem, 
     \section{Programas com Objetos}
 	FEITO!
 		
-    \section{O algoritmo Quicksort - Implementação}
+    \section{O algoritmo Quicksort}
 	FEITO!
 	
-    \section{Aplica\c{c}\~{o}es com Banco de Dados}
+    \section{Mobile}
+    FEITO!
 
