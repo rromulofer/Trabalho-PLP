@@ -22,9 +22,9 @@ class Pessoa:
 
 
 # Instancia um objeto da Classe "Pessoa"
-pessoa = Pessoa(nome='João', idade=25, altura=1.88)
+pessoa = Pessoa(nome='Rômulo', idade=22, altura=1.77)
 
 # Chama os métodos de "Pessoa"
 pessoa.dizer_ola()
-pessoa.cozinhar('Spaghetti')
-pessoa.andar(750.5)
+pessoa.cozinhar('Sopa')
+pessoa.andar(1200)
