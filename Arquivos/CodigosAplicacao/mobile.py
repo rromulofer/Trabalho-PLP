@@ -24,11 +24,10 @@ def soma_um(instance):
 
 class MeuApp(App):
     def build(self):
-        layout = BoxLayout(orientation='vertical',
-                           padding=[40, 20, 40, 20])
+        layout = BoxLayout(orientation='vertical', padding=[40, 20, 40, 20])
 
-        layout.add_widget(Label(text='Olá do Kivy!'))
-        btn = Button(text='Pressione-me!', size=(100, 50))
+        layout.add_widget(Label(text='Romulo Fernandes'))
+        btn = Button(text='Pressione aqui', size=(100, 50))
 
         btn.bind(on_press=soma_um)
         layout.add_widget(btn)

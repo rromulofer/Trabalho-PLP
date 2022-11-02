@@ -363,31 +363,34 @@ kivy.require('1.9.1')
 var = 0
 
 def soma_um(instance):
-global var
-var += 1
-instance.text = str(var)
+	global var
+	var += 1
+	instance.text = str(var)
 
 
 class MeuApp(App):
-def build(self):
-layout = BoxLayout(orientation='vertical',
-padding=[40, 20, 40, 20])
+	def build(self):
+		layout = BoxLayout(orientation='vertical',
+		padding=[40, 20, 40, 20])
 
-layout.add_widget(Label(text='Ola do Kivy!'))
-btn = Button(text='Pressione-me!', size=(100, 50))
+		layout.add_widget(Label(text='Ola do Kivy!'))
+		btn = Button(text='Pressione-me!', size=(100,
+		 50))
 
-btn.bind(on_press=soma_um)
-layout.add_widget(btn)
-return layout
+		btn.bind(on_press=soma_um)
+		layout.add_widget(btn)
+		return layout
 
 if __name__ == '__main__':
-MeuApp().run()
+	MeuApp().run()
     \end{lstlisting}
+
 	A seguir temos algumas imagens demonstrando o código da aplicação mobile rodando no Visual Studio Code.
+	
 		\begin{figure}[H]
 		\begin{center}
 			\caption{Janela criada com a execução do código} \label{ling1}
-			\includegraphics[width=5cm]{mobile.PNG} \\
+			\includegraphics[width=9cm]{mobile.PNG} \\
 			{\tiny \sf Fonte:{ Autor}}
 		\end{center}
 	\end{figure}
