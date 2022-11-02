@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7) (preloaded format=pdflatex 2022.9.2)  2 NOV 2022 18:02
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7) (preloaded format=pdflatex 2022.9.2)  2 NOV 2022 18:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1427,24 +1427,27 @@ File: divisao.PNG Graphic file (type png)
 <use divisao.PNG>
 Package pdftex.def Info: divisao.PNG  used on input line 129.
 (pdftex.def)             Requested size: 142.26378pt x 131.35457pt.
-
+ [26 <./multi.PNG> <./divisao.PNG>]
 Overfull \hbox (7.77505pt too wide) in paragraph at lines 153--154
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][] 
  []
 
-[26 <./multi.PNG> <./divisao.PNG>]
+
 Overfull \hbox (14.56516pt too wide) in paragraph at lines 157--158
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][] 
  []
 
-<grafico.PNG, id=636, 194.97844pt x 155.83218pt>
+<grafico.PNG, id=633, 194.97844pt x 155.83218pt>
 File: grafico.PNG Graphic file (type png)
 <use grafico.PNG>
 Package pdftex.def Info: grafico.PNG  used on input line 187.
 (pdftex.def)             Requested size: 199.16928pt x 159.18687pt.
-[27 <./grafico.PNG>]
+
+Underfull \vbox (badness 2547) has occurred while \output is active []
+
+ [27 <./grafico.PNG>]
 Overfull \hbox (28.14536pt too wide) in paragraph at lines 215--218
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
@@ -1454,7 +1457,10 @@ File: objetos.png Graphic file (type png)
 <use objetos.png>
 Package pdftex.def Info: objetos.png  used on input line 230.
 (pdftex.def)             Requested size: 256.0748pt x 96.33916pt.
-[28 <./objetos.png>]
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [28 <./objetos.png>]
 Overfull \hbox (68.88596pt too wide) in paragraph at lines 246--247
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
@@ -1480,17 +1486,13 @@ Overfull \hbox (7.77505pt too wide) in paragraph at lines 273--274
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [29]
-[30]
-<mobile.PNG, id=813, 201.00093pt x 217.5628pt>
+[29] [30]
+<mobile.PNG, id=810, 201.00093pt x 217.5628pt>
 File: mobile.PNG Graphic file (type png)
 <use mobile.PNG>
 Package pdftex.def Info: mobile.PNG  used on input line 357.
 (pdftex.def)             Requested size: 142.26378pt x 153.98598pt.
-<1mobile.JPG, id=814, 250.9375pt x 445.665pt>
+<1mobile.JPG, id=811, 250.9375pt x 445.665pt>
 File: 1mobile.JPG Graphic file (type jpg)
 <use 1mobile.JPG>
 Package pdftex.def Info: 1mobile.JPG  used on input line 365.
@@ -1552,7 +1554,7 @@ r/uagk8a.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times
 /utmb8a.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/
 utmr8a.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/u
 tmri8a.pfb>
-Output written on RomuloFernandes-Python.pdf (35 pages, 1965124 bytes).
+Output written on RomuloFernandes-Python.pdf (35 pages, 1965748 bytes).
 PDF statistics:
  1242 PDF objects out of 1440 (max. 8388607)
  594 named destinations out of 1000 (max. 500000)
