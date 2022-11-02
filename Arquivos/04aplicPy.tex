@@ -190,7 +190,8 @@ root.mainloop()
 	\end{figure}
 
     \section{Programas com Objetos}
-    O código a seguir apresenta
+    Como sabemos, a Programação Orientada a Objetos (POO) é um dos paradigmas da linguagem
+    Python, com base no conceito de classes e objetos. Abaixo temos um exemplo de código usando objetos na linguagem de programação Python.
 \begin{lstlisting}
 # Autor: Romulo Souza Fernandes
 # E-mail: 00119110559@pq.uenf.br
@@ -198,19 +199,24 @@ root.mainloop()
 # Ciencia da Computacao - UENF
 # Disciplina: PLP
 
+# Definindo a Classe pessoa
 class Pessoa:
+# Construtor
 def __init__(self, nome: str, idade: int, altura: float):
 self.nome = nome
 self.idade = idade
 self.altura = altura
 
+# Definindo o metodo dizer_ola()
 def dizer_ola(self):
 print(f'Ola, meu nome e {self.nome}. Tenho {self.idade} '
 f'anos e minha altura e {self.altura}m.')
 
+# Definindo o metodo cozinhar()
 def cozinhar(self, receita: str):
 print(f'Estou cozinhando um(a): {receita}')
 
+# Definindo o metodo andar()
 def andar(self, distancia: float):
 print(f'Sai para andar. Volto quando completar {distancia} metros')
 
