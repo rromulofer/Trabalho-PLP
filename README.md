@@ -1,2 +1,2 @@
-# Trabalho sobre Python da disciplina de Paradgimas de Programação.
+# Apostila sobre Python feito durante a disciplina de Paradigmas de Linguagens de Programação.
  
