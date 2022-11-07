@@ -1,0 +1,23 @@
+Ferramentas:	
+-editores: notepad, citar
+-compilador, tem? quantos? citar algumas 
+-interpretador, tem? quantos? citar algumas
+-IDE, quantas? citar algumas
+-debug
+-bibliotecas
+
+
+Conclusão ou considerações finais:
+			
+- minimo 3 paragrafos
+- 2 páginas no maximo
+- a linguagem é pesada?
+- liguagem é dificil?
+- o que vc fez
+	- falar quantas bibliotecas estudou
+	- o que faltou fazer
+	- gostou ou não?
+		
+- futuro
+	- gostaria de estudar mais sobre
+	- materia fosse incluida no curso
