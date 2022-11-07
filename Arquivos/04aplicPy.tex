@@ -8,31 +8,404 @@
 
 \chapter{ Aplica\c{c}\~{o}es da Linguagem Python}
 
-Devem ser mostradas pelo menos CINCO aplica\c{c}\~{o}es completas da linguagem, e em cada caso deve ser apresentado:
+Neste capítulo será apresentada 5 aplicações completas na linguagem de programação Python, com base nos autores \cite{Perkovic2016}, \cite{Borges2014}, \cite{Severance2016} e \cite{Lutz2007}. Cada caso contém:
 \begin{itemize}
-  \item Uma breve descri\c{c}\~{a}o da aplica\c{c}\~{a}o
-  \item O c\'{o}digo completo da aplica\c{c}\~{a}o,
-  \item Imagens do c\'{o}digo fonte no compilador-interpretador,
-  \item Imagens dos resultados ap\'{o}s a compila\c{c}\~{a}o-interpreta\c{c}\~{a}o do c\'{o}digo fonte
-  \item Links e referencias bibliogr\'{a}ficas de onde foi obtido a aplica\c{c}\~{a}o
+  \item Uma breve descrição da aplicação
+  \item O código completo da aplicação com comentários explicativos
+  \item Imagens dos resultados após a compilação-interpretação do código fonte
 \end{itemize}
 
 
 
 
-    \section{Opera\c{c}\~{o}es b\'{a}sicas}
+    \section{Operações básicas}
+    
+    O código a seguir apresenta algumas operações básicas da matemática que podem ser feitas na linguagem Python, como adição, subtração, multiplicação e divisão. Essas operações serão escolhidas em um menu de opções. 
+	\begin{lstlisting}
+# Autor: Romulo Souza Fernandes
+# E-mail: 00119110559@pq.uenf.br
+# Data de criacao: 28/10/22
+# Ciencia da Computacao - UENF
+# Disciplina: PLP
+		
+		
+continuar_usando = "SIM"
+		
+while continuar_usando == "SIM":
+ # Criando um menu de opcoes
+ print("SELECIONE A OPERACAO DESEJADA")
+ print("+ para Adicao")
+ print("- para Subtracao")
+ print("* para Multiplicacao")
+ print("/ para Divisao")
+		
+ # Interacao com o usuario
+ operacao = input("\nQual operacao voce deseja realizar? ")
+		
+ # Criando as operacoes e as apresentacoes de respostas
+		
+ # Adicao
+ if operacao == "+":
+  a1 = float(input("\nDigite o primeiro valor: "))
+  a2 = float(input("Digite o segundo valor: "))
+  adicao = a1 + a2
+  print("\nA soma entre", a1, "e", a2, "e:", adicao, "\n")
+  print("*"*33, "\n")
+  continuar_usando = input("Gostaria de fazer outra operacao? 
+  ").upper()
+  print("*"*33, "\n")
+		
+ # Subtracao
+ if operacao == "-":
+  b1 = float(input("\nDigite o primeiro valor: "))
+  b2 = float(input("Digite o segundo valor: "))
+  subtracao = b1 - b2
+  print("\nA subtracao entre", b1, "e", b2, "e:", subtracao,
+   "\n")
+  print("*"*33, "\n")
+  continuar_usando = input("Gostaria de fazer outra operacao?
+   ").upper()
+  print("*"*33, "\n")
+		
+ # Multiplicacao
+ if operacao == "*":
+  c1 = float(input("\nDigite o primeiro valor: "))
+  c2 = float(input("Digite o segundo valor: "))
+  multiplicacao = c1 * c2
+  print("\nA multiplicacao entre", c1,
+  "e", c2, "e:", multiplicacao, "\n")
+  print("*"*33, "\n")
+  continuar_usando = input("Gostaria de fazer outra operacao?
+   ").upper()
+  print("*"*33, "\n")
+		
+ # Divisao
+ if operacao == "/":
+  d1 = float(input("\nDigite o primeiro valor: "))
+  d2 = float(input("Digite o segundo valor: "))
+  while d2 == 0:  # Garantindo que d2 nao seja zero!!
+  print("O segundo valor nao pode ser zero!")
+  d2 = float(input("\nDigite o segundo valor (diferente 
+  de zero): "))
+  divisao = d1 / d2
+  print("\nA divisao entre", d1, "e", d2, "e:", divisao, "\n")
+  print("*"*33, "\n")
+  continuar_usando = input("Gostaria de fazer outra operacao?
+   ").upper()
+  print("*"*33, "\n")
+	\end{lstlisting}
 
+	Como vemos no código, inicialmente uma variável chamada "continuar\textunderscore usando", é criada e definida como "SIM". Na estrutura de repetição While, enquanto a variável "continuar\textunderscore usando", for igual a "SIM", o laço continuará. Um menu de interação é criado dentro desse While, o menu oferece as seguintes opções de escolha, adição, subtração, multiplicação e divisão. A variável chamada "operação" tem a função de receber e guardar a opção desejada pelo usuário. Caso a opção escolhida seja "+", a operação de soma será realizada, apresentará o resultado e também irá perguntar se o usuário deseja continuar usando, caso a respostar não seja "SIM", o programa irá finalizar, funcionando da mesma forma para as outras operações, caso forem escolhidas. A seguir temos algumas imagens demonstrando o código de operações básicas rodando no Visual Studio Code.
 
-    \section{Programas gr\'{a}ficos}
-	5-introduao-a-computação 
+	\begin{figure}[H]
+		\begin{center}
+			\caption{Opção adição} \label{ling1}
+			\includegraphics[width=5cm]{soma.PNG} \\
+			{\tiny \sf Fonte:{ Autor}}
+		\end{center}
+	\end{figure}
+
+	\begin{figure}[H]
+		\begin{center}
+			\caption{Opção subtração} \label{ling1}
+			\includegraphics[width=5cm]{subtracao.PNG} \\
+			{\tiny \sf Fonte:{ Autor}}
+		\end{center}
+	\end{figure}
+
+	\begin{figure}[H]
+		\begin{center}
+			\caption{Opção multiplicação} \label{ling1}
+			\includegraphics[width=5cm]{multi.PNG} \\
+			{\tiny \sf Fonte:{ Autor}}
+		\end{center}
+	\end{figure}
 	
-	Página 294
+	\begin{figure}[H]
+		\begin{center}
+			\caption{Opção divisão} \label{ling1}
+			\includegraphics[width=5cm]{divisao.PNG} \\
+			{\tiny \sf Fonte:{ Autor}}
+		\end{center}
+	\end{figure}
+	
+	
+    \section{Programas gráficos}
+     A seguir temos um exemplo de programa gráfico que é possível desenvolver utilizando a linguagem de programação Python e um framework chamado Tkinter. O Tkinter é uma biblioteca da linguagem Python, o mesmo vem instalado no pacote padrão de instalação do Python. Permitindo que qualquer computador que possua o interpretador Python instalado consiga desenvolver interfaces gráficas.
+	\begin{lstlisting}
+# Autor: Romulo Souza Fernandes
+# E-mail: 00119110559@pq.uenf.br
+# Data de criacao: 28/10/22
+# Ciencia da Computacao - UENF
+# Disciplina: PLP
+
+
+# Importando todo conteudo do Tkinter
+from tkinter import *
+
+# Classe que exibe os controles na tela
+
+
+class Application:
+	def __init__(self, master=None):
+		# Criacao do primeiro container, chamado widget1
+		self.widget1 = Frame(master)
+		# Informando o gerenciador de geometria pack
+		self.widget1.pack()
+		# Utilizando o widget label para imprimir na tela
+		self.msg = Label(self.widget1, text="Romulo 
+		Fernandes - UENF")
+		self.msg["font"] = ("Verdana", "10", "italic",
+		 "bold")
+		self.msg.pack()
+		self.sair = Button(self.widget1)
+		self.sair["text"] = "Sair"
+		self.sair["font"] = ("Calibri", "10")
+		self.sair["width"] = 5
+		self.sair["command"] = self.widget1.quit
+		self.sair.pack()
+
+
+# Instanciando a classe TK()
+# Ela permite que os widgets sejam utilizados na aplicacao
+root = Tk()
+
+# Passando a variavel root como parametro do metodo
+# construtor da classe Application
+Application(root)
+
+# Chamada do metodo para exibir na tela
+root.mainloop()
+	\end{lstlisting}
+	A seguir, uma imagem demonstrando o programa gráfico rodando no Visual Studio Code.
+	
+	\begin{figure}[H]
+		\begin{center}
+			\caption{Janela criada após a execução do código} \label{ling1}
+			\includegraphics[width=7cm]{grafico.PNG} \\
+			{\tiny \sf Fonte:{ Autor}}
+		\end{center}
+	\end{figure}
 
     \section{Programas com Objetos}
-		Página 257
-		
-    \section{O algoritmo Quicksort - Implementa\c{c}\~{a}o}
+    Como sabemos, a Programação Orientada a Objetos (POO) é um dos paradigmas da linguagem
+    Python, com base no conceito de classes e objetos. Abaixo temos um exemplo de código usando objetos na linguagem de programação Python.
+\begin{lstlisting}
+# Autor: Romulo Souza Fernandes
+# E-mail: 00119110559@pq.uenf.br
+# Data de criacao: 28/10/22
+# Ciencia da Computacao - UENF
+# Disciplina: PLP
 
+# Definindo a Classe pessoa
+class Pessoa:
+	# Construtor
+	def __init__(self, nome: str, idade: int, altura: float):
+		self.nome = nome
+		self.idade = idade
+		self.altura = altura
+
+	# Definindo o metodo dizer_ola()
+	def dizer_ola(self):
+		print(f'Ola, meu nome e {self.nome}. Tenho 
+		{self.idade} 'f'anos e minha altura e {self.
+		altura}m.')
+
+	# Definindo o metodo cozinhar()
+	def cozinhar(self, receita: str):
+	print(f'Estou cozinhando um(a): {receita}')
+
+	# Definindo o metodo andar()
+	def andar(self, distancia: float):
+	print(f'Sai para andar. Volto quando completar 
+	{distancia} metros')
+
+
+# Instancia um objeto da Classe "Pessoa"
+pessoa = Pessoa(nome='Romulo', idade=22, altura=1.77)
+
+# Chama os metodos de "Pessoa"
+pessoa.dizer_ola()
+pessoa.cozinhar('Sopa')
+pessoa.andar(1200)
+\end{lstlisting}
+	Iniciamos definindo a classe pessoa, informando ao Python que as definições para a nova classe serão criadas. Logo temos o \textunderscore\textunderscore init \textunderscore\textunderscore, é um método construtor, sendo chamado ao instanciar objetos, é nesse método que os atributos do objeto são setados. Após, vem a definição dos métodos dizer\textunderscore ola(), cozinhar e andar(). No método dizer\textunderscore ola() é referenciado os atributos do próprio objeto. O método construtor \textunderscore\textunderscore init \textunderscore\textunderscore, é chamado quando "pessoa = Pessoa()", passando nome, idade e altura como parâmetro.
 	
-    \section{Aplica\c{c}\~{o}es com Banco de Dados}
+	A seguir temos uma imagem demonstrando o código utilizando objetos no Python, rodando no Visual Studio Code.
+    \begin{figure}[H]
+    	\begin{center}
+    		\caption{Resultado após a compilação do código} \label{ling1}
+    		\includegraphics[width=9cm]{objetos.png} \\
+    		{\tiny \sf Fonte:{ Autor}}
+    	\end{center}
+    \end{figure}
+    
+    
+    \section{O algoritmo Quicksort}
+    O código a seguir apresenta o algoritmo Quicksort no Python. O Quicksort funciona escolhendo um elemento como pivô e dividindo o array dado. Existem diversas versões de Quicksort que escolhem pivô de diferentes modos.
+    \begin{itemize}
+    	\item Sempre escolher o primeiro elemento do pivô.
+    	\item Sempre escolher o último elemento do pivô.
+    	\item Escolher um elemento aleatório.
+    	\item Escolher a mediana como pivô
+    \end{itemize}
+	Nesse algoritmo está sendo utilizado o último elemento como pivô. Funcionando da seguinte forma, dado um array e um elemento X do array como um pivô, colocando X na posição correta em um array ordenado e coloca os outros elementos menores que o X antes do mesmo e os elementos maiores depois do X, todo esse processo sendo realizado em tempo linear.
+\begin{lstlisting}
+# Autor: Romulo Souza Fernandes
+# E-mail: 00119110559@pq.uenf.br
+# Data de criacao: 28/10/22
+# Ciencia da Computacao - UENF
+# Disciplina: PLP
 
+# Programa Python para implementacao do Quicksort Sort
+
+# Esta implementacao utiliza o pivo como o ultimo elemento na 
+# lista
+# Possui um ponteiro para acompanhar os elementos menores que o 
+# pivo
+# No final da funcao partition(), o ponteiro e trocado 
+# pelo pivo para chegar a um numero "ordenado" relativo ao pivo
+
+
+# Funcao para encontrar a posicao da particao
+def partition(array, low, high):
+
+	# Escolhe o elemento mais a direita como pivo
+	pivot = array[high]
+
+	# Ponteiro para o elemento maior
+	i = low - 1
+
+	# Percorre todos os elementos
+	# Compara cada elemento com pivo
+	for j in range(low, high):
+		if array[j] <= pivot:
+
+			# Se o elemento menor que o pivo for 
+			# encontrado troca com o elemento 
+			# maior apontado por i
+			i = i + 1
+
+			# Trocando elemento em i com elemento 
+			# em j
+			(array[i], array[j]) = (array[j], array
+			[i])
+
+	# Troca o elemento pivo pelo elemento maior especificado 
+	# por i
+	(array[i + 1], array[high]) = (array[high], array[i +
+	 1])
+
+	# Retorna a posicao de onde a particao e feita
+	return i + 1
+
+# Funcao para executar quicksort
+def quickSort(array, low, high):
+	if low < high:
+
+	# Encontra o elemento pivo tal que
+	# elemento menor que pivo esta a esquerda
+	# elemento maior que pivo esta a direita
+	pi = partition(array, low, high)
+
+	# Chamada recursiva a esquerda do pivo
+	quickSort(array, low, pi - 1)
+
+	# Chamada recursiva a direita do pivo
+	quickSort(array, pi + 1, high)
+
+
+data = [1, 7, 4, 1, 10, 9, -2]
+print("Array nao ordenado")
+print(data)
+
+size = len(data)
+
+quickSort(data, 0, size - 1)
+
+print('Array ordenado em ordem crescente:')
+print(data)
+\end{lstlisting}
+	A seguir temos uma imagem demonstrando o código Quicksort rodando no Visual Studio Code.
+	\begin{figure}[H]
+		\begin{center}
+			\caption{Resultado da execução do código} \label{ling1}
+			\includegraphics[width=7cm]{quick.PNG} \\
+			{\tiny \sf Fonte:{ Autor}}
+		\end{center}
+	\end{figure}
+
+
+    \section{Mobile}
+    O código a seguir apresenta um programa com o objetivo de desenvolver um aplicativo para a plataforma mobile. Para isso foi utilizado a biblioteca Kivy, é bem completa para esse objetivo de desenvolvimento de aplicativos mobile e desktop em Python, tendo suporte para os seguintes sistemas operacionais: Android, IOS, Windows e OSX, com apenas 1 código. A biblioteca segue o padrão de UI chamado de NUI, que significa Natural User Interface, que é o padrão das aplicações que usamos rotineiramente em nossos celulares e PCs. Necessita apenas de uma simples instalação, usando o comando \textit{pip install kivy}.
+
+ 
+    
+    
+    \begin{lstlisting}
+# Autor: Romulo Souza Fernandes
+# E-mail: 00119110559@pq.uenf.br
+# Data de criacao: 28/10/22
+# Ciencia da Computacao - UENF
+# Disciplina: PLP
+
+import kivy
+from kivy.app import App
+from kivy.uix.label import Label
+from kivy.uix.boxlayout import BoxLayout
+
+from kivy.uix.button import Button
+
+kivy.require('1.9.1')
+
+var = 0
+
+def soma_um(instance):
+	global var
+	var += 1
+	instance.text = str(var)
+
+
+class MeuApp(App):
+	def build(self):
+		layout = BoxLayout(orientation='vertical',
+		padding=[40, 20, 40, 20])
+
+		layout.add_widget(Label(text='Romulo 
+		Fernandes'))
+		btn = Button(text='Pressione aqui', size=(100,
+		50))
+
+		btn.bind(on_press=soma_um)
+		layout.add_widget(btn)
+		return layout
+
+if __name__ == '__main__':
+	MeuApp().run()
+    \end{lstlisting}
+
+	A seguir temos algumas imagens demonstrando o código da aplicação mobile rodando no Visual Studio Code.
+	
+		\begin{figure}[H]
+		\begin{center}
+			\caption{Janela criada com a execução do código} \label{ling1}
+			\includegraphics[width=9cm]{mobile.PNG} \\
+			{\tiny \sf Fonte:{ Autor}}
+		\end{center}
+	\end{figure}
+
+\begin{figure}[H]
+	\begin{center}
+		\caption{Tela 1 após executar o Kivy no celular} \label{ling1}
+		\includegraphics[width=5cm]{1mobile.JPG} \\
+		{\tiny \sf Fonte:{ Autor}}
+	\end{center}
+\end{figure}
+
+\begin{figure}[H]
+	\begin{center}
+		\caption{Tela 2 após executar o Kivy no celular} \label{ling1}
+		\includegraphics[width=5cm]{2mobile.JPG} \\
+		{\tiny \sf Fonte:{ Autor}}
+	\end{center}
+\end{figure}
