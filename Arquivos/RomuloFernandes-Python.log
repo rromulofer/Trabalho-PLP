@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7) (preloaded format=pdflatex 2022.9.2)  18 NOV 2022 12:04
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7) (preloaded format=pdflatex 2022.9.2)  18 NOV 2022 12:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1129,6 +1129,9 @@ LaTeX Warning: Label `ling1' multiply defined.
 
 LaTeX Warning: Label `ling1' multiply defined.
 
+
+LaTeX Warning: Label `ling1' multiply defined.
+
 )
 \openout1 = `RomuloFernandes-Python.aux'.
 
@@ -1518,16 +1521,19 @@ File: Pictures//capitulo.jpg Graphic file (type jpg)
 <use Pictures//capitulo.jpg>
 Package pdftex.def Info: Pictures//capitulo.jpg  used on input line 8.
 (pdftex.def)             Requested size: 597.50787pt x 233.04015pt.
-) (06conclusao.tex [35] [36
-
-]
+<notepad.JPG, id=888, 815.29594pt x 517.18219pt>
+File: notepad.JPG Graphic file (type jpg)
+<use notepad.JPG>
+Package pdftex.def Info: notepad.JPG  used on input line 26.
+(pdftex.def)             Requested size: 170.71652pt x 108.2879pt.
+[35 <./notepad.JPG>]) (06conclusao.tex [36]
 Cap\'{\i }tulo 6.
-<Pictures//Conclusao.jpg, id=896, 289.08pt x 112.7412pt>
+<Pictures//Conclusao.jpg, id=898, 289.08pt x 112.7412pt>
 File: Pictures//Conclusao.jpg Graphic file (type jpg)
 <use Pictures//Conclusao.jpg>
 Package pdftex.def Info: Pictures//Conclusao.jpg  used on input line 8.
 (pdftex.def)             Requested size: 597.50787pt x 233.04076pt.
-<Pictures//Python02.png, id=897, 426.393pt x 142.131pt>
+<Pictures//Python02.png, id=899, 426.393pt x 142.131pt>
 File: Pictures//Python02.png Graphic file (type png)
 <use Pictures//Python02.png>
 Package pdftex.def Info: Pictures//Python02.png  used on input line 23.
@@ -1536,10 +1542,12 @@ Package pdftex.def Info: Pictures//Python02.png  used on input line 23.
 \tf@brf=\write6
 \openout6 = `RomuloFernandes-Python.brf'.
 
- [37 <./Pictures//Conclusao.jpg> <./Pictures//Python02.png>] [38
+ [37
+
+ <./Pictures//Conclusao.jpg> <./Pictures//Python02.png>] [38
 
 ]
-<Pictures//Bibliografia.png, id=909, 578.16pt x 225.4824pt>
+<Pictures//Bibliografia.png, id=911, 578.16pt x 225.4824pt>
 File: Pictures//Bibliografia.png Graphic file (type png)
 <use Pictures//Bibliografia.png>
 Package pdftex.def Info: Pictures//Bibliografia.png  used on input line 1.
@@ -1564,10 +1572,10 @@ Package rerunfilecheck Info: File `RomuloFernandes-Python.brf' has not changed.
 (rerunfilecheck)             Checksum: BF5D5F55C73A437940297B53EAE1F873;2221.
  ) 
 Here is how much of TeX's memory you used:
- 34056 strings out of 478338
- 658453 string characters out of 2837173
+ 34064 strings out of 478338
+ 658571 string characters out of 2837173
  1319133 words of memory out of 3000000
- 50907 multiletter control sequences out of 15000+600000
+ 50913 multiletter control sequences out of 15000+600000
  559043 words of font info for 315 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  89i,13n,92p,1021b,1900s stack positions out of 10000i,1000n,20000p,200000b,80000s
@@ -1580,9 +1588,9 @@ r/uagk8a.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times
 /utmb8a.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/
 utmr8a.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/u
 tmri8a.pfb>
-Output written on RomuloFernandes-Python.pdf (41 pages, 2249423 bytes).
+Output written on RomuloFernandes-Python.pdf (41 pages, 2299054 bytes).
 PDF statistics:
- 1337 PDF objects out of 1440 (max. 8388607)
- 621 named destinations out of 1000 (max. 500000)
- 98250 words of extra memory for PDF output out of 106986 (max. 10000000)
+ 1339 PDF objects out of 1440 (max. 8388607)
+ 622 named destinations out of 1000 (max. 500000)
+ 98255 words of extra memory for PDF output out of 106986 (max. 10000000)
 
