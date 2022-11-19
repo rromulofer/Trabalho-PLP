@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7) (preloaded format=pdflatex 2022.9.2)  18 NOV 2022 12:23
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7) (preloaded format=pdflatex 2022.9.2)  19 NOV 2022 01:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1347,7 +1347,7 @@ LaTeX Font Info:    Font shape `T1/pag/b/n' in size <10.95> not available
  [4]
 (01introducPy.tex
 Cap\'{\i }tulo 1.
-<Pictures//capitulo01.jpg, id=165, 1204.5pt x 469.755pt>
+<Pictures//capitulo01.jpg, id=168, 1204.5pt x 469.755pt>
 File: Pictures//capitulo01.jpg Graphic file (type jpg)
 <use Pictures//capitulo01.jpg>
 Package pdftex.def Info: Pictures//capitulo01.jpg  used on input line 9.
@@ -1366,7 +1366,7 @@ Package fancyhdr Warning: \headheight is too small (14.5pt):
 
 [7]) (02basicosPy.tex [8]
 Cap\'{\i }tulo 2.
-<Pictures//capitulo.jpg, id=202, 903.375pt x 352.31625pt>
+<Pictures//capitulo.jpg, id=205, 903.375pt x 352.31625pt>
 File: Pictures//capitulo.jpg Graphic file (type jpg)
 <use Pictures//capitulo.jpg>
 Package pdftex.def Info: Pictures//capitulo.jpg  used on input line 8.
@@ -1409,17 +1409,17 @@ Package pdftex.def Info: Pictures//capitulo.jpg  used on input line 9.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [24]
-<soma.PNG, id=615, 207.02344pt x 216.05719pt>
+<soma.PNG, id=618, 207.02344pt x 216.05719pt>
 File: soma.PNG Graphic file (type png)
 <use soma.PNG>
 Package pdftex.def Info: soma.PNG  used on input line 103.
 (pdftex.def)             Requested size: 142.26378pt x 148.47629pt.
-<subtracao.PNG, id=616, 205.5178pt x 166.37157pt>
+<subtracao.PNG, id=619, 205.5178pt x 166.37157pt>
 File: subtracao.PNG Graphic file (type png)
 <use subtracao.PNG>
 Package pdftex.def Info: subtracao.PNG  used on input line 111.
 (pdftex.def)             Requested size: 142.26378pt x 115.16458pt.
-<multi.PNG, id=617, 229.60782pt x 255.20343pt>
+<multi.PNG, id=620, 229.60782pt x 255.20343pt>
 File: multi.PNG Graphic file (type png)
 <use multi.PNG>
 Package pdftex.def Info: multi.PNG  used on input line 119.
@@ -1428,7 +1428,7 @@ Package pdftex.def Info: multi.PNG  used on input line 119.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [25 <./soma.PNG> <./subtracao.PNG>]
-<divisao.PNG, id=632, 274.77657pt x 253.69781pt>
+<divisao.PNG, id=635, 274.77657pt x 253.69781pt>
 File: divisao.PNG Graphic file (type png)
 <use divisao.PNG>
 Package pdftex.def Info: divisao.PNG  used on input line 127.
@@ -1445,7 +1445,7 @@ Overfull \hbox (14.56516pt too wide) in paragraph at lines 155--156
 ][][][][][][][][][][][][][][][] 
  []
 
-<grafico.PNG, id=654, 194.97844pt x 155.83218pt>
+<grafico.PNG, id=657, 194.97844pt x 155.83218pt>
 File: grafico.PNG Graphic file (type png)
 <use grafico.PNG>
 Package pdftex.def Info: grafico.PNG  used on input line 185.
@@ -1458,7 +1458,7 @@ Overfull \hbox (14.56516pt too wide) in paragraph at lines 203--204
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
-<objetos.png, id=692, 386.19281pt x 145.29282pt>
+<objetos.png, id=695, 386.19281pt x 145.29282pt>
 File: objetos.png Graphic file (type png)
 <use objetos.png>
 Package pdftex.def Info: objetos.png  used on input line 238.
@@ -1490,25 +1490,25 @@ Overfull \hbox (7.77505pt too wide) in paragraph at lines 294--295
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [30]
-<quick.PNG, id=818, 273.27094pt x 274.77657pt>
+<quick.PNG, id=821, 273.27094pt x 274.77657pt>
 File: quick.PNG Graphic file (type png)
 <use quick.PNG>
 Package pdftex.def Info: quick.PNG  used on input line 333.
 (pdftex.def)             Requested size: 199.16928pt x 200.26656pt.
 
 [31 <./quick.PNG>]
-<mobile.PNG, id=846, 193.47281pt x 214.55156pt>
+<mobile.PNG, id=849, 193.47281pt x 214.55156pt>
 File: mobile.PNG Graphic file (type png)
 <use mobile.PNG>
 Package pdftex.def Info: mobile.PNG  used on input line 392.
 (pdftex.def)             Requested size: 256.0748pt x 283.97826pt.
-<1mobile.JPG, id=847, 250.9375pt x 445.665pt>
+<1mobile.JPG, id=850, 250.9375pt x 445.665pt>
 File: 1mobile.JPG Graphic file (type jpg)
 <use 1mobile.JPG>
 Package pdftex.def Info: 1mobile.JPG  used on input line 400.
 (pdftex.def)             Requested size: 142.26378pt x 252.67163pt.
  [32 <./mobile.PNG>]
-<2mobile.JPG, id=876, 244.66406pt x 449.42906pt>
+<2mobile.JPG, id=879, 244.66406pt x 449.42906pt>
 File: 2mobile.JPG Graphic file (type jpg)
 <use 2mobile.JPG>
 Package pdftex.def Info: 2mobile.JPG  used on input line 408.
@@ -1521,19 +1521,19 @@ File: Pictures//capitulo.jpg Graphic file (type jpg)
 <use Pictures//capitulo.jpg>
 Package pdftex.def Info: Pictures//capitulo.jpg  used on input line 8.
 (pdftex.def)             Requested size: 597.50787pt x 233.04015pt.
-<notepad.JPG, id=888, 815.29594pt x 517.18219pt>
+<notepad.JPG, id=891, 815.29594pt x 517.18219pt>
 File: notepad.JPG Graphic file (type jpg)
 <use notepad.JPG>
 Package pdftex.def Info: notepad.JPG  used on input line 26.
 (pdftex.def)             Requested size: 170.71652pt x 108.2879pt.
 [35 <./notepad.JPG>]) (06conclusao.tex [36]
 Cap\'{\i }tulo 6.
-<Pictures//Conclusao.jpg, id=898, 289.08pt x 112.7412pt>
+<Pictures//Conclusao.jpg, id=901, 289.08pt x 112.7412pt>
 File: Pictures//Conclusao.jpg Graphic file (type jpg)
 <use Pictures//Conclusao.jpg>
 Package pdftex.def Info: Pictures//Conclusao.jpg  used on input line 8.
 (pdftex.def)             Requested size: 597.50787pt x 233.04076pt.
-<Pictures//Python02.png, id=899, 426.393pt x 142.131pt>
+<Pictures//Python02.png, id=902, 426.393pt x 142.131pt>
 File: Pictures//Python02.png Graphic file (type png)
 <use Pictures//Python02.png>
 Package pdftex.def Info: Pictures//Python02.png  used on input line 23.
@@ -1547,7 +1547,7 @@ Package pdftex.def Info: Pictures//Python02.png  used on input line 23.
  <./Pictures//Conclusao.jpg> <./Pictures//Python02.png>] [38
 
 ]
-<Pictures//Bibliografia.png, id=911, 578.16pt x 225.4824pt>
+<Pictures//Bibliografia.png, id=914, 578.16pt x 225.4824pt>
 File: Pictures//Bibliografia.png Graphic file (type png)
 <use Pictures//Bibliografia.png>
 Package pdftex.def Info: Pictures//Bibliografia.png  used on input line 1.
@@ -1572,10 +1572,10 @@ Package rerunfilecheck Info: File `RomuloFernandes-Python.brf' has not changed.
 (rerunfilecheck)             Checksum: BF5D5F55C73A437940297B53EAE1F873;2221.
  ) 
 Here is how much of TeX's memory you used:
- 34064 strings out of 478338
- 658571 string characters out of 2837173
- 1319133 words of memory out of 3000000
- 50913 multiletter control sequences out of 15000+600000
+ 34066 strings out of 478338
+ 658588 string characters out of 2837173
+ 1319132 words of memory out of 3000000
+ 50914 multiletter control sequences out of 15000+600000
  559043 words of font info for 315 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  89i,13n,92p,1021b,1900s stack positions out of 10000i,1000n,20000p,200000b,80000s
@@ -1588,9 +1588,9 @@ r/uagk8a.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times
 /utmb8a.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/
 utmr8a.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/u
 tmri8a.pfb>
-Output written on RomuloFernandes-Python.pdf (41 pages, 2299261 bytes).
+Output written on RomuloFernandes-Python.pdf (41 pages, 2299745 bytes).
 PDF statistics:
- 1339 PDF objects out of 1440 (max. 8388607)
- 622 named destinations out of 1000 (max. 500000)
- 98255 words of extra memory for PDF output out of 106986 (max. 10000000)
+ 1345 PDF objects out of 1440 (max. 8388607)
+ 623 named destinations out of 1000 (max. 500000)
+ 98263 words of extra memory for PDF output out of 106986 (max. 10000000)
 
