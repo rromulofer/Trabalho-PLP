@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7) (preloaded format=pdflatex 2022.9.2)  20 NOV 2022 01:16
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7) (preloaded format=pdflatex 2022.9.2)  20 NOV 2022 01:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1135,6 +1135,9 @@ LaTeX Warning: Label `ling1' multiply defined.
 
 LaTeX Warning: Label `ling1' multiply defined.
 
+
+LaTeX Warning: Label `ling1' multiply defined.
+
 )
 \openout1 = `RomuloFernandes-Python.aux'.
 
@@ -1524,11 +1527,11 @@ File: Pictures//capitulo.jpg Graphic file (type jpg)
 <use Pictures//capitulo.jpg>
 Package pdftex.def Info: Pictures//capitulo.jpg  used on input line 8.
 (pdftex.def)             Requested size: 597.50787pt x 233.04015pt.
-<notepad.JPG, id=891, 815.29594pt x 517.18219pt>
+<notepad.JPG, id=891, 732.48656pt x 470.50781pt>
 File: notepad.JPG Graphic file (type jpg)
 <use notepad.JPG>
 Package pdftex.def Info: notepad.JPG  used on input line 26.
-(pdftex.def)             Requested size: 170.71652pt x 108.2879pt.
+(pdftex.def)             Requested size: 170.71652pt x 109.65756pt.
 [35 <./notepad.JPG>]
 <pycharm.JPG, id=897, 860.46469pt x 496.10344pt>
 File: pycharm.JPG Graphic file (type jpg)
@@ -1603,7 +1606,7 @@ r/uagk8a.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times
 /utmb8a.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/
 utmr8a.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/u
 tmri8a.pfb>
-Output written on RomuloFernandes-Python.pdf (43 pages, 2482287 bytes).
+Output written on RomuloFernandes-Python.pdf (43 pages, 2529313 bytes).
 PDF statistics:
  1360 PDF objects out of 1440 (max. 8388607)
  627 named destinations out of 1000 (max. 500000)
