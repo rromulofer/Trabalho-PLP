@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7) (preloaded format=pdflatex 2022.9.2)  20 NOV 2022 01:58
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7) (preloaded format=pdflatex 2022.9.2)  20 NOV 2022 02:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1541,7 +1541,7 @@ Package pdftex.def Info: pycharm.JPG  used on input line 44.
 <vscode.JPG, id=899, 788.19469pt x 485.56406pt>
 File: vscode.JPG Graphic file (type jpg)
 <use vscode.JPG>
-Package pdftex.def Info: vscode.JPG  used on input line 58.
+Package pdftex.def Info: vscode.JPG  used on input line 57.
 (pdftex.def)             Requested size: 256.0748pt x 157.75458pt.
  [36 <./pycharm.JPG>]) (06conclusao.tex [37 <./vscode.JPG>] [38
 
@@ -1605,7 +1605,7 @@ r/uagk8a.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times
 /utmb8a.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/
 utmr8a.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/u
 tmri8a.pfb>
-Output written on RomuloFernandes-Python.pdf (43 pages, 2532796 bytes).
+Output written on RomuloFernandes-Python.pdf (43 pages, 2532920 bytes).
 PDF statistics:
  1361 PDF objects out of 1440 (max. 8388607)
  627 named destinations out of 1000 (max. 500000)
