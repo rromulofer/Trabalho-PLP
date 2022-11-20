@@ -37,7 +37,7 @@
 \contentsline {section}{\numberline {4.5}Mobile}{31}{section.4.5}%
 \contentsline {chapter}{\numberline {5}Ferramentas existentes e utilizadas}{35}{chapter.5}%
 \contentsline {section}{\numberline {5.1}Notepad++}{35}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Pycharm}{36}{section.5.2}%
+\contentsline {section}{\numberline {5.2}PyCharm}{36}{section.5.2}%
 \contentsline {section}{\numberline {5.3}Visual Studio Code}{36}{section.5.3}%
 \contentsline {section}{\numberline {5.4}Compilador XYZ}{37}{section.5.4}%
 \contentsline {section}{\numberline {5.5}Interpretador Shell}{37}{section.5.5}%

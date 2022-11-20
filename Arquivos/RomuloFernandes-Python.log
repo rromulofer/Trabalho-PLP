@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7) (preloaded format=pdflatex 2022.9.2)  20 NOV 2022 01:26
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7) (preloaded format=pdflatex 2022.9.2)  20 NOV 2022 01:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1536,24 +1536,26 @@ Package pdftex.def Info: notepad.JPG  used on input line 26.
 <pycharm.JPG, id=897, 860.46469pt x 496.10344pt>
 File: pycharm.JPG Graphic file (type jpg)
 <use pycharm.JPG>
-Package pdftex.def Info: pycharm.JPG  used on input line 37.
+Package pdftex.def Info: pycharm.JPG  used on input line 40.
 (pdftex.def)             Requested size: 256.0748pt x 147.64369pt.
-<vscode.JPG, id=898, 788.19469pt x 485.56406pt>
+<vscode.JPG, id=899, 788.19469pt x 485.56406pt>
 File: vscode.JPG Graphic file (type jpg)
 <use vscode.JPG>
-Package pdftex.def Info: vscode.JPG  used on input line 49.
+Package pdftex.def Info: vscode.JPG  used on input line 54.
 (pdftex.def)             Requested size: 256.0748pt x 157.75458pt.
- [36 <./pycharm.JPG> <./vscode.JPG>]) (06conclusao.tex
-[37] [38
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [36 <./pycharm.JPG>]) (06conclusao.tex [37 <./vscode.JPG>] [38
 
 ]
 Cap\'{\i }tulo 6.
-<Pictures//Conclusao.jpg, id=915, 289.08pt x 112.7412pt>
+<Pictures//Conclusao.jpg, id=916, 289.08pt x 112.7412pt>
 File: Pictures//Conclusao.jpg Graphic file (type jpg)
 <use Pictures//Conclusao.jpg>
 Package pdftex.def Info: Pictures//Conclusao.jpg  used on input line 8.
 (pdftex.def)             Requested size: 597.50787pt x 233.04076pt.
-<Pictures//Python02.png, id=916, 426.393pt x 142.131pt>
+<Pictures//Python02.png, id=917, 426.393pt x 142.131pt>
 File: Pictures//Python02.png Graphic file (type png)
 <use Pictures//Python02.png>
 Package pdftex.def Info: Pictures//Python02.png  used on input line 23.
@@ -1565,7 +1567,7 @@ Package pdftex.def Info: Pictures//Python02.png  used on input line 23.
  [39 <./Pictures//Conclusao.jpg> <./Pictures//Python02.png>] [40
 
 ]
-<Pictures//Bibliografia.png, id=927, 578.16pt x 225.4824pt>
+<Pictures//Bibliografia.png, id=928, 578.16pt x 225.4824pt>
 File: Pictures//Bibliografia.png Graphic file (type png)
 <use Pictures//Bibliografia.png>
 Package pdftex.def Info: Pictures//Bibliografia.png  used on input line 1.
@@ -1606,9 +1608,9 @@ r/uagk8a.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times
 /utmb8a.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/
 utmr8a.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/u
 tmri8a.pfb>
-Output written on RomuloFernandes-Python.pdf (43 pages, 2531329 bytes).
+Output written on RomuloFernandes-Python.pdf (43 pages, 2532294 bytes).
 PDF statistics:
- 1360 PDF objects out of 1440 (max. 8388607)
+ 1361 PDF objects out of 1440 (max. 8388607)
  627 named destinations out of 1000 (max. 500000)
  98273 words of extra memory for PDF output out of 106986 (max. 10000000)
 
