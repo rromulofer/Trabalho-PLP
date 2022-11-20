@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7) (preloaded format=pdflatex 2022.9.2)  20 NOV 2022 14:42
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7) (preloaded format=pdflatex 2022.9.2)  20 NOV 2022 14:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1607,19 +1607,14 @@ File: Pictures//Conclusao.jpg Graphic file (type jpg)
 <use Pictures//Conclusao.jpg>
 Package pdftex.def Info: Pictures//Conclusao.jpg  used on input line 8.
 (pdftex.def)             Requested size: 597.50787pt x 233.04076pt.
-<Pictures//Python02.png, id=936, 426.393pt x 142.131pt>
-File: Pictures//Python02.png Graphic file (type png)
-<use Pictures//Python02.png>
-Package pdftex.def Info: Pictures//Python02.png  used on input line 24.
-(pdftex.def)             Requested size: 341.43306pt x 113.81337pt.
 ) (RomuloFernandes-Python.bbl (RomuloFernandes-Python.brf)
 \tf@brf=\write6
 \openout6 = `RomuloFernandes-Python.brf'.
 
- [41 <./Pictures//Conclusao.jpg> <./Pictures//Python02.png>] [42
+ [41 <./Pictures//Conclusao.jpg>] [42
 
 ]
-<Pictures//Bibliografia.png, id=947, 578.16pt x 225.4824pt>
+<Pictures//Bibliografia.png, id=944, 578.16pt x 225.4824pt>
 File: Pictures//Bibliografia.png Graphic file (type png)
 <use Pictures//Bibliografia.png>
 Package pdftex.def Info: Pictures//Bibliografia.png  used on input line 1.
@@ -1644,10 +1639,10 @@ Package rerunfilecheck Info: File `RomuloFernandes-Python.brf' has not changed.
 (rerunfilecheck)             Checksum: BF5D5F55C73A437940297B53EAE1F873;2221.
  ) 
 Here is how much of TeX's memory you used:
- 34128 strings out of 478338
- 659565 string characters out of 2837173
+ 34117 strings out of 478338
+ 659337 string characters out of 2837173
  1319133 words of memory out of 3000000
- 50956 multiletter control sequences out of 15000+600000
+ 50947 multiletter control sequences out of 15000+600000
  559173 words of font info for 317 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  89i,13n,92p,1021b,1896s stack positions out of 10000i,1000n,20000p,200000b,80000s
@@ -1660,9 +1655,9 @@ r/uagk8a.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times
 /utmb8a.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/
 utmr8a.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/u
 tmri8a.pfb>
-Output written on RomuloFernandes-Python.pdf (45 pages, 3123748 bytes).
+Output written on RomuloFernandes-Python.pdf (45 pages, 2940823 bytes).
 PDF statistics:
- 1381 PDF objects out of 1440 (max. 8388607)
- 634 named destinations out of 1000 (max. 500000)
- 98298 words of extra memory for PDF output out of 106986 (max. 10000000)
+ 1378 PDF objects out of 1440 (max. 8388607)
+ 633 named destinations out of 1000 (max. 500000)
+ 98293 words of extra memory for PDF output out of 106986 (max. 10000000)
 
