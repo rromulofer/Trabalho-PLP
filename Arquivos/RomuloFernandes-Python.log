@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7) (preloaded format=pdflatex 2022.9.2)  20 NOV 2022 02:09
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7) (preloaded format=pdflatex 2022.9.2)  20 NOV 2022 13:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1591,7 +1591,7 @@ Package rerunfilecheck Info: File `RomuloFernandes-Python.brf' has not changed.
 Here is how much of TeX's memory you used:
  34087 strings out of 478338
  658855 string characters out of 2837173
- 1319132 words of memory out of 3000000
+ 1319133 words of memory out of 3000000
  50926 multiletter control sequences out of 15000+600000
  559173 words of font info for 317 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1605,7 +1605,7 @@ r/uagk8a.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times
 /utmb8a.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/
 utmr8a.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/u
 tmri8a.pfb>
-Output written on RomuloFernandes-Python.pdf (43 pages, 2532851 bytes).
+Output written on RomuloFernandes-Python.pdf (43 pages, 2532819 bytes).
 PDF statistics:
  1361 PDF objects out of 1440 (max. 8388607)
  627 named destinations out of 1000 (max. 500000)

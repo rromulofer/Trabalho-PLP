@@ -33,7 +33,7 @@
 \contentsline {section}{\numberline {4.1}Operações básicas}{23}{section.4.1}%
 \contentsline {section}{\numberline {4.2}Programas gráficos}{26}{section.4.2}%
 \contentsline {section}{\numberline {4.3}Programas com Objetos}{28}{section.4.3}%
-\contentsline {section}{\numberline {4.4}O algoritmo Quicksort}{29}{section.4.4}%
+\contentsline {section}{\numberline {4.4}Quicksort}{29}{section.4.4}%
 \contentsline {section}{\numberline {4.5}Mobile}{31}{section.4.5}%
 \contentsline {chapter}{\numberline {5}Ferramentas existentes e utilizadas}{35}{chapter.5}%
 \contentsline {section}{\numberline {5.1}Notepad++}{35}{section.5.1}%
