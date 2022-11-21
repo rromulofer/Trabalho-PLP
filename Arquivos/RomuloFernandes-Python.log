@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7) (preloaded format=pdflatex 2022.9.2)  21 NOV 2022 00:22
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7) (preloaded format=pdflatex 2022.9.2)  21 NOV 2022 13:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1430,34 +1430,35 @@ Package pdftex.def Info: Pictures//capitulo.jpg  used on input line 9.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [24]
-<operacaocode.JPG, id=609, 1445.4pt x 791.20593pt>
-File: operacaocode.JPG Graphic file (type jpg)
-<use operacaocode.JPG>
-Package pdftex.def Info: operacaocode.JPG  used on input line 103.
+<Pictures//operacaocode.JPG, id=609, 1445.4pt x 791.20593pt>
+File: Pictures//operacaocode.JPG Graphic file (type jpg)
+<use Pictures//operacaocode.JPG>
+Package pdftex.def Info: Pictures//operacaocode.JPG  used on input line 103.
 (pdftex.def)             Requested size: 341.43306pt x 186.89925pt.
-<soma.PNG, id=610, 207.02344pt x 216.05719pt>
-File: soma.PNG Graphic file (type png)
-<use soma.PNG>
-Package pdftex.def Info: soma.PNG  used on input line 111.
+<Pictures//soma.PNG, id=610, 207.02344pt x 216.05719pt>
+File: Pictures//soma.PNG Graphic file (type png)
+<use Pictures//soma.PNG>
+Package pdftex.def Info: Pictures//soma.PNG  used on input line 111.
 (pdftex.def)             Requested size: 142.26378pt x 148.47629pt.
-<subtracao.PNG, id=611, 205.5178pt x 166.37157pt>
-File: subtracao.PNG Graphic file (type png)
-<use subtracao.PNG>
-Package pdftex.def Info: subtracao.PNG  used on input line 119.
+<Pictures//subtracao.PNG, id=611, 205.5178pt x 166.37157pt>
+File: Pictures//subtracao.PNG Graphic file (type png)
+<use Pictures//subtracao.PNG>
+Package pdftex.def Info: Pictures//subtracao.PNG  used on input line 119.
 (pdftex.def)             Requested size: 142.26378pt x 115.16458pt.
 
-[25 <./operacaocode.JPG> <./soma.PNG>]
-<multi.PNG, id=625, 229.60782pt x 255.20343pt>
-File: multi.PNG Graphic file (type png)
-<use multi.PNG>
-Package pdftex.def Info: multi.PNG  used on input line 127.
+[25 <./Pictures//operacaocode.JPG> <./Pictures//soma.PNG>]
+<Pictures//multi.PNG, id=625, 229.60782pt x 255.20343pt>
+File: Pictures//multi.PNG Graphic file (type png)
+<use Pictures//multi.PNG>
+Package pdftex.def Info: Pictures//multi.PNG  used on input line 127.
 (pdftex.def)             Requested size: 142.26378pt x 158.13103pt.
-<divisao.PNG, id=626, 274.77657pt x 253.69781pt>
-File: divisao.PNG Graphic file (type png)
-<use divisao.PNG>
-Package pdftex.def Info: divisao.PNG  used on input line 135.
+<Pictures//divisao.PNG, id=626, 274.77657pt x 253.69781pt>
+File: Pictures//divisao.PNG Graphic file (type png)
+<use Pictures//divisao.PNG>
+Package pdftex.def Info: Pictures//divisao.PNG  used on input line 135.
 (pdftex.def)             Requested size: 142.26378pt x 131.35457pt.
- [26 <./subtracao.PNG> <./multi.PNG> <./divisao.PNG>]
+ [26 <./Pictures//subtracao.PNG> <./Pictures//multi.PNG> <./Pictures//divisao.P
+NG>]
 Overfull \hbox (7.77505pt too wide) in paragraph at lines 159--160
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][] 
@@ -1469,42 +1470,42 @@ Overfull \hbox (14.56516pt too wide) in paragraph at lines 163--164
 ][][][][][][][][][][][][][][][] 
  []
 
-<graficocode.JPG, id=637, 1445.4pt x 792.71156pt>
-File: graficocode.JPG Graphic file (type jpg)
-<use graficocode.JPG>
-Package pdftex.def Info: graficocode.JPG  used on input line 192.
+<Pictures//graficocode.JPG, id=637, 1445.4pt x 792.71156pt>
+File: Pictures//graficocode.JPG Graphic file (type jpg)
+<use Pictures//graficocode.JPG>
+Package pdftex.def Info: Pictures//graficocode.JPG  used on input line 192.
 (pdftex.def)             Requested size: 426.79134pt x 234.0656pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [27]
-<grafico.PNG, id=686, 194.97844pt x 155.83218pt>
-File: grafico.PNG Graphic file (type png)
-<use grafico.PNG>
-Package pdftex.def Info: grafico.PNG  used on input line 202.
+<Pictures//grafico.PNG, id=686, 194.97844pt x 155.83218pt>
+File: Pictures//grafico.PNG Graphic file (type png)
+<use Pictures//grafico.PNG>
+Package pdftex.def Info: Pictures//grafico.PNG  used on input line 202.
 (pdftex.def)             Requested size: 199.16928pt x 159.18687pt.
 
-[28 <./graficocode.JPG> <./grafico.PNG>]
+[28 <./Pictures//graficocode.JPG> <./Pictures//grafico.PNG>]
 Overfull \hbox (14.56516pt too wide) in paragraph at lines 220--221
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
-<objetoscode.JPG, id=699, 1445.4pt x 791.20593pt>
-File: objetoscode.JPG Graphic file (type jpg)
-<use objetoscode.JPG>
-Package pdftex.def Info: objetoscode.JPG  used on input line 254.
+<Pictures//objetoscode.JPG, id=699, 1445.4pt x 791.20593pt>
+File: Pictures//objetoscode.JPG Graphic file (type jpg)
+<use Pictures//objetoscode.JPG>
+Package pdftex.def Info: Pictures//objetoscode.JPG  used on input line 254.
 (pdftex.def)             Requested size: 426.79134pt x 233.62103pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [29]
-<objetos.png, id=737, 386.19281pt x 145.29282pt>
-File: objetos.png Graphic file (type png)
-<use objetos.png>
-Package pdftex.def Info: objetos.png  used on input line 263.
+<Pictures//objetos.png, id=737, 386.19281pt x 145.29282pt>
+File: Pictures//objetos.png Graphic file (type png)
+<use Pictures//objetos.png>
+Package pdftex.def Info: Pictures//objetos.png  used on input line 263.
 (pdftex.def)             Requested size: 256.0748pt x 96.33916pt.
 
-[30 <./objetoscode.JPG> <./objetos.png>]
+[30 <./Pictures//objetoscode.JPG> <./Pictures//objetos.png>]
 Overfull \hbox (0.98495pt too wide) in paragraph at lines 289--290
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][] 
@@ -1531,74 +1532,75 @@ Overfull \hbox (7.77505pt too wide) in paragraph at lines 319--320
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [31]
-<quickcode.JPG, id=800, 1445.4pt x 792.71156pt>
-File: quickcode.JPG Graphic file (type jpg)
-<use quickcode.JPG>
-Package pdftex.def Info: quickcode.JPG  used on input line 358.
+<Pictures//quickcode.JPG, id=800, 1445.4pt x 792.71156pt>
+File: Pictures//quickcode.JPG Graphic file (type jpg)
+<use Pictures//quickcode.JPG>
+Package pdftex.def Info: Pictures//quickcode.JPG  used on input line 358.
 (pdftex.def)             Requested size: 426.79134pt x 234.0656pt.
-<quick.PNG, id=801, 273.27094pt x 274.77657pt>
-File: quick.PNG Graphic file (type png)
-<use quick.PNG>
-Package pdftex.def Info: quick.PNG  used on input line 367.
+<Pictures//quick.PNG, id=801, 273.27094pt x 274.77657pt>
+File: Pictures//quick.PNG Graphic file (type png)
+<use Pictures//quick.PNG>
+Package pdftex.def Info: Pictures//quick.PNG  used on input line 367.
 (pdftex.def)             Requested size: 199.16928pt x 200.26656pt.
 
-[32 <./quickcode.JPG>] [33 <./quick.PNG>]
-<mobilecode.JPG, id=860, 1445.4pt x 791.20593pt>
-File: mobilecode.JPG Graphic file (type jpg)
-<use mobilecode.JPG>
-Package pdftex.def Info: mobilecode.JPG  used on input line 424.
+[32 <./Pictures//quickcode.JPG>] [33 <./Pictures//quick.PNG>]
+<Pictures//mobilecode.JPG, id=860, 1445.4pt x 791.20593pt>
+File: Pictures//mobilecode.JPG Graphic file (type jpg)
+<use Pictures//mobilecode.JPG>
+Package pdftex.def Info: Pictures//mobilecode.JPG  used on input line 424.
 (pdftex.def)             Requested size: 426.79134pt x 233.62103pt.
-<mobile.PNG, id=861, 193.47281pt x 214.55156pt>
-File: mobile.PNG Graphic file (type png)
-<use mobile.PNG>
-Package pdftex.def Info: mobile.PNG  used on input line 434.
+<Pictures//mobile.PNG, id=861, 193.47281pt x 214.55156pt>
+File: Pictures//mobile.PNG Graphic file (type png)
+<use Pictures//mobile.PNG>
+Package pdftex.def Info: Pictures//mobile.PNG  used on input line 434.
 (pdftex.def)             Requested size: 256.0748pt x 283.97826pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [34 <./mobilecode.JPG>]
-<1mobile.JPG, id=885, 250.9375pt x 445.665pt>
-File: 1mobile.JPG Graphic file (type jpg)
-<use 1mobile.JPG>
-Package pdftex.def Info: 1mobile.JPG  used on input line 442.
+ [34 <./Pictures//mobilecode.JPG>]
+<Pictures//1mobile.JPG, id=885, 250.9375pt x 445.665pt>
+File: Pictures//1mobile.JPG Graphic file (type jpg)
+<use Pictures//1mobile.JPG>
+Package pdftex.def Info: Pictures//1mobile.JPG  used on input line 442.
 (pdftex.def)             Requested size: 142.26378pt x 252.67163pt.
-<2mobile.JPG, id=886, 244.66406pt x 449.42906pt>
-File: 2mobile.JPG Graphic file (type jpg)
-<use 2mobile.JPG>
-Package pdftex.def Info: 2mobile.JPG  used on input line 450.
+<Pictures//2mobile.JPG, id=886, 244.66406pt x 449.42906pt>
+File: Pictures//2mobile.JPG Graphic file (type jpg)
+<use Pictures//2mobile.JPG>
+Package pdftex.def Info: Pictures//2mobile.JPG  used on input line 450.
 (pdftex.def)             Requested size: 142.26378pt x 261.33423pt.
 ) (05ferramentasPy.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [35 <./mobile.PNG> <./1mobile.JPG>] [36 <./2mobile.JPG>]
+ [35 <./Pictures//mobile.PNG> <./Pictures//1mobile.JPG>] [36 <./Pictures//2mobi
+le.JPG>]
 Cap\'{\i }tulo 5.
 File: Pictures//capitulo.jpg Graphic file (type jpg)
 <use Pictures//capitulo.jpg>
 Package pdftex.def Info: Pictures//capitulo.jpg  used on input line 8.
 (pdftex.def)             Requested size: 597.50787pt x 233.04015pt.
-<note.PNG, id=900, 732.48656pt x 469.00218pt>
-File: note.PNG Graphic file (type png)
-<use note.PNG>
-Package pdftex.def Info: note.PNG  used on input line 18.
+<Pictures//note.PNG, id=900, 732.48656pt x 469.00218pt>
+File: Pictures//note.PNG Graphic file (type png)
+<use Pictures//note.PNG>
+Package pdftex.def Info: Pictures//note.PNG  used on input line 18.
 (pdftex.def)             Requested size: 312.9803pt x 200.40033pt.
 [37
 
- <./note.PNG>]
-<pycharm.JPG, id=908, 860.46469pt x 496.10344pt>
-File: pycharm.JPG Graphic file (type jpg)
-<use pycharm.JPG>
-Package pdftex.def Info: pycharm.JPG  used on input line 37.
+ <./Pictures//note.PNG>]
+<Pictures//pycharm.JPG, id=908, 860.46469pt x 496.10344pt>
+File: Pictures//pycharm.JPG Graphic file (type jpg)
+<use Pictures//pycharm.JPG>
+Package pdftex.def Info: Pictures//pycharm.JPG  used on input line 37.
 (pdftex.def)             Requested size: 426.79134pt x 246.06778pt.
 
 Underfull \vbox (badness 3701) has occurred while \output is active []
 
- [38 <./pycharm.JPG>]
-<vscode.JPG, id=915, 788.19469pt x 485.56406pt>
-File: vscode.JPG Graphic file (type jpg)
-<use vscode.JPG>
-Package pdftex.def Info: vscode.JPG  used on input line 50.
+ [38 <./Pictures//pycharm.JPG>]
+<Pictures//vscode.JPG, id=915, 788.19469pt x 485.56406pt>
+File: Pictures//vscode.JPG Graphic file (type jpg)
+<use Pictures//vscode.JPG>
+Package pdftex.def Info: Pictures//vscode.JPG  used on input line 50.
 (pdftex.def)             Requested size: 426.79134pt x 262.91936pt.
-) (06conclusao.tex [39 <./vscode.JPG>] [40
+) (06conclusao.tex [39 <./Pictures//vscode.JPG>] [40
 
 ]
 Cap\'{\i }tulo 6.
@@ -1639,10 +1641,10 @@ Package rerunfilecheck Info: File `RomuloFernandes-Python.brf' has not changed.
 (rerunfilecheck)             Checksum: BF5D5F55C73A437940297B53EAE1F873;2221.
  ) 
 Here is how much of TeX's memory you used:
- 34111 strings out of 478338
- 659286 string characters out of 2837173
- 1319131 words of memory out of 3000000
- 50944 multiletter control sequences out of 15000+600000
+ 34147 strings out of 478338
+ 660994 string characters out of 2837173
+ 1319133 words of memory out of 3000000
+ 50980 multiletter control sequences out of 15000+600000
  559173 words of font info for 317 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  89i,13n,92p,1021b,1896s stack positions out of 10000i,1000n,20000p,200000b,80000s
