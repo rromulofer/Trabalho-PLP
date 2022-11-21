@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7) (preloaded format=pdflatex 2022.9.2)  20 NOV 2022 14:50
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7) (preloaded format=pdflatex 2022.9.2)  20 NOV 2022 23:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1639,25 +1639,37 @@ Package rerunfilecheck Info: File `RomuloFernandes-Python.brf' has not changed.
 (rerunfilecheck)             Checksum: BF5D5F55C73A437940297B53EAE1F873;2221.
  ) 
 Here is how much of TeX's memory you used:
- 34117 strings out of 478338
- 659337 string characters out of 2837173
+ 34114 strings out of 478338
+ 659319 string characters out of 2837173
  1319133 words of memory out of 3000000
- 50947 multiletter control sequences out of 15000+600000
+ 50944 multiletter control sequences out of 15000+600000
  559173 words of font info for 317 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  89i,13n,92p,1021b,1896s stack positions out of 10000i,1000n,20000p,200000b,80000s
- <C:\Users\User\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1
-095.pk>{C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc
-}<C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cm
-sy10.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/urw/avantgar/
-uagd8a.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/urw/avantga
-r/uagk8a.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times
-/utmb8a.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/
-utmr8a.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/u
-tmri8a.pfb>
-Output written on RomuloFernandes-Python.pdf (45 pages, 2940823 bytes).
+
+pdfTeX warning (dest): name{section.5.6} has been referenced but does not exist
+, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{section.5.5} has been referenced but does not exist
+, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{section.5.4} has been referenced but does not exist
+, replaced by a fixed one
+
+ <C:\Users\User\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt109
+5.pk>{C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<
+C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy
+10.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/urw/avantgar/ua
+gd8a.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/urw/avantgar/
+uagk8a.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/u
+tmb8a.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/ut
+mr8a.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utm
+ri8a.pfb>
+Output written on RomuloFernandes-Python.pdf (45 pages, 2939904 bytes).
 PDF statistics:
- 1378 PDF objects out of 1440 (max. 8388607)
+ 1369 PDF objects out of 1440 (max. 8388607)
  633 named destinations out of 1000 (max. 500000)
- 98293 words of extra memory for PDF output out of 106986 (max. 10000000)
+ 98269 words of extra memory for PDF output out of 106986 (max. 10000000)
 

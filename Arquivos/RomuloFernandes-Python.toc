@@ -39,9 +39,6 @@
 \contentsline {section}{\numberline {5.1}Notepad++}{37}{section.5.1}%
 \contentsline {section}{\numberline {5.2}PyCharm}{38}{section.5.2}%
 \contentsline {section}{\numberline {5.3}Visual Studio Code}{39}{section.5.3}%
-\contentsline {section}{\numberline {5.4}Compilador XYZ}{39}{section.5.4}%
-\contentsline {section}{\numberline {5.5}Interpretador Shell}{39}{section.5.5}%
-\contentsline {section}{\numberline {5.6}Debug}{39}{section.5.6}%
 \contentsline {chapter}{\numberline {6}Conclusões}{41}{chapter.6}%
 \contentsline {chapter}{\textcolor {ocre}{Bibliografia}}{43}{chapter*.2}%
 \contentsline {chapter}{\textcolor {ocre}{Index}}{45}{section*.3}%
